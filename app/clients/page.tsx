@@ -41,23 +41,19 @@ export default function ClientsPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="border border-black p-4">
               <h4 className="font-bold text-lg mb-2">Acreditar</h4>
-              <p className="text-sm">Financial services platform</p>
-            </div>
-            <div className="border border-black p-4">
-              <h4 className="font-bold text-lg mb-2">CASA</h4>
-              <p className="text-sm">Real estate technology</p>
+              <p className="text-sm">Portugal's largest non-profit</p>
             </div>
             <div className="border border-black p-4">
               <h4 className="font-bold text-lg mb-2">xMoney</h4>
-              <p className="text-sm">Digital payment solutions</p>
+              <p className="text-sm">Digital payment on & off ramp</p>
             </div>
             <div className="border border-black p-4">
               <h4 className="font-bold text-lg mb-2">Talent Protocol</h4>
-              <p className="text-sm">Professional networking platform</p>
+              <p className="text-sm">Decentralized Data Infrastructure</p>
             </div>
             <div className="border border-black p-4">
               <h4 className="font-bold text-lg mb-2">Bet Protocol</h4>
-              <p className="text-sm">Gaming and betting platform</p>
+              <p className="text-sm">Decentralized betting ecosystem</p>
             </div>
             <div className="border border-black p-4">
               <h4 className="font-bold text-lg mb-2">Lime</h4>
@@ -69,7 +65,7 @@ export default function ClientsPage() {
             </div>
             <div className="border border-black p-4">
               <h4 className="font-bold text-lg mb-2">Coflyt</h4>
-              <p className="text-sm">Travel and logistics</p>
+              <p className="text-sm">Private Aviation</p>
             </div>
             <div className="border border-black p-4">
               <h4 className="font-bold text-lg mb-2">Fisacar</h4>
@@ -105,13 +101,13 @@ export default function ClientsPage() {
           <h3 className="text-2xl font-bold mb-4 border-b border-black pb-2">Client Feedback</h3>
           <div className="space-y-6">
             <blockquote className="border-l-4 border-black pl-4 italic text-lg">
-              "Notacompany delivered exactly what we needed when we needed it. No fluff, just results."
+              "Tiago has a no nonsense and no bullshit attitude. Tiago gets stuff done and he is a very strong executer. Tiago also has the ability to think in network and he has shown that he can attract some of the best people work with him." Rune Theill
             </blockquote>
             <blockquote className="border-l-4 border-black pl-4 italic text-lg">
-              "Their understanding of consumer products and technical execution is unmatched."
+              "Their understanding of consumer products and technical execution is unmatched." Felipe Avila da Costa
             </blockquote>
             <blockquote className="border-l-4 border-black pl-4 italic text-lg">
-              "They helped us scale from prototype to production in record time."
+              "Tiago and his teams have the rare ability to execute their visions fast, and the even more rare capacity to listen and adapt based on market feedback. " Roel Bergsma
             </blockquote>
           </div>
         </section>
@@ -121,8 +117,8 @@ export default function ClientsPage() {
           <h3 className="text-2xl font-bold mb-4 border-b border-black pb-2">Work With Us</h3>
           <p className="text-lg leading-relaxed">
             Ready to join our client roster?{" "}
-            <a href="mailto:hello@notacompany.com" className="underline">
-              hello@notacompany.com
+            <a href="mailto:hey@notacompany.com" className="underline">
+              hey@notacompany.com
             </a>
           </p>
         </section>
@@ -131,7 +127,7 @@ export default function ClientsPage() {
       {/* Footer */}
       <footer className="border-t-2 border-black mt-16 p-4">
         <div className="max-w-4xl mx-auto text-center">
-          <p>&copy; 2024 notacompany.com. All rights reserved.</p>
+          <p>&copy; 2025 notacompany.com. All rights reserved.</p>
         </div>
       </footer>
     </div>

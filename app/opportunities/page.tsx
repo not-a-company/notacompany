@@ -164,8 +164,8 @@ export default function OpportunitiesPage() {
           <h3 className="text-2xl font-bold mb-4 border-b border-black pb-2">Get in Touch</h3>
           <p className="text-lg leading-relaxed">
             Ready to join us?{" "}
-            <a href="mailto:opportunities@notacompany.com" className="underline">
-              opportunities@notacompany.com
+            <a href="mailto:hey@notacompany.com" className="underline">
+              hey@notacompany.com
             </a>
           </p>
         </section>
@@ -174,7 +174,7 @@ export default function OpportunitiesPage() {
       {/* Footer */}
       <footer className="border-t-2 border-black mt-16 p-4">
         <div className="max-w-4xl mx-auto text-center">
-          <p>&copy; 2024 notacompany.com. All rights reserved.</p>
+          <p>&copy; 2025 notacompany.com. All rights reserved.</p>
         </div>
       </footer>
     </div>

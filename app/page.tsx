@@ -33,8 +33,8 @@ export default function HomePage() {
         {/* Hero Section */}
         <section className="mb-8 md:mb-12">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-6 leading-tight text-balance">
-            Notacompany provides B2C product advisory & interim technical talent acquisition for the world's most
-            ambitious consumer product companies.
+            Notacompany provides interim technical talent acquisition for the world's most ambitious consumer product
+            companies.
           </h2>
         </section>
 
@@ -45,7 +45,6 @@ export default function HomePage() {
           </h3>
           <ul className="space-y-3 text-base sm:text-lg">
             <li>- Interim Technical Talent Acquisition</li>
-            <li>- Consumer Product Advisory</li>
           </ul>
         </section>
 
@@ -91,8 +90,8 @@ export default function HomePage() {
           <h3 className="text-lg sm:text-xl font-bold mb-4 border-b border-black pb-2">Contact:</h3>
           <p className="text-base sm:text-lg">
             For inquiries:{" "}
-            <a href="mailto:hello@notacompany.com" className="underline break-all">
-              hello@notacompany.com
+            <a href="mailto:hey@notacompany.com" className="underline break-all">
+              hey@notacompany.com
             </a>
           </p>
         </section>
@@ -101,7 +100,7 @@ export default function HomePage() {
       {/* Footer */}
       <footer className="border-t-2 border-black mt-12 md:mt-16 p-4 md:p-6">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-sm sm:text-base">&copy; 2024 notacompany.com. All rights reserved.</p>
+          <p className="text-sm sm:text-base">&copy; 2025 notacompany.com. All rights reserved.</p>
         </div>
       </footer>
     </div>

@@ -58,40 +58,19 @@ export default function ServicesPage() {
               <ul className="space-y-1 ml-4">
                 <li>- Interim CTOs and VP Engineering</li>
                 <li>- Senior Full-Stack Engineers</li>
-                <li>- Mobile App Developers (iOS/Android)</li>
+                <li>- AI Engineers</li>
                 <li>- Product Engineers with consumer focus</li>
-                <li>- DevOps and Infrastructure specialists</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        {/* Service 2: Consumer Product Advisory */}
-        <section className="mb-12">
-          <h3 className="text-2xl font-bold mb-4 border-b border-black pb-2">Consumer Product Advisory</h3>
-          <div className="space-y-4 text-lg leading-relaxed">
-            <p>
-              Strategic guidance for consumer product companies looking to build products that users love and businesses
-              that scale. We work with founders and product teams to navigate the complexities of consumer behavior and
-              market dynamics.
-            </p>
-            <div>
-              <h4 className="font-bold mb-2">What we do:</h4>
-              <ul className="space-y-1 ml-4">
-                <li>- Product strategy and roadmap development</li>
-                <li>- User experience and interface design guidance</li>
-                <li>- Technical architecture review and recommendations</li>
-                <li>- Go-to-market strategy for consumer products</li>
-                <li>- Team structure and hiring strategy</li>
+                <li>- DevOps and Infrastructure Engineers</li>
               </ul>
             </div>
             <div>
-              <h4 className="font-bold mb-2">Engagement types:</h4>
+              <h4 className="font-bold mb-2">Key problems we solve:</h4>
               <ul className="space-y-1 ml-4">
-                <li>- Strategic workshops and planning sessions</li>
-                <li>- Ongoing advisory retainers</li>
-                <li>- Product audits and recommendations</li>
-                <li>- Due diligence for investors</li>
+                <li>- Efficiency optimization: Streamline development processes and eliminate bottlenecks</li>
+                <li>- Resource optimization: Maximize team productivity and technology investments</li>
+                <li>- Hit by bus problems: Reduce key person dependencies and knowledge silos</li>
+                <li>- Security vulnerabilities: Identify and remediate technical and operational risks</li>
+                <li>- Culture shifts: Navigate technical team transitions and scaling challenges</li>
               </ul>
             </div>
           </div>
@@ -120,8 +99,8 @@ export default function ServicesPage() {
           <h3 className="text-2xl font-bold mb-4 border-b border-black pb-2">Get Started</h3>
           <p className="text-lg leading-relaxed">
             Ready to discuss your project?{" "}
-            <a href="mailto:hello@notacompany.com" className="underline">
-              hello@notacompany.com
+            <a href="mailto:hey@notacompany.com" className="underline">
+              hey@notacompany.com
             </a>
           </p>
         </section>
@@ -130,7 +109,7 @@ export default function ServicesPage() {
       {/* Footer */}
       <footer className="border-t-2 border-black mt-16 p-4">
         <div className="max-w-4xl mx-auto text-center">
-          <p>&copy; 2024 notacompany.com. All rights reserved.</p>
+          <p>&copy; 2025 notacompany.com. All rights reserved.</p>
         </div>
       </footer>
     </div>

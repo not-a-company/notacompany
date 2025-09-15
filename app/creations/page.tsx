@@ -46,7 +46,7 @@ export default function CreationsPage() {
               <span className="bg-black text-white px-3 py-1 text-sm">ACTIVE</span>
             </div>
             <p className="text-lg mb-4">
-              Our current creation where we apply our consumer product expertise in practice.
+              Exercise Accountability for GAD mitigation.
             </p>
             <div className="space-y-2">
               <p>
@@ -54,12 +54,6 @@ export default function CreationsPage() {
                 <a href="mailto:hey@steps.org" className="underline">
                   hey@steps.org
                 </a>
-              </p>
-              <p>
-                <strong>Status:</strong> In active development
-              </p>
-              <p>
-                <strong>Focus:</strong> Consumer experience and product development
               </p>
             </div>
           </div>
@@ -80,12 +74,12 @@ export default function CreationsPage() {
                 </div>
                 <div className="border border-black p-4">
                   <h5 className="font-bold text-lg mb-2">Coinvision</h5>
-                  <p className="text-sm mb-2">Cryptocurrency analytics platform</p>
+                  <p className="text-sm mb-2">Blockchain due-dilligence publication</p>
                   <span className="bg-green-100 text-green-800 px-2 py-1 text-xs">ACQUIRED</span>
                 </div>
                 <div className="border border-black p-4">
                   <h5 className="font-bold text-lg mb-2">Codeplace</h5>
-                  <p className="text-sm mb-2">Developer collaboration platform</p>
+                  <p className="text-sm mb-2">Ruby education ecosystem</p>
                   <span className="bg-green-100 text-green-800 px-2 py-1 text-xs">ACQUIRED</span>
                 </div>
               </div>
@@ -97,12 +91,12 @@ export default function CreationsPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="border border-black p-4 bg-gray-100">
                   <h5 className="font-bold text-lg mb-2">Mahalo</h5>
-                  <p className="text-sm mb-2">Consumer discovery platform</p>
+                  <p className="text-sm mb-2">P2P Non-Profit Fundraising Infra</p>
                   <span className="bg-gray-300 text-gray-700 px-2 py-1 text-xs">DECEASED</span>
                 </div>
                 <div className="border border-black p-4 bg-gray-100">
                   <h5 className="font-bold text-lg mb-2">Songvice</h5>
-                  <p className="text-sm mb-2">Music recommendation service</p>
+                  <p className="text-sm mb-2">Music Producer Advisory Market</p>
                   <span className="bg-gray-300 text-gray-700 px-2 py-1 text-xs">DECEASED</span>
                 </div>
               </div>
@@ -140,8 +134,8 @@ export default function CreationsPage() {
           <h3 className="text-2xl font-bold mb-4 border-b border-black pb-2">Interested in Our Creations?</h3>
           <p className="text-lg leading-relaxed">
             Questions about our current or past creations?{" "}
-            <a href="mailto:hello@notacompany.com" className="underline">
-              hello@notacompany.com
+            <a href="mailto:hey@notacompany.com" className="underline">
+              hey@notacompany.com
             </a>
           </p>
         </section>
@@ -150,7 +144,7 @@ export default function CreationsPage() {
       {/* Footer */}
       <footer className="border-t-2 border-black mt-16 p-4">
         <div className="max-w-4xl mx-auto text-center">
-          <p>&copy; 2024 notacompany.com. All rights reserved.</p>
+          <p>&copy; 2025 notacompany.com. All rights reserved.</p>
         </div>
       </footer>
     </div>
