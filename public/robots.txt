@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://notacompany.com/sitemap.xml
+
+# Performance-optimized robots.txt for notacompany.com
+# Technical advisory and interim talent acquisition services

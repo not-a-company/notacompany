@@ -1,83 +1,105 @@
+import SiteFooter from '@/components/site-footer'
+import SiteHeader from '@/components/site-header'
+import type { Metadata } from 'next'
+import Link from 'next/link'
+
+export const metadata: Metadata = {
+  title:
+    'Technical Advisory & Interim Talent Acquisition for Consumer Product Companies',
+  description:
+    "Notacompany provides technical advisory and interim talent acquisition for the world's most ambitious consumer product companies. Expert product team & infrastructure optimization and technical talent placement.",
+  keywords: [
+    'technical advisory services',
+    'interim technical talent acquisition',
+    'consumer product companies',
+    'product team optimization',
+    'infrastructure optimization advisory',
+    'technical talent placement',
+    'interim CTO services',
+    'VP Engineering placement',
+    'startup technical advisory',
+  ],
+  openGraph: {
+    title: 'Technical Advisory & Interim Talent Acquisition - notacompany.com',
+    description:
+      'Expert technical advisory and interim talent acquisition for ambitious consumer product companies. Product team optimization and technical talent placement.',
+    url: 'https://notacompany.com',
+    images: [
+      {
+        url: '/og-home.png',
+        width: 1200,
+        height: 630,
+        alt: 'notacompany.com homepage - Technical Advisory & Talent Acquisition',
+      },
+    ],
+  },
+  alternates: {
+    canonical: 'https://notacompany.com',
+  },
+}
+
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-white text-black">
-      {/* Header */}
-      <header className="border-b-2 border-black p-4 md:p-6">
-        <div className="max-w-4xl mx-auto">
-          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
-            <h1 className="text-lg sm:text-xl font-bold">notacompany.com</h1>
-
-            <nav className="flex flex-wrap gap-4 sm:gap-6 text-sm sm:text-base">
-              <a href="/" className="hover:underline">
-                Home
-              </a>
-              <a href="/services" className="hover:underline">
-                Services
-              </a>
-              <a href="/clients" className="hover:underline">
-                Clients
-              </a>
-              <a href="/creations" className="hover:underline">
-                Creations
-              </a>
-              <a href="/opportunities" className="hover:underline">
-                Opportunities
-              </a>
-            </nav>
-          </div>
-        </div>
-      </header>
+    <div className='min-h-screen bg-white text-black'>
+      <SiteHeader currentPage='home' />
 
       {/* Main Content */}
-      <main className="max-w-4xl mx-auto p-4 md:p-8">
+      <main className='max-w-4xl mx-auto px-4 md:px-6 py-8 md:py-12'>
         {/* Hero Section */}
-        <section className="mb-8 md:mb-12">
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-6 leading-tight text-balance">
-            Notacompany provides interim technical talent acquisition for the world's most ambitious consumer product
+        <section className='mb-8 md:mb-12'>
+          <h2 className='text-xl sm:text-2xl md:text-3xl font-bold mb-6 leading-tight text-balance'>
+            Notacompany provides technical advisory and interim talent
+            acquisition for the world&apos;s most ambitious consumer product
             companies.
           </h2>
         </section>
 
         {/* Services Overview */}
-        <section className="mb-8 md:mb-12">
-          <h3 className="text-lg sm:text-xl font-bold mb-4 border-b border-black pb-2">
+        <section className='mb-8 md:mb-12'>
+          <h3 className='text-lg sm:text-xl font-bold mb-4 border-b border-black pb-2'>
             Consumer Experience Focused Services:
           </h3>
-          <ul className="space-y-3 text-base sm:text-lg">
+          <ul className='space-y-3 text-base sm:text-lg'>
+            <li>- Product Team & Infra Optimisation Advisory</li>
             <li>- Interim Technical Talent Acquisition</li>
           </ul>
         </section>
 
         {/* Quick Links */}
-        <section className="mb-8 md:mb-12">
-          <h3 className="text-lg sm:text-xl font-bold mb-4 border-b border-black pb-2">Navigate:</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-base sm:text-lg">
+        <section className='mb-8 md:mb-12'>
+          <h3 className='text-lg sm:text-xl font-bold mb-4 border-b border-black pb-2'>
+            Navigate:
+          </h3>
+          <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 text-base sm:text-lg'>
             <div>
-              <h4 className="font-bold mb-3">Our Work:</h4>
-              <ul className="space-y-2">
+              <h4 className='font-bold mb-3'>Our Work:</h4>
+              <ul className='space-y-2'>
                 <li>
-                  <a href="/services" className="hover:underline">
+                  <Link href='/services' className='hover:underline'>
                     → Services
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/clients" className="hover:underline">
+                  <Link href='/clients' className='hover:underline'>
                     → Past Service Clients
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/creations" className="hover:underline">
+                  <Link href='/creations' className='hover:underline'>
                     → Our Creations
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
             <div>
-              <h4 className="font-bold mb-3">Join Us:</h4>
-              <ul className="space-y-2">
+              <h4 className='font-bold mb-3'>Contact:</h4>
+              <ul className='space-y-2'>
                 <li>
-                  <a href="/opportunities" className="hover:underline">
-                    → Opportunities
+                  <a
+                    href='mailto:hey@notacompany.com'
+                    className='hover:underline'
+                  >
+                    → hey@notacompany.com
                   </a>
                 </li>
               </ul>
@@ -87,22 +109,22 @@ export default function HomePage() {
 
         {/* Contact */}
         <section>
-          <h3 className="text-lg sm:text-xl font-bold mb-4 border-b border-black pb-2">Contact:</h3>
-          <p className="text-base sm:text-lg">
-            For inquiries:{" "}
-            <a href="mailto:hey@notacompany.com" className="underline break-all">
+          <h3 className='text-lg sm:text-xl font-bold mb-4 border-b border-black pb-2'>
+            Contact:
+          </h3>
+          <p className='text-base sm:text-lg'>
+            For inquiries:{' '}
+            <a
+              href='mailto:hey@notacompany.com'
+              className='underline break-all'
+            >
               hey@notacompany.com
             </a>
           </p>
         </section>
       </main>
 
-      {/* Footer */}
-      <footer className="border-t-2 border-black mt-12 md:mt-16 p-4 md:p-6">
-        <div className="max-w-4xl mx-auto text-center">
-          <p className="text-sm sm:text-base">&copy; 2025 notacompany.com. All rights reserved.</p>
-        </div>
-      </footer>
+      <SiteFooter />
     </div>
   )
 }

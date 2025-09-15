@@ -2,12 +2,15 @@
 
 ## Project Overview
 
-**notacompany.com** is an interim technical talent acquisition company providing exceptional technical talent for ambitious consumer product companies. This Next.js website serves as the marketing platform for our talent placement services.
+**notacompany.com** is a **high-performance**, **SEO-optimized** website providing technical advisory and interim talent acquisition services for ambitious consumer product companies. This Next.js website serves as the marketing platform for our dual services.
 
 ### Business Context
-- **Service**: Interim technical talent acquisition for consumer product companies
-- **Focus**: 3-12 month engagements for senior technical roles
+- **Services**: 
+  1. **Product Team & Infrastructure Optimization Advisory** (primary)
+  2. **Interim Technical Talent Acquisition** (secondary)
+- **Focus**: Technical team optimization + senior talent placement (3-12 month engagements)
 - **Unique Selling Points**: 
+  - Technical team & infrastructure optimization expertise
   - Consumer product experience focus
   - Rapid deployment (2-4 weeks from brief to start)
   - Proven track record with successful exits and acquisitions
@@ -16,30 +19,38 @@
 - **Contact**: hey@notacompany.com
 
 ### Website Purpose
-- Showcase services and past client successes
+- Showcase dual services (advisory + talent acquisition)
 - Drive inquiries through email contact
 - Establish credibility and expertise in consumer products
 - Present our own creations as proof of capability
+- Deliver **unbelievably fast** performance
 
-## Tech Stack & Architecture
+## Tech Stack & Architecture - **Ultra-Optimized**
 
 ### Core Technologies
-- **Framework**: Next.js 15.5.3 with App Router
+- **Framework**: Next.js 15.5.3 with App Router (Static Generation)
 - **Runtime**: React 19.1.1
 - **Language**: TypeScript 5.0.2
-- **Styling**: Tailwind CSS 4.1.9
-- **UI Components**: Radix UI + shadcn/ui
+- **Styling**: Tailwind CSS 4.1.9 (minimal, optimized)
+- **Fonts**: System font stack (zero external requests)
+- **UI Components**: Custom components (no external UI libraries)
 - **Package Manager**: pnpm
-- **Deployment**: Vercel
+- **Deployment**: Vercel (globally cached)
 - **Analytics**: Vercel Analytics + Speed Insights
 
-### Key Files
-- `app/page.tsx`: Main homepage with service overview
-- `app/layout.tsx`: Root layout with meta tags and analytics
-- `app/services/page.tsx`: Detailed service offerings
-- `app/clients/page.tsx`: Past client showcase
-- `app/creations/page.tsx`: Our own product creations
-- `app/opportunities/page.tsx`: Job opportunities
+### Key Pages (4 total)
+- `app/page.tsx`: Homepage with dual service overview
+- `app/layout.tsx`: Root layout with comprehensive meta tags and analytics
+- `app/services/page.tsx`: Detailed service offerings (advisory + talent)
+- `app/clients/page.tsx`: Client showcase and testimonials
+- `app/creations/page.tsx`: Our own product creations and exits
+
+### **Performance Architecture**
+- **Bundle Size**: 102kB shared JS + ~900B per page
+- **Dependencies**: 6 production packages only (vs 67+ before optimization)
+- **Static Generation**: All pages pre-rendered for instant loading
+- **System Fonts**: Zero external font requests for maximum speed
+- **Mobile-First**: Responsive hamburger menu, touch-optimized
 
 ## Development Guidelines
 
@@ -80,99 +91,143 @@ pnpm run fix-all        # Auto-fix + validation
 #### React/Next.js
 - Use App Router patterns (not Pages Router)
 - Prefer Server Components when possible
-- Use Client Components (`'use client'`) only when necessary
-- Always use Next.js `<Image />` component instead of `<img>` tags
+- Use Client Components (`'use client'`) only when necessary (header menu only)
+- Always use Next.js `<Link />` component instead of `<a>` tags for internal navigation
 - Follow React 19 patterns and best practices
 
+#### Performance Requirements
+- **System fonts only** - never add Google Fonts or external font requests
+- **Minimal dependencies** - avoid adding UI libraries, use custom components
+- **Mobile-first responsive design** with hamburger menu
+- **Optimize for Core Web Vitals** (LCP < 1.2s, FID < 100ms, CLS = 0)
+
 #### Styling
-- Use Tailwind CSS utility classes
+- Use Tailwind CSS utility classes (minimal, optimized build)
 - Follow mobile-first responsive design
 - Maintain consistent spacing and typography
 - Use semantic HTML elements
+- **System font stack**: `font-mono` class for monospace text
 
 #### Import Organization
 ```typescript
 // 1. Node/built-in modules
 import { useState } from 'react'
 
-// 2. External libraries  
-import { Button } from '@/components/ui/button'
+// 2. External libraries (minimal)
+import Link from 'next/link'
 
 // 3. Internal modules
-import { cn } from '@/lib/utils'
+import SiteHeader from '@/components/site-header'
 ```
 
 ### Performance Considerations
-- Optimize images using Next.js `<Image />` component
-- Use proper image sizes and formats (AVIF, WebP)
-- Implement lazy loading for below-the-fold content
+- **NO external font requests** - use system fonts only
+- **Minimal JavaScript** - current bundle ~102kB shared
+- **Static generation** for all pages (no server-side rendering)
+- **Optimized images** using Next.js `<Image />` component
+- **Aggressive caching** via Vercel configuration
 - Monitor Core Web Vitals through Vercel Speed Insights
 
 ### SEO Requirements
-- Maintain comprehensive meta tags in layout.tsx
+- Maintain comprehensive meta tags in all page files
 - Use semantic HTML structure
 - Ensure accessibility compliance (ARIA, proper headings)
+- **Structured data** (JSON-LD) in layout.tsx
+- **Sitemap.xml** and **robots.txt** in public folder
 
 ## Content Guidelines
 
 ### Brand Voice
 - **Professional yet approachable**
-- **Focus on results and execution**
-- **Emphasize consumer product expertise**
-- **Highlight practical experience**
+- **Focus on results and execution**  
+- **Emphasize technical optimization expertise**
+- **Highlight dual service offering** (advisory + talent)
 - **Use clear, benefit-driven language**
 
 ### Key Messages
+- **Product Team & Infrastructure Optimization Advisory** (primary service)
 - Interim technical talent acquisition specialization
 - Consumer product experience focus
 - Rapid deployment and results
-- Proven track record with exits and acquisitions
+- Proven track record with exits and acquisitions  
 - Practice what we preach through our own creations
+
+### Service Positioning
+**Primary**: Technical advisory for team & infrastructure optimization
+**Secondary**: Interim talent acquisition for senior roles
+**Combined Value**: Complete technical optimization solution
 
 ### Content Updates
 When updating content, ensure:
+- **Advisory service** is positioned as primary offering
 - Business information remains consistent across all pages
-- Contact information is up to date
+- Contact information is up to date (hey@notacompany.com)
 - Client list and testimonials are current
-- Services and pricing are accurately reflected
+- Services accurately reflect dual offering
 
 ## AI Assistant Guidelines
 
 ### When Helping with Code
-1. **Always prioritize code quality** - suggest running linting commands
+1. **Always prioritize performance** - maintain ultra-fast loading times
 2. **Follow existing patterns** - maintain consistency with current codebase
-3. **Consider performance** - suggest Next.js optimizations when relevant
-4. **Think mobile-first** - ensure responsive design considerations
-5. **Maintain SEO** - preserve or enhance SEO elements
+3. **Consider mobile-first** - ensure responsive design with hamburger menu
+4. **Maintain SEO** - preserve or enhance SEO elements
+5. **System fonts only** - never add external font requests
+6. **Minimal dependencies** - avoid adding unnecessary packages
 
 ### When Suggesting Features
 - Focus on conversion optimization (driving inquiries)
 - Consider user experience for potential clients
 - Maintain the professional, results-focused brand image
-- Keep the business model in mind (talent placement via email contact)
+- Keep dual service model in mind (advisory + talent placement)
+- **Performance first** - ensure any additions don't slow down the site
 
 ### When Updating Content
 - Stay true to the notacompany.com brand voice
+- **Advisory service first** - position as primary service
 - Verify business information accuracy
 - Consider SEO implications
-- Maintain the focus on consumer product expertise
+- Maintain focus on consumer product expertise
+
+### Performance Guidelines
+1. **Bundle size** - keep shared JS under 110kB
+2. **Dependencies** - avoid adding new packages unless critical
+3. **Build time** - maintain sub-2s build times
+4. **Core Web Vitals** - optimize for perfect scores
+5. **System fonts** - never add external font requests
 
 ### Debugging Approach
 1. Check linting output first: `pnpm run lint`
 2. Verify TypeScript errors: `pnpm run type-check`  
 3. Test build process: `pnpm run build`
 4. Use comprehensive checks: `pnpm run check-all`
+5. Test performance impact of any changes
 
 ## File Naming Conventions
-- Use kebab-case for file names: `component-name.tsx`
-- Use PascalCase for React components: `ComponentName`
-- Use camelCase for utilities and hooks: `useCustomHook`
+- Use kebab-case for file names: `site-header.tsx`
+- Use PascalCase for React components: `SiteHeader`
+- Use camelCase for utilities and hooks: `useNavigation`
 
 ## Git Workflow
-1. Create descriptive branch names: `feature/add-testimonials` or `fix/mobile-layout`
+1. Create descriptive branch names: `feature/optimize-performance` or `fix/mobile-navigation`
 2. **ALWAYS run `pnpm run fix-all` before committing**
 3. **ALWAYS run `pnpm run check-all` to verify**
 4. Write clear commit messages following conventional commits
 5. Test the production build before pushing: `pnpm run build`
 
-Remember: This is a marketing website for a real business. Changes should enhance the user experience and drive inquiries while maintaining the professional, results-focused image.
+## Performance Targets
+- **LCP**: < 1.2s (First Contentful Paint)
+- **FID**: < 100ms (First Input Delay)  
+- **CLS**: 0 (Cumulative Layout Shift)
+- **Bundle Size**: < 110kB shared JavaScript
+- **Build Time**: < 2 seconds
+- **Dependencies**: < 10 production packages
+
+## Vercel Deployment
+- **Automatic optimizations** enabled in `next.config.mjs`
+- **Vercel.json** configured for optimal caching
+- **Security headers** implemented
+- **Image optimization** enabled for AVIF/WebP
+- **Global CDN** caching for maximum speed
+
+Remember: This is a **high-performance marketing website** for a real business. All changes must enhance user experience, drive inquiries, and maintain **unbelievably fast** loading times while showcasing our dual service expertise.
