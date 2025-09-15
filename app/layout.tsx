@@ -8,22 +8,25 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://notacompany.com'),
   title: {
     default:
-      'notacompany.com - Technical Advisory & Interim Talent Acquisition',
+      'notacompany.com - Fractional & Interim Technical Talent Acquisition',
     template: '%s | notacompany.com',
   },
   description:
-    'Technical advisory and interim talent acquisition for ambitious consumer product companies. Expert optimization of technical teams, infrastructure, and talent placement for 3-12 month engagements.',
+    'Fractional and interim technical talent acquisition for ambitious consumer product companies. By engineers, for engineers. We focus exclusively on the top 0.01% of global engineering talent for 3-12 month engagements.',
   keywords: [
-    'technical advisory',
-    'interim talent acquisition',
+    'fractional technical talent acquisition',
+    'interim technical talent acquisition',
     'consumer product companies',
-    'technical team optimization',
-    'infrastructure optimization',
-    'CTO interim',
-    'VP Engineering',
+    'by engineers for engineers',
+    '100% engineers team',
+    'engineering-led talent acquisition',
+    'fractional CTO placement',
+    'interim CTO placement',
+    'VP Engineering placement',
     'technical talent placement',
-    'product team advisory',
-    'startup technical leadership',
+    'product designer placement',
+    'payment rails engineer placement',
+    'startup technical talent',
   ],
   authors: [{ name: 'notacompany.com' }],
   creator: 'notacompany.com',
@@ -45,23 +48,23 @@ export const metadata: Metadata = {
     url: 'https://notacompany.com',
     siteName: 'notacompany.com',
     title:
-      'Technical Advisory & Interim Talent Acquisition for Consumer Product Companies',
+      'Fractional & Interim Technical Talent Acquisition for Consumer Product Companies',
     description:
-      'Expert technical advisory and interim talent acquisition services. We optimize technical teams and infrastructure for ambitious consumer product companies.',
+      'Expert fractional and interim technical talent acquisition services. By engineers, for engineers. We focus exclusively on the top 0.01% of global engineering talent.',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'notacompany.com - Technical Advisory & Interim Talent Acquisition',
+        alt: 'notacompany.com - Fractional & Interim Technical Talent Acquisition',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Technical Advisory & Interim Talent Acquisition',
+    title: 'Fractional & Interim Technical Talent Acquisition',
     description:
-      'Expert technical advisory and interim talent acquisition for consumer product companies.',
+      'Expert fractional and interim technical talent acquisition for consumer product companies. By engineers, for engineers.',
     images: ['/og-image.png'],
     creator: '@notacompany',
   },
@@ -100,11 +103,11 @@ export default function RootLayout({
               url: 'https://notacompany.com',
               logo: 'https://notacompany.com/logo.png',
               description:
-                'Technical advisory and interim talent acquisition for ambitious consumer product companies. Expert optimization of technical teams, infrastructure, and talent placement.',
+                'Fractional and interim technical talent acquisition for ambitious consumer product companies. By engineers, for engineers. We focus exclusively on the top 0.01% of global engineering talent.',
               serviceType: [
-                'Technical Advisory',
-                'Interim Talent Acquisition',
-                'Technical Consulting',
+                'Fractional Technical Talent Acquisition',
+                'Interim Technical Talent Acquisition',
+                'Technical Talent Placement',
               ],
               areaServed: 'Worldwide',
               contactPoint: {
@@ -115,24 +118,15 @@ export default function RootLayout({
               sameAs: ['https://notacompany.com'],
               hasOfferCatalog: {
                 '@type': 'OfferCatalog',
-                name: 'Technical Advisory Services',
+                name: 'Technical Talent Acquisition Services',
                 itemListElement: [
                   {
                     '@type': 'Offer',
                     itemOffered: {
                       '@type': 'Service',
-                      name: 'Product Team & Infrastructure Optimization Advisory',
+                      name: 'Fractional & Interim Technical Talent Acquisition',
                       description:
-                        'Optimize technical teams and infrastructure for maximum efficiency and scalability',
-                    },
-                  },
-                  {
-                    '@type': 'Offer',
-                    itemOffered: {
-                      '@type': 'Service',
-                      name: 'Interim Technical Talent Acquisition',
-                      description:
-                        'Place exceptional technical talent for 3-12 month engagements',
+                        'We source and place the top 0.01% of global engineering talent for flexible 3-12 month engagements, including fractional CTOs, VPs Engineering, senior engineers, product designers, and payment rails engineers.',
                     },
                   },
                 ],

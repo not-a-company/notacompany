@@ -1,0 +1,109 @@
+# notacompany.com
+
+**Website:** https://notacompany.com
+**Contact:** hey@notacompany.com
+
+## About
+
+notacompany.com provides fractional and interim technical talent acquisition for the world's most ambitious consumer product companies. By engineers, for engineers. Our team is made up of 100% engineers who know the drill - we understand the real challenges, technical decisions, and day-to-day realities of building consumer products.
+
+We focus exclusively on the top 0.01% of global engineering talent.
+
+## Services
+
+### Fractional & Interim Technical Talent Acquisition
+
+We source and place exceptional technical talent for consumer product companies on both fractional and interim bases. We focus exclusively on the top 0.01% of global engineering talent - professionals who understand consumer behavior and can build products that users actually want to use.
+
+**What we do:**
+- Source senior technical talent for flexible engagements (3-12 months)
+- Fractional leadership roles (20-40 hours per week)
+- Full-time interim positions for critical projects
+- Focus on consumer-facing product experience
+- Rapid deployment (typically 2-4 weeks from brief to start)
+- Ongoing performance management and support
+
+**Typical roles:**
+- Fractional CTOs and VP Engineering
+- Interim CTOs and VP Engineering
+- Senior Full-Stack Engineers
+- AI Engineers
+- Product Engineers with consumer focus
+- Product Designers
+- Payment Rails Engineers
+- DevOps and Infrastructure Engineers
+
+**Key problems we solve:**
+- Leadership gaps: Fractional or interim technical leadership during transitions
+- Efficiency optimization: Streamline development processes and eliminate bottlenecks
+- Resource optimization: Maximize team productivity and technology investments
+- Hit by bus problems: Reduce key person dependencies and knowledge silos
+- Security vulnerabilities: Identify and remediate technical and operational risks
+- Culture shifts: Navigate technical team transitions and scaling challenges
+
+## Our Team
+
+Our team is made up of 100% engineers who actively build and ship consumer products alongside our talent acquisition work. This hands-on approach ensures we stay current with the latest technologies, development challenges, and market dynamics that our placed talent will face.
+
+## Co-Creations
+
+**What are co-creations?** Our team actively builds and ships consumer products alongside our talent acquisition work. We maintain one concurrent active co-creation to stretch our muscles and practice what we preach.
+
+**Active Co-Creation:**
+- **Steps.org** - Exercise Accountability for GAD mitigation (Contact: hey@steps.org)
+
+**Past Successful Exits:**
+- **Polkastarter** - Decentralized fundraising platform (ACQUIRED)
+- **Coinvision** - Blockchain due-diligence publication (ACQUIRED)  
+- **Codeplace** - Ruby education ecosystem (ACQUIRED)
+
+**Past Learning Experiences:**
+- **Mahalo** - P2P Non-Profit Fundraising Infra (DECEASED)
+- **Songvice** - Music Producer Advisory Market (DECEASED)
+
+## Past Clients
+
+We have provided fractional and interim technical talent placement to leading consumer product companies including:
+
+- **Acreditar** - Portugal's largest non-profit
+- **xMoney** - Digital payment on & off ramp
+- **Talent Protocol** - Decentralized Data Infrastructure
+- **Bet Protocol** - Decentralized betting ecosystem
+- **Lime** - Mobility and transportation
+- **Parfois** - Fashion and retail
+- **Coflyt** - Private Aviation
+- **Fisacar** - Automotive services
+
+## Client Testimonials
+
+> "Tiago has a no nonsense and no bullshit attitude. Tiago gets stuff done and he is a very strong executer. Tiago also has the ability to think in network and he has shown that he can attract some of the best people work with him." - Rune Theill
+
+> "Their understanding of consumer products and technical execution is unmatched." - Felipe Avila da Costa
+
+> "Tiago and his teams have the rare ability to execute their visions fast, and the even more rare capacity to listen and adapt based on market feedback." - Roel Bergsma
+
+## Positioning
+
+**Primary Service:** Fractional & Interim Technical Talent Acquisition
+**Target Market:** Ambitious consumer product companies, startups, scale-ups
+**Unique Value:** By engineers, for engineers - 100% engineering team that understands the real challenges
+**Quality Focus:** Top 0.01% of global engineering talent exclusively
+**Engagement Length:** 3-12 month flexible engagements
+**Deployment Speed:** Typically 2-4 weeks from brief to start
+
+## Key Differentiators
+
+- 100% engineering team (no traditional recruiters)
+- Active product builders who practice what they preach
+- Deep consumer product experience across multiple verticals
+- Proven track record with successful exits and acquisitions
+- Network of exceptional technical talent
+- Focus on practical, actionable expertise
+- Rapid deployment capabilities
+
+## Contact Information
+
+**Email:** hey@notacompany.com
+**Website:** https://notacompany.com
+
+For inquiries about fractional or interim technical talent placement, contact hey@notacompany.com.

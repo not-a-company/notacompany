@@ -3,33 +3,35 @@ import SiteHeader from '@/components/site-header'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Services - Product Team Optimization & Technical Talent Acquisition',
+  title: 'Services - Fractional & Interim Technical Talent Acquisition',
   description:
-    'Expert services: Product Team & Infrastructure Optimization Advisory and Interim Technical Talent Acquisition. We optimize technical teams for maximum efficiency and place senior technical talent for 3-12 month engagements.',
+    'Expert fractional and interim technical talent acquisition for consumer product companies. We focus exclusively on the top 0.01% of global engineering talent for flexible engagements from 3-12 months, including fractional CTOs, VPs Engineering, senior engineers, product designers, and payment rails engineers.',
   keywords: [
-    'product team optimization',
-    'infrastructure optimization advisory',
-    'technical team structure optimization',
-    'development process improvements',
+    'fractional technical talent acquisition',
     'interim technical talent acquisition',
+    'fractional CTO placement',
     'interim CTO placement',
     'VP Engineering services',
     'senior engineer placement',
-    'technical advisory services',
-    'consumer product technical consulting',
+    'product designer placement',
+    'payment rails engineer placement',
+    'technical talent placement',
+    'consumer product technical talent',
+    'startup technical hiring',
+    'fractional technical leadership',
   ],
   openGraph: {
     title:
-      'Services - Product Team Optimization & Technical Talent Acquisition',
+      'Services - Fractional & Interim Technical Talent Acquisition',
     description:
-      'Expert advisory services for optimizing technical teams and infrastructure, plus interim technical talent acquisition for consumer product companies.',
+      'Expert fractional and interim technical talent acquisition for consumer product companies. We focus exclusively on the top 0.01% of global engineering talent for flexible 3-12 month engagements.',
     url: 'https://notacompany.com/services',
     images: [
       {
         url: '/og-services.png',
         width: 1200,
         height: 630,
-        alt: 'notacompany.com Services - Technical Advisory & Talent Acquisition',
+        alt: 'notacompany.com Services - Fractional & Interim Talent Acquisition',
       },
     ],
   },
@@ -49,70 +51,32 @@ export default function ServicesPage() {
         <section className='mb-12'>
           <h2 className='text-3xl font-bold mb-4'>Services</h2>
           <p className='text-lg leading-relaxed'>
-            Consumer Experience Focused Services for ambitious product
-            companies.
+            Fractional & Interim Technical Talent Acquisition for ambitious consumer product companies.
+          </p>
+          <p className='text-base text-gray-700 leading-relaxed mt-2'>
+            We focus exclusively on the top 0.01% of global engineering talent.
           </p>
         </section>
 
-        {/* Service 1: Product Team & Infra Optimisation Advisory */}
+        {/* Main Service: Fractional & Interim Technical Talent Acquisition */}
         <section className='mb-12'>
           <h3 className='text-2xl font-bold mb-4 border-b border-black pb-2'>
-            Product Team & Infra Optimisation Advisory
-          </h3>
-          <div className='space-y-4 text-lg leading-relaxed'>
-            <p>
-              We help consumer product companies optimize their technical teams
-              and infrastructure for maximum efficiency and scalability. Our
-              advisory focuses on practical improvements that directly impact
-              product velocity and user experience.
-            </p>
-            <div>
-              <h4 className='font-bold mb-2'>What we do:</h4>
-              <ul className='space-y-1 ml-4'>
-                <li>- Technical team structure and workflow optimization</li>
-                <li>
-                  - Infrastructure architecture review and recommendations
-                </li>
-                <li>- Development process improvements and automation</li>
-                <li>- Technology stack evaluation and modernization</li>
-                <li>- Performance optimization and scalability planning</li>
-              </ul>
-            </div>
-            <div>
-              <h4 className='font-bold mb-2'>Key outcomes:</h4>
-              <ul className='space-y-1 ml-4'>
-                <li>
-                  - Reduced deployment times and increased release frequency
-                </li>
-                <li>- Lower infrastructure costs through optimization</li>
-                <li>- Improved team productivity and developer experience</li>
-                <li>- Enhanced system reliability and performance</li>
-                <li>
-                  - Better alignment between technical and business objectives
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        {/* Service 2: Interim Technical Talent Acquisition */}
-        <section className='mb-12'>
-          <h3 className='text-2xl font-bold mb-4 border-b border-black pb-2'>
-            Interim Technical Talent Acquisition
+            Fractional & Interim Technical Talent Acquisition
           </h3>
           <div className='space-y-4 text-lg leading-relaxed'>
             <p>
               We source and place exceptional technical talent for consumer
-              product companies on an interim basis. Our focus is on finding
-              professionals who understand consumer behavior and can build
+              product companies on both fractional and interim bases. We focus exclusively on the top 0.01% of global engineering talent - professionals who understand consumer behavior and can build
               products that users actually want to use.
             </p>
             <div>
               <h4 className='font-bold mb-2'>What we do:</h4>
               <ul className='space-y-1 ml-4'>
                 <li>
-                  - Source senior technical talent for 3-12 month engagements
+                  - Source senior technical talent for flexible engagements (3-12 months)
                 </li>
+                <li>- Fractional leadership roles (20-40 hours per week)</li>
+                <li>- Full-time interim positions for critical projects</li>
                 <li>- Focus on consumer-facing product experience</li>
                 <li>
                   - Rapid deployment (typically 2-4 weeks from brief to start)
@@ -123,16 +87,22 @@ export default function ServicesPage() {
             <div>
               <h4 className='font-bold mb-2'>Typical roles:</h4>
               <ul className='space-y-1 ml-4'>
+                <li>- Fractional CTOs and VP Engineering</li>
                 <li>- Interim CTOs and VP Engineering</li>
                 <li>- Senior Full-Stack Engineers</li>
                 <li>- AI Engineers</li>
                 <li>- Product Engineers with consumer focus</li>
+                <li>- Product Designers</li>
+                <li>- Payment Rails Engineers</li>
                 <li>- DevOps and Infrastructure Engineers</li>
               </ul>
             </div>
             <div>
               <h4 className='font-bold mb-2'>Key problems we solve:</h4>
               <ul className='space-y-1 ml-4'>
+                <li>
+                  - Leadership gaps: Fractional or interim technical leadership during transitions
+                </li>
                 <li>
                   - Efficiency optimization: Streamline development processes
                   and eliminate bottlenecks

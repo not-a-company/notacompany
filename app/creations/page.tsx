@@ -3,15 +3,17 @@ import SiteHeader from '@/components/site-header'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Creations - Our Products & Successful Exits',
+  title: 'Co-Creations - Our Products & Successful Exits',
   description:
-    'Our active creation Steps.org for exercise accountability and past successful exits including Polkastarter (decentralized fundraising), Coinvision (blockchain due diligence), and Codeplace (Ruby education). We practice what we preach by building consumer products.',
+    'Our team is made up of 100% engineers who actively build consumer products alongside talent acquisition. Current co-creation: Steps.org for exercise accountability. Past successful exits: Polkastarter, Coinvision, Codeplace. We practice what we preach.',
   keywords: [
     'Steps.org exercise accountability',
     'Polkastarter acquisition',
     'Coinvision blockchain',
     'Codeplace Ruby education',
-    'consumer product creation',
+    'consumer product co-creation',
+    '100% engineers team',
+    'engineering-led talent acquisition',
     'startup exits',
     'product development experience',
     'successful acquisitions',
@@ -21,16 +23,16 @@ export const metadata: Metadata = {
     'exercise tracking',
   ],
   openGraph: {
-    title: 'Creations - Our Products & Successful Exits',
+    title: 'Co-Creations - Our Products & Successful Exits',
     description:
-      'We practice what we preach by building consumer products. Current: Steps.org for exercise accountability. Past exits: Polkastarter, Coinvision, Codeplace.',
+      'Our team is made up of 100% engineers who actively build consumer products alongside talent acquisition. Current: Steps.org for exercise accountability. Past exits: Polkastarter, Coinvision, Codeplace.',
     url: 'https://notacompany.com/creations',
     images: [
       {
         url: '/og-creations.png',
         width: 1200,
         height: 630,
-        alt: 'notacompany.com Creations - Our Products & Successful Exits',
+        alt: 'notacompany.com Co-Creations - Our Products & Successful Exits',
       },
     ],
   },
@@ -48,17 +50,21 @@ export default function CreationsPage() {
       <main className='max-w-4xl mx-auto px-4 md:px-6 py-8 md:py-12'>
         {/* Page Title */}
         <section className='mb-12'>
-          <h2 className='text-3xl font-bold mb-4'>Creations</h2>
-          <p className='text-lg leading-relaxed'>
-            We have one concurrent active creation to stretch our muscles and
-            practice what we preach.
-          </p>
+          <h2 className='text-3xl font-bold mb-4'>Co-Creations</h2>
+          <div className='space-y-4 text-lg leading-relaxed'>
+            <p>
+              <strong>What are co-creations?</strong> Our team is made up of 100% engineers who actively build and ship consumer products alongside our talent acquisition work. We maintain one concurrent active co-creation to stretch our muscles and practice what we preach.
+            </p>
+            <p>
+              This hands-on approach ensures we stay current with the latest technologies, development challenges, and market dynamics that our placed talent will face.
+            </p>
+          </div>
         </section>
 
-        {/* Active Creations */}
+        {/* Active Co-Creations */}
         <section className='mb-12'>
           <h3 className='text-2xl font-bold mb-6 border-b border-black pb-2'>
-            Active Creations (one active at a time):
+            Active Co-Creations (one active at a time):
           </h3>
           <div className='border-2 border-black p-6 bg-gray-50'>
             <div className='flex justify-between items-start mb-4'>
@@ -81,10 +87,10 @@ export default function CreationsPage() {
           </div>
         </section>
 
-        {/* Past Creations */}
+        {/* Past Co-Creations */}
         <section className='mb-12'>
           <h3 className='text-2xl font-bold mb-6 border-b border-black pb-2'>
-            Past Creations:
+            Past Co-Creations:
           </h3>
           <div className='space-y-6'>
             {/* Acquired Companies */}
@@ -151,31 +157,32 @@ export default function CreationsPage() {
           </h3>
           <div className='space-y-4 text-lg leading-relaxed'>
             <p>
-              We maintain one active creation at a time to ensure focused
+              As a team of 100% engineers, we maintain one active co-creation at a time to ensure focused
               execution and to continuously practice the consumer product
-              development we advise our clients on.
+              development challenges our placed talent will face.
             </p>
             <div>
-              <h4 className='font-bold mb-2'>Why we create:</h4>
+              <h4 className='font-bold mb-2'>Why we co-create:</h4>
               <ul className='space-y-1 ml-4'>
                 <li>
-                  - Stay current with consumer product development challenges
+                  - Stay current with the latest technologies and development challenges
                 </li>
                 <li>
-                  - Test new technologies and approaches in real-world scenarios
+                  - Test new approaches and tools in real-world consumer product scenarios
                 </li>
                 <li>
                   - Maintain our edge in understanding user behavior and market
                   dynamics
                 </li>
-                <li>- Practice what we preach to our advisory clients</li>
+                <li>- Deeply understand the challenges our placed talent will encounter</li>
+                <li>- Practice what we preach when sourcing and placing top 0.01% talent</li>
               </ul>
             </div>
             <p>
               Our track record includes both successful exits and valuable
               learning experiences from projects that didn&apos;t make it. Each
-              creation informs our advisory work and keeps us grounded in the
-              realities of building consumer products.
+              co-creation directly informs our talent acquisition expertise and keeps us grounded in the
+              realities of building consumer products at scale.
             </p>
           </div>
         </section>
@@ -183,10 +190,10 @@ export default function CreationsPage() {
         {/* Contact */}
         <section>
           <h3 className='text-2xl font-bold mb-4 border-b border-black pb-2'>
-            Interested in Our Creations?
+            Interested in Our Co-Creations?
           </h3>
           <p className='text-lg leading-relaxed'>
-            Questions about our current or past creations?{' '}
+            Questions about our current or past co-creations?{' '}
             <a href='mailto:hey@notacompany.com' className='underline'>
               hey@notacompany.com
             </a>

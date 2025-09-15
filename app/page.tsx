@@ -5,31 +5,34 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title:
-    'Technical Advisory & Interim Talent Acquisition for Consumer Product Companies',
+    'Fractional & Interim Technical Talent Acquisition for Consumer Product Companies',
   description:
-    "Notacompany provides technical advisory and interim talent acquisition for the world's most ambitious consumer product companies. Expert product team & infrastructure optimization and technical talent placement.",
+    "Notacompany provides fractional and interim technical talent acquisition for the world's most ambitious consumer product companies. By engineers, for engineers. Our 100% engineering team focuses exclusively on the top 0.01% of global engineering talent for 3-12 month engagements.",
   keywords: [
-    'technical advisory services',
+    'fractional technical talent acquisition',
     'interim technical talent acquisition',
     'consumer product companies',
-    'product team optimization',
-    'infrastructure optimization advisory',
     'technical talent placement',
+    'by engineers for engineers',
+    '100% engineers team',
+    'engineering-led talent acquisition',
     'interim CTO services',
     'VP Engineering placement',
-    'startup technical advisory',
+    'fractional CTO placement',
+    'senior engineer placement',
+    'startup technical talent',
   ],
   openGraph: {
-    title: 'Technical Advisory & Interim Talent Acquisition - notacompany.com',
+    title: 'Fractional & Interim Technical Talent Acquisition - notacompany.com',
     description:
-      'Expert technical advisory and interim talent acquisition for ambitious consumer product companies. Product team optimization and technical talent placement.',
+      'Expert fractional and interim technical talent acquisition for ambitious consumer product companies. By engineers, for engineers. We focus exclusively on the top 0.01% of global engineering talent for 3-12 month engagements.',
     url: 'https://notacompany.com',
     images: [
       {
         url: '/og-home.png',
         width: 1200,
         height: 630,
-        alt: 'notacompany.com homepage - Technical Advisory & Talent Acquisition',
+        alt: 'notacompany.com homepage - Fractional & Interim Talent Acquisition',
       },
     ],
   },
@@ -48,20 +51,27 @@ export default function HomePage() {
         {/* Hero Section */}
         <section className='mb-8 md:mb-12'>
           <h2 className='text-xl sm:text-2xl md:text-3xl font-bold mb-6 leading-tight text-balance'>
-            Notacompany provides technical advisory and interim talent
+            Notacompany provides fractional and interim technical talent
             acquisition for the world&apos;s most ambitious consumer product
             companies.
           </h2>
+          <div className='space-y-3'>
+            <p className='text-base sm:text-lg text-gray-700 leading-relaxed'>
+              We focus exclusively on the top 0.01% of global engineering talent.
+            </p>
+            <p className='text-base sm:text-lg text-gray-700 leading-relaxed'>
+              <strong>By engineers, for engineers.</strong> Our team is made up of 100% engineers who know the drill - we understand the real challenges, technical decisions, and day-to-day realities of building consumer products.
+            </p>
+          </div>
         </section>
 
         {/* Services Overview */}
         <section className='mb-8 md:mb-12'>
           <h3 className='text-lg sm:text-xl font-bold mb-4 border-b border-black pb-2'>
-            Consumer Experience Focused Services:
+            Consumer Experience Focused Service:
           </h3>
           <ul className='space-y-3 text-base sm:text-lg'>
-            <li>- Product Team & Infra Optimisation Advisory</li>
-            <li>- Interim Technical Talent Acquisition</li>
+            <li>- Fractional & Interim Technical Talent Acquisition</li>
           </ul>
         </section>
 
@@ -86,7 +96,7 @@ export default function HomePage() {
                 </li>
                 <li>
                   <Link href='/creations' className='hover:underline'>
-                    → Our Creations
+                    → Our Co-Creations
                   </Link>
                 </li>
               </ul>

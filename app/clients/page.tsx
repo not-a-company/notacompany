@@ -5,12 +5,14 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Clients - Trusted by Leading Consumer Product Companies',
   description:
-    "Past service clients who have trusted us with their consumer product challenges. We've provided technical advisory and talent acquisition services to Acreditar, xMoney, Talent Protocol, Bet Protocol, Lime, Parfois, Coflyt, and Fisacar.",
+    "Past service clients who have trusted us with their consumer product challenges. We've provided fractional and interim technical talent acquisition services to Acreditar, xMoney, Talent Protocol, Bet Protocol, Lime, Parfois, Coflyt, and Fisacar. By engineers, for engineers.",
   keywords: [
     'client testimonials',
     'consumer product companies',
-    'technical advisory clients',
+    'fractional talent acquisition clients',
     'interim talent acquisition clients',
+    'by engineers for engineers',
+    '100% engineers team',
     'Acreditar',
     'xMoney',
     'Talent Protocol',
@@ -20,12 +22,12 @@ export const metadata: Metadata = {
     'Coflyt aviation',
     'Fisacar automotive',
     'successful client engagements',
-    'technical consulting case studies',
+    'technical talent placement case studies',
   ],
   openGraph: {
     title: 'Clients - Trusted by Leading Consumer Product Companies',
     description:
-      "We've provided expert technical advisory and interim talent acquisition services to leading consumer product companies including Acreditar, xMoney, Talent Protocol, and more.",
+      "We've provided expert fractional and interim technical talent acquisition services to leading consumer product companies including Acreditar, xMoney, Talent Protocol, and more. By engineers, for engineers.",
     url: 'https://notacompany.com/clients',
     images: [
       {
@@ -105,21 +107,22 @@ export default function ClientsPage() {
           </h3>
           <div className='space-y-4 text-lg leading-relaxed'>
             <p>
-              Across these engagements, we have provided strategic guidance,
-              technical leadership, and interim talent placement to help these
-              companies scale their consumer products.
+              Across these engagements, we have provided fractional and interim
+              technical talent placement to help these companies scale their consumer products.
             </p>
             <div>
-              <h4 className='font-bold mb-2'>Common deliverables:</h4>
+              <h4 className='font-bold mb-2'>Common placements:</h4>
               <ul className='space-y-1 ml-4'>
                 <li>
-                  - Interim technical leadership (CTO, VP Engineering roles)
+                  - Fractional technical leadership (CTO, VP Engineering roles)
                 </li>
-                <li>- Product strategy and roadmap development</li>
-                <li>- Technical architecture review and optimization</li>
-                <li>- Team scaling and hiring strategy</li>
-                <li>- Consumer experience optimization</li>
-                <li>- Go-to-market technical execution</li>
+                <li>- Interim technical leadership (CTO, VP Engineering roles)</li>
+                <li>- Senior Full-Stack Engineers</li>
+                <li>- AI Engineers</li>
+                <li>- Product Engineers with consumer focus</li>
+                <li>- Product Designers</li>
+                <li>- Payment Rails Engineers</li>
+                <li>- DevOps and Infrastructure Engineers</li>
               </ul>
             </div>
           </div>

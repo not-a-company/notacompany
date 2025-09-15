@@ -8,25 +8,26 @@
 
 ## About
 
-**notacompany.com** provides technical advisory and interim talent acquisition services for ambitious consumer product companies. We optimize technical teams and infrastructure while placing exceptional technical talent for 3-12 month engagements.
+**notacompany.com** provides fractional and interim technical talent acquisition services for ambitious consumer product companies. We focus exclusively on the top 0.01% of global engineering talent for flexible engagements from 3-12 months.
 
-### 🏢 **Our Services**
+### 🏢 **Our Service**
 
-1. **Product Team & Infrastructure Optimization Advisory**: Optimize technical teams and infrastructure for maximum efficiency and scalability
-2. **Interim Technical Talent Acquisition**: Senior technical professionals for 3-12 month engagements with consumer product focus
+**Fractional & Interim Technical Talent Acquisition**: Elite technical professionals and product designers for flexible engagements with consumer product focus
 
 ### 🎯 **Our Specialties**
 
-- Product Team & Infrastructure Optimization
+- Fractional CTOs and VP Engineering  
 - Interim CTOs and VP Engineering
 - Senior Full-Stack Engineers
 - AI Engineers
 - Product Engineers with consumer focus
+- Product Designers
+- Payment Rails Engineers
 - DevOps and Infrastructure Engineers
 
 ### 📈 **Our Track Record**
 
-**Active Creation**: Steps.org (exercise accountability)
+**Active Co-Creation**: Steps.org (exercise accountability)
 **Successful Exits**: Polkastarter, Coinvision, Codeplace
 **Trusted Clients**: Acreditar, xMoney, Talent Protocol, Bet Protocol, Lime, Parfois, Coflyt, Fisacar
 
@@ -120,7 +121,7 @@ pnpm run check-all     # Verify everything passes
 │   ├── page.tsx       # Homepage with services overview
 │   ├── services/      # Technical advisory & talent services
 │   ├── clients/       # Client testimonials & case studies
-│   ├── creations/     # Our products & successful exits
+│   ├── creations/     # Our co-creations & successful exits
 │   └── globals.css    # Minimal optimized styles (79 lines)
 ├── components/        # Reusable UI components (optimized)
 │   ├── site-header.tsx # Responsive header with hamburger menu
@@ -166,7 +167,7 @@ pnpm run check-all     # Verify everything passes
 - **Homepage**: Technical advisory + talent acquisition overview
 - **Services**: Detailed service descriptions with outcomes
 - **Clients**: Testimonials and client showcase
-- **Creations**: Our products and successful exits
+- **Co-Creations**: Our products and successful exits
 
 ## Deployment - **Vercel Ready**
 
