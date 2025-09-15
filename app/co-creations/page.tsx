@@ -3,9 +3,9 @@ import SiteHeader from '@/components/site-header'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Co-Creations - Our Products & Successful Exits',
+  title: 'Co-Creations - Our Products & Consumer Behavior Studies',
   description:
-    'Our team is made up of 100% engineers who actively build consumer products alongside talent acquisition. Current co-creation: Steps.org for exercise accountability. Past successful exits: Polkastarter, Coinvision, Codeplace. We practice what we preach.',
+    'Our team is made up of 100% engineers who actively build consumer products as co-creations alongside consumer economic theory research. Current co-creation: Steps.org for exercise accountability. Past successful exits: Polkastarter, Coinvision, Codeplace. We practice what we research.',
   keywords: [
     'Steps.org exercise accountability',
     'Polkastarter acquisition',
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     'Codeplace Ruby education',
     'consumer product co-creation',
     '100% engineers team',
-    'engineering-led talent acquisition',
+    'engineering-led research',
     'startup exits',
     'product development experience',
     'successful acquisitions',
@@ -23,21 +23,21 @@ export const metadata: Metadata = {
     'exercise tracking',
   ],
   openGraph: {
-    title: 'Co-Creations - Our Products & Successful Exits',
+    title: 'Co-Creations - Our Products & Consumer Behavior Studies',
     description:
-      'Our team is made up of 100% engineers who actively build consumer products alongside talent acquisition. Current: Steps.org for exercise accountability. Past exits: Polkastarter, Coinvision, Codeplace.',
-    url: 'https://notacompany.com/creations',
+      'Our team is made up of 100% engineers who actively build consumer products alongside consumer economic theory research. Current: Steps.org for exercise accountability. Past exits: Polkastarter, Coinvision, Codeplace.',
+    url: 'https://notacompany.com/co-creations',
     images: [
       {
         url: '/og-creations.png',
         width: 1200,
         height: 630,
-        alt: 'notacompany.com Co-Creations - Our Products & Successful Exits',
+        alt: 'notacompany.com Co-Creations - Our Products & Consumer Studies',
       },
     ],
   },
   alternates: {
-    canonical: 'https://notacompany.com/creations',
+    canonical: 'https://notacompany.com/co-creations',
   },
 }
 
@@ -53,10 +53,16 @@ export default function CreationsPage() {
           <h2 className='text-3xl font-bold mb-4'>Co-Creations</h2>
           <div className='space-y-4 text-lg leading-relaxed'>
             <p>
-              <strong>What are co-creations?</strong> Our team is made up of 100% engineers who actively build and ship consumer products alongside our talent acquisition work. We maintain one concurrent active co-creation to stretch our muscles and practice what we preach.
+              <strong>What are co-creations?</strong> Our team is made up of
+              100% engineers who actively build and ship consumer products
+              alongside our consumer economic theory research. We maintain one
+              concurrent active co-creation to stretch our muscles and practice
+              what we research.
             </p>
             <p>
-              This hands-on approach ensures we stay current with the latest technologies, development challenges, and market dynamics that our placed talent will face.
+              This hands-on approach ensures we stay current with consumer
+              behavior patterns, market dynamics, and the real-world
+              applications of economic theory in digital products.
             </p>
           </div>
         </section>
@@ -147,43 +153,6 @@ export default function CreationsPage() {
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-
-        {/* Our Approach */}
-        <section className='mb-12'>
-          <h3 className='text-2xl font-bold mb-4 border-b border-black pb-2'>
-            Our Approach
-          </h3>
-          <div className='space-y-4 text-lg leading-relaxed'>
-            <p>
-              As a team of 100% engineers, we maintain one active co-creation at a time to ensure focused
-              execution and to continuously practice the consumer product
-              development challenges our placed talent will face.
-            </p>
-            <div>
-              <h4 className='font-bold mb-2'>Why we co-create:</h4>
-              <ul className='space-y-1 ml-4'>
-                <li>
-                  - Stay current with the latest technologies and development challenges
-                </li>
-                <li>
-                  - Test new approaches and tools in real-world consumer product scenarios
-                </li>
-                <li>
-                  - Maintain our edge in understanding user behavior and market
-                  dynamics
-                </li>
-                <li>- Deeply understand the challenges our placed talent will encounter</li>
-                <li>- Practice what we preach when sourcing and placing top 0.01% talent</li>
-              </ul>
-            </div>
-            <p>
-              Our track record includes both successful exits and valuable
-              learning experiences from projects that didn&apos;t make it. Each
-              co-creation directly informs our talent acquisition expertise and keeps us grounded in the
-              realities of building consumer products at scale.
-            </p>
           </div>
         </section>
 

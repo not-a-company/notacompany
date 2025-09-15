@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { useState, useCallback, useMemo } from 'react'
+import { useCallback, useMemo, useState } from 'react'
 
 interface SiteHeaderProps {
   currentPage?: string
@@ -9,9 +9,8 @@ interface SiteHeaderProps {
 
 const navigationLinks = [
   { href: '/', label: 'Home', page: 'home' },
-  { href: '/services', label: 'Services', page: 'services' },
   { href: '/clients', label: 'Clients', page: 'clients' },
-  { href: '/creations', label: 'Creations', page: 'creations' },
+  { href: '/co-creations', label: 'Co-Creations', page: 'creations' },
 ] as const
 
 export default function SiteHeader({ currentPage = 'home' }: SiteHeaderProps) {

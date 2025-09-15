@@ -5,12 +5,13 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Clients - Trusted by Leading Consumer Product Companies',
   description:
-    "Past service clients who have trusted us with their consumer product challenges. We've provided fractional and interim technical talent acquisition services to Acreditar, xMoney, Talent Protocol, Bet Protocol, Lime, Parfois, Coflyt, and Fisacar. By engineers, for engineers.",
+    "Past service clients who have trusted us with their consumer product challenges. We've worked with Acreditar, xMoney, Talent Protocol, Bet Protocol, Lime, Parfois, Coflyt, and Fisacar. By engineers, for engineers.",
   keywords: [
     'client testimonials',
     'consumer product companies',
-    'fractional talent acquisition clients',
-    'interim talent acquisition clients',
+    'past service clients',
+    'consumer economic research clients',
+    'behavioral economics clients',
     'by engineers for engineers',
     '100% engineers team',
     'Acreditar',
@@ -22,12 +23,12 @@ export const metadata: Metadata = {
     'Coflyt aviation',
     'Fisacar automotive',
     'successful client engagements',
-    'technical talent placement case studies',
+    'consumer research applications',
   ],
   openGraph: {
     title: 'Clients - Trusted by Leading Consumer Product Companies',
     description:
-      "We've provided expert fractional and interim technical talent acquisition services to leading consumer product companies including Acreditar, xMoney, Talent Protocol, and more. By engineers, for engineers.",
+      'Past service clients who have trusted us with their consumer product challenges including Acreditar, xMoney, Talent Protocol, and more. By engineers, for engineers.',
     url: 'https://notacompany.com/clients',
     images: [
       {
@@ -97,58 +98,6 @@ export default function ClientsPage() {
               <h4 className='font-bold text-lg mb-2'>Fisacar</h4>
               <p className='text-sm'>Automotive services</p>
             </div>
-          </div>
-        </section>
-
-        {/* What We Delivered */}
-        <section className='mb-12'>
-          <h3 className='text-2xl font-bold mb-4 border-b border-black pb-2'>
-            What We Delivered
-          </h3>
-          <div className='space-y-4 text-lg leading-relaxed'>
-            <p>
-              Across these engagements, we have provided fractional and interim
-              technical talent placement to help these companies scale their consumer products.
-            </p>
-            <div>
-              <h4 className='font-bold mb-2'>Common placements:</h4>
-              <ul className='space-y-1 ml-4'>
-                <li>
-                  - Fractional technical leadership (CTO, VP Engineering roles)
-                </li>
-                <li>- Interim technical leadership (CTO, VP Engineering roles)</li>
-                <li>- Senior Full-Stack Engineers</li>
-                <li>- AI Engineers</li>
-                <li>- Product Engineers with consumer focus</li>
-                <li>- Product Designers</li>
-                <li>- Payment Rails Engineers</li>
-                <li>- DevOps and Infrastructure Engineers</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        {/* Testimonials Section */}
-        <section className='mb-12'>
-          <h3 className='text-2xl font-bold mb-4 border-b border-black pb-2'>
-            Client Feedback
-          </h3>
-          <div className='space-y-6'>
-            <blockquote className='border-l-4 border-black pl-4 italic text-lg'>
-              &quot;Tiago has a no nonsense and no bullshit attitude. Tiago gets
-              stuff done and he is a very strong executer. Tiago also has the
-              ability to think in network and he has shown that he can attract
-              some of the best people work with him.&quot; Rune Theill
-            </blockquote>
-            <blockquote className='border-l-4 border-black pl-4 italic text-lg'>
-              &quot;Their understanding of consumer products and technical
-              execution is unmatched.&quot; Felipe Avila da Costa
-            </blockquote>
-            <blockquote className='border-l-4 border-black pl-4 italic text-lg'>
-              &quot;Tiago and his teams have the rare ability to execute their
-              visions fast, and the even more rare capacity to listen and adapt
-              based on market feedback.&quot; Roel Bergsma
-            </blockquote>
           </div>
         </section>
 

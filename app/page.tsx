@@ -4,35 +4,35 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title:
-    'Fractional & Interim Technical Talent Acquisition for Consumer Product Companies',
+  title: 'Consumer Economic Theory Research & Engineering Lab',
   description:
-    "Notacompany provides fractional and interim technical talent acquisition for the world's most ambitious consumer product companies. By engineers, for engineers. Our 100% engineering team focuses exclusively on the top 0.01% of global engineering talent for 3-12 month engagements.",
+    'Notacompany is a consumer economic theory research and engineering lab. By engineers, for researchers. Our 100% engineering team conducts research on consumer behavior, decision-making patterns, and market dynamics while building real consumer products as co-creations.',
   keywords: [
-    'fractional technical talent acquisition',
-    'interim technical talent acquisition',
-    'consumer product companies',
-    'technical talent placement',
-    'by engineers for engineers',
+    'consumer economic theory',
+    'consumer behavior research',
+    'behavioral economics',
+    'economic modeling',
+    'consumer decision-making',
+    'market behavior analysis',
+    'by engineers for researchers',
     '100% engineers team',
-    'engineering-led talent acquisition',
-    'interim CTO services',
-    'VP Engineering placement',
-    'fractional CTO placement',
-    'senior engineer placement',
-    'startup technical talent',
+    'engineering-led research',
+    'consumer psychology research',
+    'economic research lab',
+    'consumer product co-creation',
   ],
   openGraph: {
-    title: 'Fractional & Interim Technical Talent Acquisition - notacompany.com',
+    title:
+      'Consumer Economic Theory Research & Engineering Lab - notacompany.com',
     description:
-      'Expert fractional and interim technical talent acquisition for ambitious consumer product companies. By engineers, for engineers. We focus exclusively on the top 0.01% of global engineering talent for 3-12 month engagements.',
+      'Consumer economic theory research and engineering lab. By engineers, for researchers. We conduct research on consumer behavior and market dynamics while building real consumer products as co-creations.',
     url: 'https://notacompany.com',
     images: [
       {
         url: '/og-home.png',
         width: 1200,
         height: 630,
-        alt: 'notacompany.com homepage - Fractional & Interim Talent Acquisition',
+        alt: 'notacompany.com homepage - Consumer Economic Theory Research Lab',
       },
     ],
   },
@@ -51,28 +51,19 @@ export default function HomePage() {
         {/* Hero Section */}
         <section className='mb-8 md:mb-12'>
           <h2 className='text-xl sm:text-2xl md:text-3xl font-bold mb-6 leading-tight text-balance'>
-            Notacompany provides fractional and interim technical talent
-            acquisition for the world&apos;s most ambitious consumer product
-            companies.
+            Notacompany is a consumer economic theory research and engineering
+            lab.
           </h2>
           <div className='space-y-3'>
             <p className='text-base sm:text-lg text-gray-700 leading-relaxed'>
-              We focus exclusively on the top 0.01% of global engineering talent.
+              We conduct research on consumer decision-making patterns,
+              behavioral economics, and develop practical applications.
             </p>
             <p className='text-base sm:text-lg text-gray-700 leading-relaxed'>
-              <strong>By engineers, for engineers.</strong> Our team is made up of 100% engineers who know the drill - we understand the real challenges, technical decisions, and day-to-day realities of building consumer products.
+              Our methods have consistently amplified user adoption and
+              retention for consumer products.
             </p>
           </div>
-        </section>
-
-        {/* Services Overview */}
-        <section className='mb-8 md:mb-12'>
-          <h3 className='text-lg sm:text-xl font-bold mb-4 border-b border-black pb-2'>
-            Consumer Experience Focused Service:
-          </h3>
-          <ul className='space-y-3 text-base sm:text-lg'>
-            <li>- Fractional & Interim Technical Talent Acquisition</li>
-          </ul>
         </section>
 
         {/* Quick Links */}
@@ -82,35 +73,17 @@ export default function HomePage() {
           </h3>
           <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 text-base sm:text-lg'>
             <div>
-              <h4 className='font-bold mb-3'>Our Work:</h4>
+              <h4 className='font-bold mb-3'>Our Research:</h4>
               <ul className='space-y-2'>
-                <li>
-                  <Link href='/services' className='hover:underline'>
-                    → Services
-                  </Link>
-                </li>
                 <li>
                   <Link href='/clients' className='hover:underline'>
                     → Past Service Clients
                   </Link>
                 </li>
                 <li>
-                  <Link href='/creations' className='hover:underline'>
-                    → Our Co-Creations
+                  <Link href='/co-creations' className='hover:underline'>
+                    → Co-Creations
                   </Link>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h4 className='font-bold mb-3'>Contact:</h4>
-              <ul className='space-y-2'>
-                <li>
-                  <a
-                    href='mailto:hey@notacompany.com'
-                    className='hover:underline'
-                  >
-                    → hey@notacompany.com
-                  </a>
                 </li>
               </ul>
             </div>
@@ -123,7 +96,7 @@ export default function HomePage() {
             Contact:
           </h3>
           <p className='text-base sm:text-lg'>
-            For inquiries:{' '}
+            For research collaboration or inquiries:{' '}
             <a
               href='mailto:hey@notacompany.com'
               className='underline break-all'

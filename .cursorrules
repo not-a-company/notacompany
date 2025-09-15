@@ -2,232 +2,88 @@
 
 ## Project Overview
 
-**notacompany.com** is a **high-performance**, **SEO-optimized** website providing technical advisory and interim talent acquisition services for ambitious consumer product companies. This Next.js website serves as the marketing platform for our dual services.
+**notacompany.com** is a **high-performance**, **SEO-optimized** consumer economic theory research and engineering lab website.
 
 ### Business Context
-- **Services**: 
-  1. **Product Team & Infrastructure Optimization Advisory** (primary)
-  2. **Interim Technical Talent Acquisition** (secondary)
-- **Focus**: Technical team optimization + senior talent placement (3-12 month engagements)
-- **Unique Selling Points**: 
-  - Technical team & infrastructure optimization expertise
-  - Consumer product experience focus
-  - Rapid deployment (2-4 weeks from brief to start)
-  - Proven track record with successful exits and acquisitions
-  - Practice what we preach through our own creations
-- **Target Audience**: Ambitious consumer product companies, startups, scale-ups
+- **Focus**: Consumer behavior research and market dynamics analysis
+- **Approach**: Real-world validation through consumer product co-creations  
+- **Team**: 100% engineers conducting research
+- **Target Audience**: Research collaborators and potential clients
 - **Contact**: hey@notacompany.com
 
 ### Website Purpose
-- Showcase dual services (advisory + talent acquisition)
-- Drive inquiries through email contact
-- Establish credibility and expertise in consumer products
-- Present our own creations as proof of capability
-- Deliver **unbelievably fast** performance
+- Showcase consumer economic theory research expertise
+- Present co-creations as research validation
+- Drive research collaboration inquiries
+- Establish credibility in consumer behavior analysis
 
-## Tech Stack & Architecture - **Ultra-Optimized**
+## Tech Stack - **Ultra-Optimized**
 
-### Core Technologies
-- **Framework**: Next.js 15.5.3 with App Router (Static Generation)
-- **Runtime**: React 19.1.1
+- **Framework**: Next.js 15.5.3 (App Router, Static Generation)
+- **Runtime**: React 19.1.1  
 - **Language**: TypeScript 5.0.2
 - **Styling**: Tailwind CSS 4.1.9 (minimal, optimized)
 - **Fonts**: System font stack (zero external requests)
-- **UI Components**: Custom components (no external UI libraries)
-- **Package Manager**: pnpm
-- **Deployment**: Vercel (globally cached)
 - **Analytics**: Vercel Analytics + Speed Insights
+- **Deployment**: Vercel (globally cached)
 
-### Key Pages (4 total)
-- `app/page.tsx`: Homepage with dual service overview
-- `app/layout.tsx`: Root layout with comprehensive meta tags and analytics
-- `app/services/page.tsx`: Detailed service offerings (advisory + talent)
-- `app/clients/page.tsx`: Client showcase and testimonials
-- `app/creations/page.tsx`: Our own product creations and exits
+### Pages (3 total)
+- `app/page.tsx`: Homepage - research lab overview
+- `app/clients/page.tsx`: Past service clients showcase  
+- `app/co-creations/page.tsx`: Research co-creations & exits
 
-### **Performance Architecture**
-- **Bundle Size**: 102kB shared JS + ~900B per page
-- **Dependencies**: 6 production packages only (vs 67+ before optimization)
-- **Static Generation**: All pages pre-rendered for instant loading
-- **System Fonts**: Zero external font requests for maximum speed
-- **Mobile-First**: Responsive hamburger menu, touch-optimized
+### Performance Targets
+- **Bundle Size**: < 110kB shared JavaScript
+- **LCP**: < 1.2s | **FID**: < 100ms | **CLS**: 0
+- **Dependencies**: < 10 production packages
+- **Build Time**: < 2 seconds
 
 ## Development Guidelines
 
-### Code Quality Standards
-
-#### ⚠️ MANDATORY: Pre-Commit Linting
-**ALWAYS run these commands before committing ANY changes:**
-
+### Code Quality Standards (MANDATORY)
 ```bash
-# Step 1: Auto-fix all possible issues
-pnpm run fix-all
-
-# Step 2: Verify everything passes
-pnpm run check-all
+# ALWAYS run before committing
+pnpm run fix-all       # Auto-fix everything  
+pnpm run check-all     # Verify all passes
 ```
 
-**Never commit code that fails linting or formatting checks.**
+### Code Style
+- **TypeScript**: Strict settings, explicit types, avoid `any`
+- **React/Next.js**: App Router patterns, Server Components preferred
+- **Performance**: System fonts only, minimal dependencies
+- **Styling**: Tailwind utility classes, mobile-first responsive
 
-#### Available Quality Commands
-```bash
-pnpm run format         # Format with Prettier
-pnpm run lint           # ESLint (warnings allowed)
-pnpm run lint:strict    # ESLint with zero warnings
-pnpm run lint:fix       # Auto-fix ESLint issues
-pnpm run type-check     # TypeScript validation
-pnpm run check-all      # Full validation pipeline
-pnpm run fix-all        # Auto-fix + validation
-```
+### Content Guidelines
+- **Professional yet approachable** tone
+- **Emphasize research expertise** and consumer behavior understanding
+- **Position co-creations** as research validation, not just products
+- **Focus on collaboration** and research applications
 
-### Code Style Preferences
-
-#### TypeScript
-- Use strict TypeScript settings
-- Prefer explicit types for function parameters and return types
-- Use proper typing for React components and props
-- Avoid `any` types - use `unknown` or specific types
-
-#### React/Next.js
-- Use App Router patterns (not Pages Router)
-- Prefer Server Components when possible
-- Use Client Components (`'use client'`) only when necessary (header menu only)
-- Always use Next.js `<Link />` component instead of `<a>` tags for internal navigation
-- Follow React 19 patterns and best practices
-
-#### Performance Requirements
-- **System fonts only** - never add Google Fonts or external font requests
-- **Minimal dependencies** - avoid adding UI libraries, use custom components
-- **Mobile-first responsive design** with hamburger menu
-- **Optimize for Core Web Vitals** (LCP < 1.2s, FID < 100ms, CLS = 0)
-
-#### Styling
-- Use Tailwind CSS utility classes (minimal, optimized build)
-- Follow mobile-first responsive design
-- Maintain consistent spacing and typography
-- Use semantic HTML elements
-- **System font stack**: `font-mono` class for monospace text
-
-#### Import Organization
-```typescript
-// 1. Node/built-in modules
-import { useState } from 'react'
-
-// 2. External libraries (minimal)
-import Link from 'next/link'
-
-// 3. Internal modules
-import SiteHeader from '@/components/site-header'
-```
-
-### Performance Considerations
-- **NO external font requests** - use system fonts only
-- **Minimal JavaScript** - current bundle ~102kB shared
-- **Static generation** for all pages (no server-side rendering)
-- **Optimized images** using Next.js `<Image />` component
-- **Aggressive caching** via Vercel configuration
-- Monitor Core Web Vitals through Vercel Speed Insights
-
-### SEO Requirements
-- Maintain comprehensive meta tags in all page files
-- Use semantic HTML structure
-- Ensure accessibility compliance (ARIA, proper headings)
-- **Structured data** (JSON-LD) in layout.tsx
-- **Sitemap.xml** and **robots.txt** in public folder
-
-## Content Guidelines
-
-### Brand Voice
-- **Professional yet approachable**
-- **Focus on results and execution**  
-- **Emphasize technical optimization expertise**
-- **Highlight dual service offering** (advisory + talent)
-- **Use clear, benefit-driven language**
-
-### Key Messages
-- **Product Team & Infrastructure Optimization Advisory** (primary service)
-- Interim technical talent acquisition specialization
-- Consumer product experience focus
-- Rapid deployment and results
-- Proven track record with exits and acquisitions  
-- Practice what we preach through our own creations
-
-### Service Positioning
-**Primary**: Technical advisory for team & infrastructure optimization
-**Secondary**: Interim talent acquisition for senior roles
-**Combined Value**: Complete technical optimization solution
-
-### Content Updates
-When updating content, ensure:
-- **Advisory service** is positioned as primary offering
-- Business information remains consistent across all pages
-- Contact information is up to date (hey@notacompany.com)
-- Client list and testimonials are current
-- Services accurately reflect dual offering
+## Performance Requirements (CRITICAL)
+- **System fonts only** - never add Google Fonts
+- **Minimal JavaScript** - maintain ~102kB shared bundle
+- **Static generation** for all pages  
+- **Mobile-first responsive** design
+- **Zero external font requests**
 
 ## AI Assistant Guidelines
 
-### When Helping with Code
-1. **Always prioritize performance** - maintain ultra-fast loading times
-2. **Follow existing patterns** - maintain consistency with current codebase
-3. **Consider mobile-first** - ensure responsive design with hamburger menu
-4. **Maintain SEO** - preserve or enhance SEO elements
-5. **System fonts only** - never add external font requests
-6. **Minimal dependencies** - avoid adding unnecessary packages
-
-### When Suggesting Features
-- Focus on conversion optimization (driving inquiries)
-- Consider user experience for potential clients
-- Maintain the professional, results-focused brand image
-- Keep dual service model in mind (advisory + talent placement)
-- **Performance first** - ensure any additions don't slow down the site
+### When Making Changes
+1. **Always prioritize performance** - maintain ultra-fast loading
+2. **Follow existing patterns** - consistency with current codebase  
+3. **Consider mobile-first** - hamburger menu, touch-optimized
+4. **Maintain SEO** - preserve comprehensive meta tags
+5. **Research lab focus** - position as consumer behavior research experts
 
 ### When Updating Content
-- Stay true to the notacompany.com brand voice
-- **Advisory service first** - position as primary service
-- Verify business information accuracy
-- Consider SEO implications
-- Maintain focus on consumer product expertise
+- **Research-first positioning** - emphasize consumer economic theory
+- **Co-creations as validation** - research experiments, not just products
+- **Professional credibility** - highlight engineering expertise in research
+- **Collaboration focus** - invite research partnerships
 
-### Performance Guidelines
-1. **Bundle size** - keep shared JS under 110kB
-2. **Dependencies** - avoid adding new packages unless critical
-3. **Build time** - maintain sub-2s build times
-4. **Core Web Vitals** - optimize for perfect scores
-5. **System fonts** - never add external font requests
+### File Naming & Structure
+- Use kebab-case: `site-header.tsx`
+- PascalCase components: `SiteHeader` 
+- Keep architecture simple and performant
 
-### Debugging Approach
-1. Check linting output first: `pnpm run lint`
-2. Verify TypeScript errors: `pnpm run type-check`  
-3. Test build process: `pnpm run build`
-4. Use comprehensive checks: `pnpm run check-all`
-5. Test performance impact of any changes
-
-## File Naming Conventions
-- Use kebab-case for file names: `site-header.tsx`
-- Use PascalCase for React components: `SiteHeader`
-- Use camelCase for utilities and hooks: `useNavigation`
-
-## Git Workflow
-1. Create descriptive branch names: `feature/optimize-performance` or `fix/mobile-navigation`
-2. **ALWAYS run `pnpm run fix-all` before committing**
-3. **ALWAYS run `pnpm run check-all` to verify**
-4. Write clear commit messages following conventional commits
-5. Test the production build before pushing: `pnpm run build`
-
-## Performance Targets
-- **LCP**: < 1.2s (First Contentful Paint)
-- **FID**: < 100ms (First Input Delay)  
-- **CLS**: 0 (Cumulative Layout Shift)
-- **Bundle Size**: < 110kB shared JavaScript
-- **Build Time**: < 2 seconds
-- **Dependencies**: < 10 production packages
-
-## Vercel Deployment
-- **Automatic optimizations** enabled in `next.config.mjs`
-- **Vercel.json** configured for optimal caching
-- **Security headers** implemented
-- **Image optimization** enabled for AVIF/WebP
-- **Global CDN** caching for maximum speed
-
-Remember: This is a **high-performance marketing website** for a real business. All changes must enhance user experience, drive inquiries, and maintain **unbelievably fast** loading times while showcasing our dual service expertise.
+Remember: This is a **high-performance research lab website**. All changes must enhance research credibility, drive collaboration inquiries, and maintain **unbelievably fast** loading times.

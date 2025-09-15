@@ -1,6 +1,6 @@
 # notacompany.com
 
-**Ultra-fast**, **SEO-optimized** technical advisory and interim talent acquisition website for ambitious consumer product companies.
+**Ultra-fast**, **SEO-optimized** consumer economic theory research and engineering lab.
 
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://notacompany.com)
 [![Built with Next.js](https://img.shields.io/badge/Built%20with-Next.js%2015-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
@@ -8,32 +8,29 @@
 
 ## About
 
-**notacompany.com** provides fractional and interim technical talent acquisition services for ambitious consumer product companies. We focus exclusively on the top 0.01% of global engineering talent for flexible engagements from 3-12 months.
+**notacompany.com** is a consumer economic theory research and engineering lab. We conduct research on consumer behavior, decision-making patterns, and market dynamics while building real consumer products as co-creations.
 
-### 🏢 **Our Service**
+### 🔬 **Our Research Focus**
 
-**Fractional & Interim Technical Talent Acquisition**: Elite technical professionals and product designers for flexible engagements with consumer product focus
+**Consumer Economic Theory**: Understanding consumer behavior, behavioral economics, and market dynamics through research and real-world validation
 
-### 🎯 **Our Specialties**
+### 🎯 **Research Areas**
 
-- Fractional CTOs and VP Engineering  
-- Interim CTOs and VP Engineering
-- Senior Full-Stack Engineers
-- AI Engineers
-- Product Engineers with consumer focus
-- Product Designers
-- Payment Rails Engineers
-- DevOps and Infrastructure Engineers
+- Consumer decision-making patterns and behavioral economics
+- Market behavior analysis and economic modeling
+- Consumer psychology and preference formation
+- Digital consumer behavior and platform economics
+- Real-world validation through consumer product co-creations
 
 ### 📈 **Our Track Record**
 
-**Active Co-Creation**: Steps.org (exercise accountability)
-**Successful Exits**: Polkastarter, Coinvision, Codeplace
-**Trusted Clients**: Acreditar, xMoney, Talent Protocol, Bet Protocol, Lime, Parfois, Coflyt, Fisacar
+**Active Co-Creation**: Steps.org (exercise accountability research)
+**Successful Applications**: Polkastarter, Coinvision, Codeplace
+**Research Partners**: Acreditar, xMoney, Talent Protocol, Bet Protocol, Lime, Parfois, Coflyt, Fisacar
 
 ## Tech Stack - **Ultra-Optimized**
 
-This website is built for **maximum performance** and **speed**:
+Built for **maximum performance** and **speed**:
 
 - **Framework**: Next.js 15.5.3 (App Router, Static Generation)
 - **Runtime**: React 19.1.1
@@ -45,70 +42,36 @@ This website is built for **maximum performance** and **speed**:
 
 ## Performance Metrics ⚡
 
-### **Bundle Size** (After Aggressive Optimization)
-
-- **Shared JS**: 102kB (includes React 19, Next.js, Analytics)
+- **Shared JS**: 102kB (React 19, Next.js, Analytics)
 - **Per Page**: ~900B (individual page content)
-- **Total Dependencies**: 6 production packages (vs 67+ before)
-
-### **Load Times** (Expected)
-
-- **First Contentful Paint**: < 0.8s
-- **Largest Contentful Paint**: < 1.2s
-- **Cumulative Layout Shift**: 0 (no external fonts)
-- **Performance Score**: 95-100
-
-### **Network Requests**
-
+- **Dependencies**: 6 production packages only
+- **LCP**: < 1.2s | **FID**: < 100ms | **CLS**: 0
 - **Zero external font requests** (system fonts only)
-- **Zero unused UI library overhead** (removed 40+ packages)
 - **Static generation** for instant loading
 
 ## Development
 
 ### Prerequisites
 
-- Node.js 18.17+
-- pnpm (recommended package manager)
+- Node.js 18.17+ and pnpm
 
 ### Quick Start
 
 ```bash
-# Install dependencies
-pnpm install
-
-# Start development server
-pnpm dev
-
+pnpm install && pnpm dev
 # Open http://localhost:3000
 ```
 
-### Available Scripts
+### Scripts
 
 ```bash
 # Development
-pnpm dev                # Start development server
-pnpm build             # Build for production
-pnpm start             # Start production server
+pnpm dev / build / start
 
 # Code Quality (MANDATORY before commits)
-pnpm lint              # Run ESLint
-pnpm lint:strict       # ESLint with zero warnings
-pnpm lint:fix          # Fix auto-fixable issues
-pnpm format            # Format with Prettier
-pnpm format:check      # Check formatting
-pnpm type-check        # TypeScript validation
-pnpm check-all         # Full project health check
-pnpm fix-all           # Fix formatting + linting issues
-```
-
-### **⚠️ Before Committing**
-
-Always run the comprehensive checks:
-
-```bash
-pnpm run fix-all       # Auto-fix everything possible
-pnpm run check-all     # Verify everything passes
+pnpm fix-all           # Auto-fix everything
+pnpm check-all         # Verify all passes
+pnpm lint / format / type-check
 ```
 
 ## Architecture - **Performance-First**
@@ -116,108 +79,61 @@ pnpm run check-all     # Verify everything passes
 ### Project Structure
 
 ```
-├── app/                # Next.js App Router (4 pages only)
+├── app/                # Next.js App Router (3 pages)
 │   ├── layout.tsx     # Root layout with analytics & meta
-│   ├── page.tsx       # Homepage with services overview
-│   ├── services/      # Technical advisory & talent services
-│   ├── clients/       # Client testimonials & case studies
-│   ├── creations/     # Our co-creations & successful exits
-│   └── globals.css    # Minimal optimized styles (79 lines)
-├── components/        # Reusable UI components (optimized)
-│   ├── site-header.tsx # Responsive header with hamburger menu
+│   ├── page.tsx       # Homepage - research lab overview
+│   ├── clients/       # Past service clients
+│   ├── co-creations/  # Research co-creations & exits
+│   └── globals.css    # Optimized styles
+├── components/        # Reusable UI components
+│   ├── site-header.tsx # Responsive header
 │   └── site-footer.tsx # Minimal footer
 ├── public/            # Static assets + SEO files
-│   ├── robots.txt     # Search engine directives
-│   ├── sitemap.xml    # SEO sitemap
-│   └── *.png          # Optimized images
-├── next.config.mjs    # Vercel-optimized configuration
-└── vercel.json        # Deployment & caching configuration
+├── next.config.mjs    # Vercel-optimized config
+└── vercel.json        # Deployment & caching config
 ```
 
 ### Key Optimizations
 
-- **Mobile-First Design**: Responsive hamburger menu, touch-friendly UI
-- **SEO Maximized**: Comprehensive meta tags, structured data, sitemap
-- **Security Headers**: HSTS, X-Frame-Options, CSP-ready
-- **Caching Strategy**: 1-year static asset cache, optimized headers
+- **Mobile-First**: Responsive design with hamburger menu
+- **SEO Maximized**: Meta tags, structured data, sitemap
+- **Static Generation**: All pages pre-rendered for instant loading
+- **System Fonts**: Zero external requests, instant text rendering
 - **Bundle Splitting**: Minimal JavaScript, aggressive tree-shaking
-- **System Fonts**: Zero external font requests, instant text rendering
-
-### **Performance Features**
-
-- **Static Generation**: All pages pre-rendered (○ symbols)
-- **Image Optimization**: AVIF/WebP formats, responsive sizing
-- **Code Splitting**: Automatic by Next.js, optimized chunks
-- **Tree Shaking**: Removed all unused dependencies
-- **Compression**: Gzip/Brotli enabled
 - **Edge Caching**: Vercel global CDN
 
 ## Content & SEO
 
-### **Comprehensive Meta Tags**
-
 - **OpenGraph**: Social media optimization
-- **Twitter Cards**: Twitter sharing optimization
 - **Structured Data**: JSON-LD business schema
 - **Canonical URLs**: SEO duplicate prevention
-- **Keywords**: Targeted technical advisory terms
+- **Keywords**: Consumer economic theory research terms
 
-### **Pages & Content**
+### Pages
 
-- **Homepage**: Technical advisory + talent acquisition overview
-- **Services**: Detailed service descriptions with outcomes
-- **Clients**: Testimonials and client showcase
-- **Co-Creations**: Our products and successful exits
+- **Homepage**: Consumer economic theory research lab overview
+- **Clients**: Past service clients showcase
+- **Co-Creations**: Research co-creations & successful exits
 
 ## Deployment - **Vercel Ready**
 
-### **Vercel Optimizations**
-
 ```bash
-# Deploy to Vercel
 vercel --prod
 ```
 
-**Automatic Features**:
+**Automatic Features**: Global Edge Caching, Image Optimization, HTTPS, Performance Monitoring
 
-- ✅ Global Edge Caching
-- ✅ Image Optimization at Edge
-- ✅ Automatic HTTPS
-- ✅ Performance Monitoring
-- ✅ Analytics Integration
+## Performance Optimizations
 
-### **Environment Configuration**
+### Bundle Size Reduction (90%+ reduction)
 
-- **Framework**: Auto-detected (Next.js)
-- **Build Command**: `pnpm run build`
-- **Install Command**: `pnpm install`
-- **Runtime**: Node.js 20.x
-
-## Performance Optimizations Applied
-
-### **Bundle Size Reduction** (90%+ reduction)
-
-- ❌ Removed 40+ unused Radix UI components
-- ❌ Removed theme provider and dark mode support
-- ❌ Removed utility libraries (clsx, tailwind-merge)
-- ❌ Removed chart and form libraries
+- ❌ Removed 40+ unused UI components and libraries
 - ✅ Only 6 essential production dependencies
 
-### **Font Optimization** (100% performance gain)
+### Font & CSS Optimization
 
-- ❌ Google Fonts (external requests, render blocking)
-- ✅ System font stack (instant rendering, zero requests)
-
-### **CSS Optimization** (65% reduction)
-
-- **Before**: 224+ lines with unused styles
-- **After**: 79 lines of essential, optimized CSS
-
-### **Build Performance**
-
-- **Build Time**: ~1.3s (ultra-fast)
-- **Bundle Analysis**: Optimized chunks, minimal overlap
-- **Tree Shaking**: Aggressive unused code elimination
+- ❌ Google Fonts → ✅ System font stack (instant rendering)
+- **Build Time**: ~2s (ultra-fast)
 
 ## Contact
 
@@ -226,6 +142,6 @@ vercel --prod
 
 ---
 
-_**Ultra-fast**, **SEO-optimized** technical advisory and interim talent acquisition for ambitious consumer product companies._
+_**Ultra-fast**, **SEO-optimized** consumer economic theory research and engineering lab._
 
 **Performance**: 🚀🚀🚀 **Unbelievably Fast**
