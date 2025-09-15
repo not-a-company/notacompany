@@ -1,0 +1,27 @@
+# Dependencies
+node_modules
+
+# Production builds
+.next
+out
+dist
+
+# Generated files
+.vercel
+.turbo
+
+# Environment files
+.env*
+
+# Logs
+*.log
+
+# Lock files
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Other
+.DS_Store
+public/llms.txt
+public/robots.txt

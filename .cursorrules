@@ -1,0 +1,178 @@
+# Cursor Rules for notacompany.com
+
+## Project Overview
+
+**notacompany.com** is an interim technical talent acquisition company providing exceptional technical talent for ambitious consumer product companies. This Next.js website serves as the marketing platform for our talent placement services.
+
+### Business Context
+- **Service**: Interim technical talent acquisition for consumer product companies
+- **Focus**: 3-12 month engagements for senior technical roles
+- **Unique Selling Points**: 
+  - Consumer product experience focus
+  - Rapid deployment (2-4 weeks from brief to start)
+  - Proven track record with successful exits and acquisitions
+  - Practice what we preach through our own creations
+- **Target Audience**: Ambitious consumer product companies, startups, scale-ups
+- **Contact**: hey@notacompany.com
+
+### Website Purpose
+- Showcase services and past client successes
+- Drive inquiries through email contact
+- Establish credibility and expertise in consumer products
+- Present our own creations as proof of capability
+
+## Tech Stack & Architecture
+
+### Core Technologies
+- **Framework**: Next.js 15.5.3 with App Router
+- **Runtime**: React 19.1.1
+- **Language**: TypeScript 5.0.2
+- **Styling**: Tailwind CSS 4.1.9
+- **UI Components**: Radix UI + shadcn/ui
+- **Package Manager**: pnpm
+- **Deployment**: Vercel
+- **Analytics**: Vercel Analytics + Speed Insights
+
+### Key Files
+- `app/page.tsx`: Main homepage with service overview
+- `app/layout.tsx`: Root layout with meta tags and analytics
+- `app/services/page.tsx`: Detailed service offerings
+- `app/clients/page.tsx`: Past client showcase
+- `app/creations/page.tsx`: Our own product creations
+- `app/opportunities/page.tsx`: Job opportunities
+
+## Development Guidelines
+
+### Code Quality Standards
+
+#### ⚠️ MANDATORY: Pre-Commit Linting
+**ALWAYS run these commands before committing ANY changes:**
+
+```bash
+# Step 1: Auto-fix all possible issues
+pnpm run fix-all
+
+# Step 2: Verify everything passes
+pnpm run check-all
+```
+
+**Never commit code that fails linting or formatting checks.**
+
+#### Available Quality Commands
+```bash
+pnpm run format         # Format with Prettier
+pnpm run lint           # ESLint (warnings allowed)
+pnpm run lint:strict    # ESLint with zero warnings
+pnpm run lint:fix       # Auto-fix ESLint issues
+pnpm run type-check     # TypeScript validation
+pnpm run check-all      # Full validation pipeline
+pnpm run fix-all        # Auto-fix + validation
+```
+
+### Code Style Preferences
+
+#### TypeScript
+- Use strict TypeScript settings
+- Prefer explicit types for function parameters and return types
+- Use proper typing for React components and props
+- Avoid `any` types - use `unknown` or specific types
+
+#### React/Next.js
+- Use App Router patterns (not Pages Router)
+- Prefer Server Components when possible
+- Use Client Components (`'use client'`) only when necessary
+- Always use Next.js `<Image />` component instead of `<img>` tags
+- Follow React 19 patterns and best practices
+
+#### Styling
+- Use Tailwind CSS utility classes
+- Follow mobile-first responsive design
+- Maintain consistent spacing and typography
+- Use semantic HTML elements
+
+#### Import Organization
+```typescript
+// 1. Node/built-in modules
+import { useState } from 'react'
+
+// 2. External libraries  
+import { Button } from '@/components/ui/button'
+
+// 3. Internal modules
+import { cn } from '@/lib/utils'
+```
+
+### Performance Considerations
+- Optimize images using Next.js `<Image />` component
+- Use proper image sizes and formats (AVIF, WebP)
+- Implement lazy loading for below-the-fold content
+- Monitor Core Web Vitals through Vercel Speed Insights
+
+### SEO Requirements
+- Maintain comprehensive meta tags in layout.tsx
+- Use semantic HTML structure
+- Ensure accessibility compliance (ARIA, proper headings)
+
+## Content Guidelines
+
+### Brand Voice
+- **Professional yet approachable**
+- **Focus on results and execution**
+- **Emphasize consumer product expertise**
+- **Highlight practical experience**
+- **Use clear, benefit-driven language**
+
+### Key Messages
+- Interim technical talent acquisition specialization
+- Consumer product experience focus
+- Rapid deployment and results
+- Proven track record with exits and acquisitions
+- Practice what we preach through our own creations
+
+### Content Updates
+When updating content, ensure:
+- Business information remains consistent across all pages
+- Contact information is up to date
+- Client list and testimonials are current
+- Services and pricing are accurately reflected
+
+## AI Assistant Guidelines
+
+### When Helping with Code
+1. **Always prioritize code quality** - suggest running linting commands
+2. **Follow existing patterns** - maintain consistency with current codebase
+3. **Consider performance** - suggest Next.js optimizations when relevant
+4. **Think mobile-first** - ensure responsive design considerations
+5. **Maintain SEO** - preserve or enhance SEO elements
+
+### When Suggesting Features
+- Focus on conversion optimization (driving inquiries)
+- Consider user experience for potential clients
+- Maintain the professional, results-focused brand image
+- Keep the business model in mind (talent placement via email contact)
+
+### When Updating Content
+- Stay true to the notacompany.com brand voice
+- Verify business information accuracy
+- Consider SEO implications
+- Maintain the focus on consumer product expertise
+
+### Debugging Approach
+1. Check linting output first: `pnpm run lint`
+2. Verify TypeScript errors: `pnpm run type-check`  
+3. Test build process: `pnpm run build`
+4. Use comprehensive checks: `pnpm run check-all`
+
+## File Naming Conventions
+- Use kebab-case for file names: `component-name.tsx`
+- Use PascalCase for React components: `ComponentName`
+- Use camelCase for utilities and hooks: `useCustomHook`
+
+## Git Workflow
+1. Create descriptive branch names: `feature/add-testimonials` or `fix/mobile-layout`
+2. **ALWAYS run `pnpm run fix-all` before committing**
+3. **ALWAYS run `pnpm run check-all` to verify**
+4. Write clear commit messages following conventional commits
+5. Test the production build before pushing: `pnpm run build`
+
+Remember: This is a marketing website for a real business. Changes should enhance the user experience and drive inquiries while maintaining the professional, results-focused image.
