@@ -1,6 +1,6 @@
 # notacompany.com
 
-**Ultra-fast**, **SEO-optimized** consumer economic theory research and engineering lab.
+**Ultra-fast**, **SEO-optimized** consumer infrastructure that makes better living effortless.
 
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://notacompany.com)
 [![Built with Next.js](https://img.shields.io/badge/Built%20with-Next.js%2015-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
@@ -8,25 +8,25 @@
 
 ## About
 
-**notacompany.com** is a consumer economic theory research and engineering lab. We conduct research on consumer behavior, decision-making patterns, and market dynamics while building real consumer products as co-creations.
+**notacompany.com** builds consumer infrastructure that makes better living effortless. From health and payments to investing, work, and play — we design and launch the rails that power daily life.
 
-### 🔬 **Our Research Focus**
+### 🏗️ **Our Infrastructure Focus**
 
-**Consumer Economic Theory**: Understanding consumer behavior, behavioral economics, and market dynamics through research and real-world validation
+**Consumer Infrastructure**: Building the foundational systems that enable seamless, effortless experiences across all aspects of modern life
 
-### 🎯 **Research Areas**
+### 🎯 **Infrastructure Areas**
 
-- Consumer decision-making patterns and behavioral economics
-- Market behavior analysis and economic modeling
-- Consumer psychology and preference formation
-- Digital consumer behavior and platform economics
-- Real-world validation through consumer product co-creations
+- Health infrastructure: Wellness, fitness accountability, and behavioral intervention tools
+- Financial infrastructure: Payment processing, investment platforms, and digital banking
+- Work infrastructure: Professional networking, educational ecosystems, and talent platforms
+- Lifestyle infrastructure: Entertainment, transportation, and e-commerce experiences
+- Real-world validation through active consumer product development
 
 ### 📈 **Our Track Record**
 
-**Active Co-Creation**: Steps.org (exercise accountability research)
-**Successful Applications**: Polkastarter, Coinvision, Codeplace
-**Research Partners**: Acreditar, xMoney, Talent Protocol, Bet Protocol, Lime, Parfois, Coflyt, Fisacar
+**Active Infrastructure Project**: Steps.org (health infrastructure for exercise accountability)
+**Successful Infrastructure Exits**: Polkastarter, Coinvision, Codeplace
+**Infrastructure Partners**: Acreditar, xMoney, Talent Protocol, Bet Protocol, Lime, Parfois, Coflyt, Fisacar
 
 ## Tech Stack - **Ultra-Optimized**
 
@@ -81,9 +81,9 @@ pnpm lint / format / type-check
 ```
 ├── app/                # Next.js App Router (3 pages)
 │   ├── layout.tsx     # Root layout with analytics & meta
-│   ├── page.tsx       # Homepage - research lab overview
-│   ├── clients/       # Past service clients
-│   ├── co-creations/  # Research co-creations & exits
+│   ├── page.tsx       # Homepage - consumer infrastructure overview
+│   ├── clients/       # Infrastructure partnership showcase
+│   ├── co-creations/  # Infrastructure projects & exits
 │   └── globals.css    # Optimized styles
 ├── components/        # Reusable UI components
 │   ├── site-header.tsx # Responsive header
@@ -107,13 +107,13 @@ pnpm lint / format / type-check
 - **OpenGraph**: Social media optimization
 - **Structured Data**: JSON-LD business schema
 - **Canonical URLs**: SEO duplicate prevention
-- **Keywords**: Consumer economic theory research terms
+- **Keywords**: Consumer infrastructure and better living terms
 
 ### Pages
 
-- **Homepage**: Consumer economic theory research lab overview
-- **Clients**: Past service clients showcase
-- **Co-Creations**: Research co-creations & successful exits
+- **Homepage**: Consumer infrastructure overview and vision
+- **Clients**: Infrastructure partnership showcase
+- **Co-Creations**: Infrastructure projects & successful exits
 
 ## Deployment - **Vercel Ready**
 
@@ -142,6 +142,6 @@ vercel --prod
 
 ---
 
-_**Ultra-fast**, **SEO-optimized** consumer economic theory research and engineering lab._
+_**Ultra-fast**, **SEO-optimized** consumer infrastructure that makes better living effortless._
 
 **Performance**: 🚀🚀🚀 **Unbelievably Fast**

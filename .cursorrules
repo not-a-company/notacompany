@@ -2,20 +2,20 @@
 
 ## Project Overview
 
-**notacompany.com** is a **high-performance**, **SEO-optimized** consumer economic theory research and engineering lab website.
+**notacompany.com** is a **high-performance**, **SEO-optimized** consumer infrastructure company website.
 
 ### Business Context
-- **Focus**: Consumer behavior research and market dynamics analysis
-- **Approach**: Real-world validation through consumer product co-creations  
-- **Team**: 100% engineers conducting research
-- **Target Audience**: Research collaborators and potential clients
+- **Focus**: Building consumer infrastructure that makes better living effortless
+- **Approach**: Real-world validation through active consumer product development  
+- **Team**: 100% engineers building infrastructure
+- **Target Audience**: Infrastructure partners and potential collaborators
 - **Contact**: hey@notacompany.com
 
 ### Website Purpose
-- Showcase consumer economic theory research expertise
-- Present co-creations as research validation
-- Drive research collaboration inquiries
-- Establish credibility in consumer behavior analysis
+- Showcase consumer infrastructure development expertise
+- Present projects as infrastructure validation
+- Drive infrastructure partnership inquiries
+- Establish credibility in consumer infrastructure development
 
 ## Tech Stack - **Ultra-Optimized**
 
@@ -28,9 +28,9 @@
 - **Deployment**: Vercel (globally cached)
 
 ### Pages (3 total)
-- `app/page.tsx`: Homepage - research lab overview
-- `app/clients/page.tsx`: Past service clients showcase  
-- `app/co-creations/page.tsx`: Research co-creations & exits
+- `app/page.tsx`: Homepage - consumer infrastructure overview
+- `app/clients/page.tsx`: Infrastructure partnership showcase  
+- `app/co-creations/page.tsx`: Infrastructure projects & exits
 
 ### Performance Targets
 - **Bundle Size**: < 110kB shared JavaScript
@@ -55,9 +55,9 @@ pnpm run check-all     # Verify all passes
 
 ### Content Guidelines
 - **Professional yet approachable** tone
-- **Emphasize research expertise** and consumer behavior understanding
-- **Position co-creations** as research validation, not just products
-- **Focus on collaboration** and research applications
+- **Emphasize infrastructure expertise** and consumer empathy
+- **Position projects** as infrastructure validation, not just products
+- **Focus on partnerships** and infrastructure applications
 
 ## Performance Requirements (CRITICAL)
 - **System fonts only** - never add Google Fonts
@@ -73,17 +73,17 @@ pnpm run check-all     # Verify all passes
 2. **Follow existing patterns** - consistency with current codebase  
 3. **Consider mobile-first** - hamburger menu, touch-optimized
 4. **Maintain SEO** - preserve comprehensive meta tags
-5. **Research lab focus** - position as consumer behavior research experts
+5. **Infrastructure focus** - position as consumer infrastructure experts
 
 ### When Updating Content
-- **Research-first positioning** - emphasize consumer economic theory
-- **Co-creations as validation** - research experiments, not just products
-- **Professional credibility** - highlight engineering expertise in research
-- **Collaboration focus** - invite research partnerships
+- **Infrastructure-first positioning** - emphasize consumer infrastructure development
+- **Projects as validation** - infrastructure experiments, not just products
+- **Professional credibility** - highlight engineering expertise in infrastructure
+- **Partnership focus** - invite infrastructure partnerships
 
 ### File Naming & Structure
 - Use kebab-case: `site-header.tsx`
 - PascalCase components: `SiteHeader` 
 - Keep architecture simple and performant
 
-Remember: This is a **high-performance research lab website**. All changes must enhance research credibility, drive collaboration inquiries, and maintain **unbelievably fast** loading times.
+Remember: This is a **high-performance consumer infrastructure website**. All changes must enhance infrastructure credibility, drive partnership inquiries, and maintain **unbelievably fast** loading times.

@@ -3,36 +3,36 @@ import SiteHeader from '@/components/site-header'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Co-Creations - Our Products & Consumer Behavior Studies',
+  title: "What We're Building - Consumer Infrastructure Projects",
   description:
-    'Our team is made up of 100% engineers who actively build consumer products as co-creations alongside consumer economic theory research. Current co-creation: Steps.org for exercise accountability. Past successful exits: Polkastarter, Coinvision, Codeplace. We practice what we research.',
+    'We build consumer infrastructure that makes better living effortless. Current: Steps.org health infrastructure for exercise accountability. Past successful exits: Polkastarter financial infrastructure, Coinvision financial infrastructure, Codeplace work infrastructure. Active validation of our infrastructure approach.',
   keywords: [
-    'Steps.org exercise accountability',
-    'Polkastarter acquisition',
-    'Coinvision blockchain',
-    'Codeplace Ruby education',
-    'consumer product co-creation',
-    '100% engineers team',
-    'engineering-led research',
-    'startup exits',
-    'product development experience',
-    'successful acquisitions',
-    'technical product building',
-    'consumer behavior understanding',
-    'GAD mitigation',
-    'exercise tracking',
+    'Steps.org health infrastructure',
+    'Polkastarter financial infrastructure',
+    'Coinvision financial infrastructure',
+    'Codeplace work infrastructure',
+    'consumer infrastructure projects',
+    'health infrastructure',
+    'financial infrastructure',
+    'work infrastructure',
+    'infrastructure validation',
+    'successful infrastructure exits',
+    'consumer infrastructure development',
+    'better living infrastructure',
+    'GAD mitigation infrastructure',
+    'exercise accountability infrastructure',
   ],
   openGraph: {
-    title: 'Co-Creations - Our Products & Consumer Behavior Studies',
+    title: "What We're Building - Consumer Infrastructure Projects",
     description:
-      'Our team is made up of 100% engineers who actively build consumer products alongside consumer economic theory research. Current: Steps.org for exercise accountability. Past exits: Polkastarter, Coinvision, Codeplace.',
+      'We build consumer infrastructure that makes better living effortless. Current: Steps.org health infrastructure. Past exits: Polkastarter, Coinvision, Codeplace infrastructure projects.',
     url: 'https://notacompany.com/co-creations',
     images: [
       {
         url: '/og-creations.png',
         width: 1200,
         height: 630,
-        alt: 'notacompany.com Co-Creations - Our Products & Consumer Studies',
+        alt: 'notacompany.com - Consumer Infrastructure Projects',
       },
     ],
   },
@@ -50,19 +50,20 @@ export default function CreationsPage() {
       <main className='max-w-4xl mx-auto px-4 md:px-6 py-8 md:py-12'>
         {/* Page Title */}
         <section className='mb-12'>
-          <h2 className='text-3xl font-bold mb-4'>Co-Creations</h2>
+          <h2 className='text-3xl font-bold mb-4'>What We&apos;re Building</h2>
           <div className='space-y-4 text-lg leading-relaxed'>
             <p>
-              <strong>What are co-creations?</strong> Our team is made up of
-              100% engineers who actively build and ship consumer products
-              alongside our consumer economic theory research. We maintain one
-              concurrent active co-creation to stretch our muscles and practice
-              what we research.
+              <strong>Our Infrastructure Projects:</strong> We actively build
+              and ship consumer infrastructure that makes better living
+              effortless. We maintain one concurrent active project to validate
+              our approach and stay current with the evolving needs of modern
+              consumers.
             </p>
             <p>
-              This hands-on approach ensures we stay current with consumer
-              behavior patterns, market dynamics, and the real-world
-              applications of economic theory in digital products.
+              This hands-on approach ensures we understand the real-world
+              challenges of creating infrastructure that millions of people
+              depend on daily across health, payments, investing, work, and
+              lifestyle sectors.
             </p>
           </div>
         </section>
@@ -70,7 +71,7 @@ export default function CreationsPage() {
         {/* Active Co-Creations */}
         <section className='mb-12'>
           <h3 className='text-2xl font-bold mb-6 border-b border-black pb-2'>
-            Active Co-Creations (one active at a time):
+            Active Project:
           </h3>
           <div className='border-2 border-black p-6 bg-gray-50'>
             <div className='flex justify-between items-start mb-4'>
@@ -96,7 +97,7 @@ export default function CreationsPage() {
         {/* Past Co-Creations */}
         <section className='mb-12'>
           <h3 className='text-2xl font-bold mb-6 border-b border-black pb-2'>
-            Past Co-Creations:
+            Past Projects:
           </h3>
           <div className='space-y-6'>
             {/* Acquired Companies */}
@@ -159,10 +160,10 @@ export default function CreationsPage() {
         {/* Contact */}
         <section>
           <h3 className='text-2xl font-bold mb-4 border-b border-black pb-2'>
-            Interested in Our Co-Creations?
+            Interested in Our Projects?
           </h3>
           <p className='text-lg leading-relaxed'>
-            Questions about our current or past co-creations?{' '}
+            Questions about our current or past infrastructure projects?{' '}
             <a href='mailto:hey@notacompany.com' className='underline'>
               hey@notacompany.com
             </a>

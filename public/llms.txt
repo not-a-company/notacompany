@@ -5,74 +5,74 @@
 
 ## About
 
-notacompany.com provides fractional and interim technical talent acquisition for the world's most ambitious consumer product companies. By engineers, for engineers. Our team is made up of 100% engineers who know the drill - we understand the real challenges, technical decisions, and day-to-day realities of building consumer products.
+We build consumer infrastructure that makes better living effortless. From health and payments to investing, work, and play — we design and launch the rails that power daily life.
 
-We focus exclusively on the top 0.01% of global engineering talent.
+Our team consists of engineers who understand the complexities of building consumer-facing products that millions of people rely on every day. We focus on creating the foundational infrastructure that enables seamless, effortless experiences across all aspects of modern life.
 
-## Services
+## Our Work
 
-### Fractional & Interim Technical Talent Acquisition
+### Consumer Infrastructure Development
 
-We source and place exceptional technical talent for consumer product companies on both fractional and interim bases. We focus exclusively on the top 0.01% of global engineering talent - professionals who understand consumer behavior and can build products that users actually want to use.
+We design, build, and launch infrastructure across multiple consumer verticals:
 
-**What we do:**
-- Source senior technical talent for flexible engagements (3-12 months)
-- Fractional leadership roles (20-40 hours per week)
-- Full-time interim positions for critical projects
-- Focus on consumer-facing product experience
-- Rapid deployment (typically 2-4 weeks from brief to start)
-- Ongoing performance management and support
+**Health Infrastructure:**
+- Wellness and fitness accountability systems
+- Health data management and analytics
+- Preventative care and behavioral intervention tools
 
-**Typical roles:**
-- Fractional CTOs and VP Engineering
-- Interim CTOs and VP Engineering
-- Senior Full-Stack Engineers
-- AI Engineers
-- Product Engineers with consumer focus
-- Product Designers
-- Payment Rails Engineers
-- DevOps and Infrastructure Engineers
+**Financial Infrastructure:**
+- Payment processing and settlement rails
+- Investment platforms and portfolio management
+- Digital banking and financial services
 
-**Key problems we solve:**
-- Leadership gaps: Fractional or interim technical leadership during transitions
-- Efficiency optimization: Streamline development processes and eliminate bottlenecks
-- Resource optimization: Maximize team productivity and technology investments
-- Hit by bus problems: Reduce key person dependencies and knowledge silos
-- Security vulnerabilities: Identify and remediate technical and operational risks
-- Culture shifts: Navigate technical team transitions and scaling challenges
+**Work Infrastructure:**
+- Professional networking and talent platforms
+- Educational ecosystems and skill development
+- Career advancement and opportunity matching
+
+**Lifestyle Infrastructure:**
+- Entertainment and gaming platforms
+- Transportation and mobility solutions
+- E-commerce and retail experiences
+
+**What makes our approach different:**
+- Engineering-first mindset with deep consumer empathy
+- Focus on effortless user experiences over feature complexity
+- Infrastructure-level thinking for scalable, lasting solutions
+- Real-world validation through our own consumer product builds
 
 ## Our Team
 
-Our team is made up of 100% engineers who actively build and ship consumer products alongside our talent acquisition work. This hands-on approach ensures we stay current with the latest technologies, development challenges, and market dynamics that our placed talent will face.
+Our team is made up of 100% engineers who actively build and ship consumer products. This hands-on approach ensures we understand the real-world challenges of creating infrastructure that millions of people depend on daily.
 
-## Co-Creations
+## Current Projects
 
-**What are co-creations?** Our team actively builds and ships consumer products alongside our talent acquisition work. We maintain one concurrent active co-creation to stretch our muscles and practice what we preach.
+**What We're Building:** We maintain active consumer infrastructure projects to validate our approach and stay current with the evolving needs of modern consumers.
 
-**Active Co-Creation:**
-- **Steps.org** - Exercise Accountability for GAD mitigation (Contact: hey@steps.org)
+**Active Infrastructure Project:**
+- **Steps.org** - Health infrastructure for exercise accountability and GAD mitigation (Contact: hey@steps.org)
 
-**Past Successful Exits:**
-- **Polkastarter** - Decentralized fundraising platform (ACQUIRED)
-- **Coinvision** - Blockchain due-diligence publication (ACQUIRED)  
-- **Codeplace** - Ruby education ecosystem (ACQUIRED)
+**Past Infrastructure Projects:**
+- **Polkastarter** - Financial infrastructure for decentralized fundraising (ACQUIRED)
+- **Coinvision** - Financial infrastructure for blockchain due-diligence (ACQUIRED)  
+- **Codeplace** - Work infrastructure for Ruby education ecosystem (ACQUIRED)
 
-**Past Learning Experiences:**
-- **Mahalo** - P2P Non-Profit Fundraising Infra (DECEASED)
-- **Songvice** - Music Producer Advisory Market (DECEASED)
+**Learning Experiences:**
+- **Mahalo** - P2P Non-Profit Fundraising Infrastructure (DECEASED)
+- **Songvice** - Music Producer Advisory Infrastructure (DECEASED)
 
-## Past Clients
+## Partnership History
 
-We have provided fractional and interim technical talent placement to leading consumer product companies including:
+We have built consumer infrastructure solutions for leading companies across various sectors:
 
-- **Acreditar** - Portugal's largest non-profit
-- **xMoney** - Digital payment on & off ramp
-- **Talent Protocol** - Decentralized Data Infrastructure
-- **Bet Protocol** - Decentralized betting ecosystem
-- **Lime** - Mobility and transportation
-- **Parfois** - Fashion and retail
-- **Coflyt** - Private Aviation
-- **Fisacar** - Automotive services
+- **Acreditar** - Portugal's largest non-profit organization
+- **xMoney** - Digital payment and financial services infrastructure
+- **Talent Protocol** - Decentralized data infrastructure platform
+- **Bet Protocol** - Decentralized betting ecosystem infrastructure
+- **Lime** - Mobility and transportation infrastructure
+- **Parfois** - Fashion and retail infrastructure
+- **Coflyt** - Private aviation infrastructure
+- **Fisacar** - Automotive services infrastructure
 
 ## Client Testimonials
 
@@ -84,26 +84,26 @@ We have provided fractional and interim technical talent placement to leading co
 
 ## Positioning
 
-**Primary Service:** Fractional & Interim Technical Talent Acquisition
-**Target Market:** Ambitious consumer product companies, startups, scale-ups
-**Unique Value:** By engineers, for engineers - 100% engineering team that understands the real challenges
-**Quality Focus:** Top 0.01% of global engineering talent exclusively
-**Engagement Length:** 3-12 month flexible engagements
-**Deployment Speed:** Typically 2-4 weeks from brief to start
+**Mission:** Building consumer infrastructure that makes better living effortless
+**Focus Areas:** Health, payments, investing, work, and lifestyle infrastructure
+**Unique Value:** Engineering-first approach with deep consumer empathy and infrastructure thinking
+**Validation:** Real-world consumer products with millions of users and successful exits
+**Team:** 100% engineers who build the infrastructure they design
+**Approach:** Infrastructure-level solutions for scalable, lasting consumer experiences
 
 ## Key Differentiators
 
-- 100% engineering team (no traditional recruiters)
-- Active product builders who practice what they preach
-- Deep consumer product experience across multiple verticals
-- Proven track record with successful exits and acquisitions
-- Network of exceptional technical talent
-- Focus on practical, actionable expertise
-- Rapid deployment capabilities
+- 100% engineering team with hands-on consumer infrastructure experience
+- Active infrastructure builders who validate their own approaches
+- Deep understanding of consumer behavior and infrastructure needs
+- Proven track record with successful exits and scale
+- Focus on effortless user experiences over feature complexity
+- Infrastructure-level thinking for maximum impact and sustainability
+- Real-world validation through consumer product development
 
 ## Contact Information
 
 **Email:** hey@notacompany.com
 **Website:** https://notacompany.com
 
-For inquiries about fractional or interim technical talent placement, contact hey@notacompany.com.
+For inquiries about consumer infrastructure partnerships or collaboration, contact hey@notacompany.com.
