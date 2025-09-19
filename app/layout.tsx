@@ -7,26 +7,24 @@ import './globals.css'
 export const metadata: Metadata = {
   metadataBase: new URL('https://notacompany.com'),
   title: {
-    default:
-      'notacompany.com - Fractional & Interim Technical Talent Acquisition',
+    default: 'notacompany.com - Consumer Infrastructure Development',
     template: '%s | notacompany.com',
   },
   description:
-    'Fractional and interim technical talent acquisition for ambitious consumer product companies. By engineers, for engineers. We focus exclusively on the top 0.01% of global engineering talent for 3-12 month engagements.',
+    'Building consumer infrastructure that makes better living effortless. From health and payments to investing, work, and play — we design and launch the rails that power daily life.',
   keywords: [
-    'fractional technical talent acquisition',
-    'interim technical talent acquisition',
-    'consumer product companies',
-    'by engineers for engineers',
-    '100% engineers team',
-    'engineering-led talent acquisition',
-    'fractional CTO placement',
-    'interim CTO placement',
-    'VP Engineering placement',
-    'technical talent placement',
-    'product designer placement',
-    'payment rails engineer placement',
-    'startup technical talent',
+    'consumer infrastructure',
+    'health infrastructure',
+    'payment infrastructure',
+    'financial infrastructure',
+    'work infrastructure',
+    'lifestyle infrastructure',
+    'consumer product development',
+    'infrastructure development',
+    'engineering team',
+    '100% engineers',
+    'consumer empathy',
+    'infrastructure thinking',
   ],
   authors: [{ name: 'notacompany.com' }],
   creator: 'notacompany.com',
@@ -47,24 +45,23 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://notacompany.com',
     siteName: 'notacompany.com',
-    title:
-      'Fractional & Interim Technical Talent Acquisition for Consumer Product Companies',
+    title: 'Consumer Infrastructure Development - notacompany.com',
     description:
-      'Expert fractional and interim technical talent acquisition services. By engineers, for engineers. We focus exclusively on the top 0.01% of global engineering talent.',
+      'Building consumer infrastructure that makes better living effortless. From health and payments to investing, work, and play — we design and launch the rails that power daily life.',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'notacompany.com - Fractional & Interim Technical Talent Acquisition',
+        alt: 'notacompany.com - Consumer Infrastructure Development',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Fractional & Interim Technical Talent Acquisition',
+    title: 'Consumer Infrastructure Development',
     description:
-      'Expert fractional and interim technical talent acquisition for consumer product companies. By engineers, for engineers.',
+      'Building consumer infrastructure that makes better living effortless. From health and payments to investing, work, and play.',
     images: ['/og-image.png'],
     creator: '@notacompany',
   },
@@ -75,7 +72,24 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://notacompany.com',
   },
-  category: 'Business Services',
+  category: 'Technology',
+  icons: {
+    icon: [
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+    other: [
+      {
+        rel: 'mask-icon',
+        url: '/safari-pinned-tab.svg',
+        color: '#000000',
+      },
+    ],
+  },
+  manifest: '/site.webmanifest',
 }
 
 export default function RootLayout({
@@ -86,29 +100,34 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <head>
+        {/* Favicon and Icons */}
+        <link rel='icon' type='image/x-icon' href='/favicon.ico' />
+        <link rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png' />
+        <link rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png' />
+        <link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png' />
+        <link rel='manifest' href='/site.webmanifest' />
+        <meta name='theme-color' content='#000000' />
+        
         <link rel='preconnect' href='https://vercel.live' />
         <link rel='dns-prefetch' href='https://vercel.live' />
-        <link rel='prefetch' href='/services' />
         <link rel='prefetch' href='/clients' />
-        <link rel='prefetch' href='/creations' />
+        <link rel='prefetch' href='/co-creations' />
 
-        {/* Structured Data for Business */}
+        {/* Structured Data for Technology Organization */}
         <script
           type='application/ld+json'
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               '@context': 'https://schema.org',
-              '@type': 'ProfessionalService',
+              '@type': 'Organization',
               name: 'notacompany.com',
               url: 'https://notacompany.com',
-              logo: 'https://notacompany.com/logo.png',
+              logo: 'https://notacompany.com/android-chrome-512x512.png',
               description:
-                'Fractional and interim technical talent acquisition for ambitious consumer product companies. By engineers, for engineers. We focus exclusively on the top 0.01% of global engineering talent.',
-              serviceType: [
-                'Fractional Technical Talent Acquisition',
-                'Interim Technical Talent Acquisition',
-                'Technical Talent Placement',
-              ],
+                'Building consumer infrastructure that makes better living effortless. From health and payments to investing, work, and play — we design and launch the rails that power daily life.',
+              foundingDate: '2020',
+              industry: 'Consumer Infrastructure',
+              keywords: 'consumer infrastructure, health infrastructure, payment infrastructure, financial infrastructure, work infrastructure, lifestyle infrastructure',
               areaServed: 'Worldwide',
               contactPoint: {
                 '@type': 'ContactPoint',
@@ -116,20 +135,14 @@ export default function RootLayout({
                 contactType: 'Business Inquiries',
               },
               sameAs: ['https://notacompany.com'],
-              hasOfferCatalog: {
-                '@type': 'OfferCatalog',
-                name: 'Technical Talent Acquisition Services',
-                itemListElement: [
-                  {
-                    '@type': 'Offer',
-                    itemOffered: {
-                      '@type': 'Service',
-                      name: 'Fractional & Interim Technical Talent Acquisition',
-                      description:
-                        'We source and place the top 0.01% of global engineering talent for flexible 3-12 month engagements, including fractional CTOs, VPs Engineering, senior engineers, product designers, and payment rails engineers.',
-                    },
-                  },
-                ],
+              makesOffer: {
+                '@type': 'Offer',
+                itemOffered: {
+                  '@type': 'Service',
+                  name: 'Consumer Infrastructure Development',
+                  description:
+                    'We design, build, and launch infrastructure across multiple consumer verticals including health, payments, investing, work, and lifestyle. Our engineering-first approach with deep consumer empathy creates infrastructure-level solutions for scalable, lasting consumer experiences.',
+                },
               },
             }),
           }}
