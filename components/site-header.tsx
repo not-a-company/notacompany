@@ -9,8 +9,7 @@ interface SiteHeaderProps {
 
 const navigationLinks = [
   { href: '/', label: 'Home', page: 'home' },
-  { href: '/clients', label: 'Clients', page: 'clients' },
-  { href: '/co-creations', label: 'Co-Creations', page: 'creations' },
+  { href: '/portfolio', label: 'Portfolio', page: 'portfolio' },
 ] as const
 
 export default function SiteHeader({ currentPage = 'home' }: SiteHeaderProps) {

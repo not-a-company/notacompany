@@ -1,0 +1,63 @@
+# xMoney
+
+**Brand:** xMoney
+**Tagline:** Stablecoin payments on & off ramp infrastructure
+**Website:** https://www.xmoney.com/
+**Year of Involvement:** 2022
+**Our Role:** Strategic advisory role
+**Portfolio:** https://notacompany.com/portfolio/xmoney
+
+## About xMoney
+
+
+# xMoney
+
+xMoney is a financial infrastructure platform that specializes in stablecoin payment processing and fiat currency conversion. The platform serves as a critical bridge between traditional banking systems and the emerging stablecoin economy, enabling seamless on-ramp and off-ramp services for digital assets.
+
+## Core Infrastructure
+
+xMoney provides essential financial infrastructure including:
+
+- **Stablecoin Processing**: Advanced payment processing specifically designed for stablecoin transactions
+- **Fiat On-Ramps**: Streamlined conversion from traditional currencies to stablecoins
+- **Fiat Off-Ramps**: Efficient conversion from stablecoins back to traditional banking systems
+- **Compliance Framework**: Regulatory-compliant infrastructure that meets banking and financial services requirements
+- **API Integration**: Developer-friendly APIs that enable third-party platforms to integrate stablecoin functionality
+
+## Market Position
+
+The platform addresses critical gaps in digital asset infrastructure:
+
+- **Regulatory Compliance**: Navigating complex financial regulations while maintaining stablecoin functionality
+- **Banking Partnerships**: Establishing relationships with traditional financial institutions to enable fiat conversions
+- **Technical Reliability**: Ensuring consistent uptime and transaction processing for mission-critical payments
+- **Global Accessibility**: Supporting stablecoin adoption across different jurisdictions and regulatory environments
+
+xMoney represents the infrastructure layer that enables stablecoins to function effectively in real-world commerce and financial applications, providing the rails necessary for mainstream adoption of digital asset payments.
+
+
+## Our Involvement
+
+notacompany.com's involvement with xMoney includes: Strategic advisory role.
+
+This partnership represents our commitment to building consumer infrastructure that makes better living effortless across strategic advisory and partnership development.
+
+## Brand Details
+
+**Category:** Consumer Infrastructure
+**Focus Area:** Financial Infrastructure
+**Year:** 2022
+**Status:** Active
+
+## Related Portfolio
+
+Explore our complete portfolio of consumer infrastructure brands at https://notacompany.com/portfolio
+
+## Contact
+
+For questions about xMoney or our consumer infrastructure work:
+**Email:** hey@notacompany.com
+**Website:** https://notacompany.com
+**Portfolio:** https://notacompany.com/portfolio
+
+Building consumer infrastructure that makes better living effortless.

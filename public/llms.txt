@@ -1,109 +1,114 @@
 # notacompany.com
 
-**Website:** https://notacompany.com
+**Website:** https://notacompany.com  
+**Portfolio:** https://notacompany.com/portfolio  
 **Contact:** hey@notacompany.com
 
 ## About
 
 We build consumer infrastructure that makes better living effortless. From health and payments to investing, work, and play — we design and launch the rails that power daily life.
 
-Our team consists of engineers who understand the complexities of building consumer-facing products that millions of people rely on every day. We focus on creating the foundational infrastructure that enables seamless, effortless experiences across all aspects of modern life.
+Our team consists of 100% engineers who understand the complexities of building consumer-facing products that millions of people rely on every day. We focus on creating the foundational infrastructure that enables seamless, effortless experiences across all aspects of modern life.
 
-## Our Work
+## Our Portfolio
 
-### Consumer Infrastructure Development
+We have been involved with 17 consumer infrastructure brands across creation, investment, advisory, and successful exits:
 
-We design, build, and launch infrastructure across multiple consumer verticals:
+### Active Creations (2025)
+- **Steps.org** - Exercise accountability infrastructure for depression and anxiety management through dual accountability protocol combining financial consequences and human support. Health infrastructure that makes daily exercise non-negotiable for mental health improvement.
+- **Superstables** - Institutional-scale stablecoin to fiat conversion infrastructure enabling reliable, compliant pathways for large-volume financial transactions.
+
+### Advisory & Investment Portfolio
+- **Acreditar** (2024) - Portugal's largest children's cancer support foundation providing multi-dimensional healthcare infrastructure
+- **xMoney** (2022) - Stablecoin payments infrastructure specializing in on-ramp and off-ramp services between digital assets and traditional banking
+- **Talent Protocol** (2021) - Decentralized professional reputation infrastructure enabling career tokenization and merit-based talent discovery
+- **Lime** (2019) - Shared electric mobility infrastructure transforming urban transportation through micro-mobility solutions
+- **CoFlyt** (2019) - Private aviation charter and management platform streamlining aircraft operations through technology integration
+- **Bet Protocol** (2019) - Decentralized task marketplace infrastructure enabling trustless bounty systems and global work coordination
+- **Fisacar** (2017) - Automotive services infrastructure modernizing vehicle maintenance through digital platform integration
+- **Coinvision** (2018) - Cryptocurrency investment analysis infrastructure providing institutional-grade due diligence and market intelligence
+- **SoSquared** (2023) - All-in-one influencer marketing infrastructure bridging brands with content creators through data-driven solutions
+
+### Successful Exits
+- **Nexo** (2018) - Comprehensive cryptocurrency wealth management platform with $11+ billion in assets under management, providing savings, lending, and trading infrastructure (investment, exited)
+- **Polkastarter** (2020) - Decentralized fundraising and token launch infrastructure enabling blockchain projects to raise capital through IDOs (advisory, investment, exited)
+- **Codeplace** (2013) - Project-based programming education infrastructure serving 100k+ students, successfully exited and evolved into Code for All_
+
+### Learning Experiences
+- **impactMarket** (2020) - Universal Basic Income infrastructure platform using blockchain technology for global poverty alleviation and social impact (investment, deceased)
+- **Mahalo** (2023) - Non-profit fundraising infrastructure platform focused on P2P charitable giving and transparency systems (creation, deceased)
+- **Songvice** (2011) - Music producer advisory infrastructure connecting musicians with industry professionals for education and collaboration (creation, deceased)
+
+## Infrastructure Focus Areas
 
 **Health Infrastructure:**
-- Wellness and fitness accountability systems
-- Health data management and analytics
-- Preventative care and behavioral intervention tools
+- Mental health and wellness accountability systems (Steps.org)
+- Healthcare support and family assistance networks (Acreditar)
 
 **Financial Infrastructure:**
-- Payment processing and settlement rails
-- Investment platforms and portfolio management
-- Digital banking and financial services
+- Stablecoin and digital asset payment processing (xMoney, Superstables)
+- Investment analysis and due diligence platforms (Coinvision)
+- Decentralized fundraising and token launch platforms (Polkastarter)
+- Comprehensive cryptocurrency wealth management platforms (Nexo)
 
-**Work Infrastructure:**
-- Professional networking and talent platforms
-- Educational ecosystems and skill development
-- Career advancement and opportunity matching
+**Professional Infrastructure:**
+- Career development and reputation systems (Talent Protocol)
+- Task marketplace and remote work coordination (Bet Protocol)
+- Education and skill development platforms (Codeplace)
 
-**Lifestyle Infrastructure:**
-- Entertainment and gaming platforms
-- Transportation and mobility solutions
-- E-commerce and retail experiences
+**Mobility Infrastructure:**
+- Urban transportation and micro-mobility solutions (Lime)
+- Private aviation and charter services (CoFlyt)
+- Automotive services and vehicle management (Fisacar)
 
-**What makes our approach different:**
-- Engineering-first mindset with deep consumer empathy
-- Focus on effortless user experiences over feature complexity
-- Infrastructure-level thinking for scalable, lasting solutions
-- Real-world validation through our own consumer product builds
+**Marketing Infrastructure:**
+- Influencer marketing and content creator networks (SoSquared)
 
-## Our Team
+**Social Impact Infrastructure:**
+- Universal Basic Income and poverty alleviation systems (impactMarket)
 
-Our team is made up of 100% engineers who actively build and ship consumer products. This hands-on approach ensures we understand the real-world challenges of creating infrastructure that millions of people depend on daily.
+## Our Approach
 
-## Current Projects
-
-**What We're Building:** We maintain active consumer infrastructure projects to validate our approach and stay current with the evolving needs of modern consumers.
-
-**Active Infrastructure Project:**
-- **Steps.org** - Health infrastructure for exercise accountability and GAD mitigation (Contact: hey@steps.org)
-
-**Past Infrastructure Projects:**
-- **Polkastarter** - Financial infrastructure for decentralized fundraising (ACQUIRED)
-- **Coinvision** - Financial infrastructure for blockchain due-diligence (ACQUIRED)  
-- **Codeplace** - Work infrastructure for Ruby education ecosystem (ACQUIRED)
-
-**Learning Experiences:**
-- **Mahalo** - P2P Non-Profit Fundraising Infrastructure (DECEASED)
-- **Songvice** - Music Producer Advisory Infrastructure (DECEASED)
-
-## Partnership History
-
-We have built consumer infrastructure solutions for leading companies across various sectors:
-
-- **Acreditar** - Portugal's largest non-profit organization
-- **xMoney** - Digital payment and financial services infrastructure
-- **Talent Protocol** - Decentralized data infrastructure platform
-- **Bet Protocol** - Decentralized betting ecosystem infrastructure
-- **Lime** - Mobility and transportation infrastructure
-- **Parfois** - Fashion and retail infrastructure
-- **Coflyt** - Private aviation infrastructure
-- **Fisacar** - Automotive services infrastructure
-
-## Client Testimonials
-
-> "Tiago has a no nonsense and no bullshit attitude. Tiago gets stuff done and he is a very strong executer. Tiago also has the ability to think in network and he has shown that he can attract some of the best people work with him." - Rune Theill
-
-> "Their understanding of consumer products and technical execution is unmatched." - Felipe Avila da Costa
-
-> "Tiago and his teams have the rare ability to execute their visions fast, and the even more rare capacity to listen and adapt based on market feedback." - Roel Bergsma
-
-## Positioning
-
-**Mission:** Building consumer infrastructure that makes better living effortless
-**Focus Areas:** Health, payments, investing, work, and lifestyle infrastructure
-**Unique Value:** Engineering-first approach with deep consumer empathy and infrastructure thinking
-**Validation:** Real-world consumer products with millions of users and successful exits
-**Team:** 100% engineers who build the infrastructure they design
-**Approach:** Infrastructure-level solutions for scalable, lasting consumer experiences
+**Engineering-First Mindset:** 100% engineering team with hands-on consumer infrastructure experience
+**Real-World Validation:** Active infrastructure builders who validate approaches through consumer products
+**Infrastructure Thinking:** Focus on foundational systems rather than surface-level features
+**Consumer Empathy:** Deep understanding of user behavior and infrastructure needs
+**Scalable Solutions:** Building for millions of users with lasting impact
+**Effortless Experiences:** Prioritizing simplicity over feature complexity
 
 ## Key Differentiators
 
-- 100% engineering team with hands-on consumer infrastructure experience
-- Active infrastructure builders who validate their own approaches
-- Deep understanding of consumer behavior and infrastructure needs
-- Proven track record with successful exits and scale
+- Active portfolio of 14 consumer infrastructure brands
+- Successful exits validating our infrastructure approach
+- 100% engineering team with consumer product experience
 - Focus on effortless user experiences over feature complexity
-- Infrastructure-level thinking for maximum impact and sustainability
-- Real-world validation through consumer product development
+- Infrastructure-level thinking for maximum scalability
+- Real-world validation through active consumer product development
+- Diverse portfolio across health, financial, professional, and mobility infrastructure
+
+## Partnership Philosophy
+
+We work with brands to build consumer infrastructure that makes better living effortless. Our involvement spans:
+
+- **Creation:** Building new consumer infrastructure from the ground up
+- **Investment:** Supporting promising infrastructure platforms with capital and expertise
+- **Advisory:** Providing strategic guidance on consumer infrastructure development
+- **Long-term Partnerships:** Sustained involvement in infrastructure evolution
+
+## Portfolio Outcomes
+
+- **17 Total Brands** across multiple infrastructure verticals
+- **Multiple Successful Exits** validating our infrastructure approach
+- **Global Reach** across Portugal, Europe, and international markets
+- **Millions of Users** served through our infrastructure platforms
+- **Diverse Impact** from health and finance to mobility and education
 
 ## Contact Information
 
-**Email:** hey@notacompany.com
-**Website:** https://notacompany.com
+**Email:** hey@notacompany.com  
+**Website:** https://notacompany.com  
+**Portfolio:** https://notacompany.com/portfolio
 
-For inquiries about consumer infrastructure partnerships or collaboration, contact hey@notacompany.com.
+For partnerships in consumer infrastructure development, investment opportunities, or advisory services, contact hey@notacompany.com.
+
+Ready to build infrastructure that makes better living effortless? Get in touch.

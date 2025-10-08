@@ -1,5 +1,6 @@
 import SiteFooter from '@/components/site-footer'
 import SiteHeader from '@/components/site-header'
+import { getAllTags, type BrandTag } from '@/lib/brands'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 
@@ -41,6 +42,35 @@ export const metadata: Metadata = {
   },
 }
 
+const tagLabels: Record<BrandTag, string> = {
+  creation: 'Creation',
+  investment: 'Investment',
+  advisory: 'Advisory',
+  exited: 'Exited',
+  deceased: 'Deceased',
+}
+
+function ExploreSection() {
+  const allTags = getAllTags()
+  // Filter out exited and deceased tags for homepage display
+  const activeTags = allTags.filter(({ tag }) => tag !== 'exited' && tag !== 'deceased')
+  
+  return (
+    <div className='grid grid-cols-2 sm:grid-cols-3 gap-4 text-base sm:text-lg'>
+      {activeTags.map(({ tag, count }) => (
+        <Link
+          key={tag}
+          href={`/portfolio?tag=${tag}`}
+          className='flex flex-col items-center p-4 border border-black hover:bg-gray-50 transition-colors'
+        >
+          <span className='font-bold text-lg'>{count}</span>
+          <span className='text-sm text-gray-600'>{tagLabels[tag]}</span>
+        </Link>
+      ))}
+    </div>
+  )
+}
+
 export default function HomePage() {
   return (
     <div className='min-h-screen bg-white text-black'>
@@ -61,43 +91,27 @@ export default function HomePage() {
             </p>
             <div className='flex flex-col sm:flex-row gap-4 pt-4'>
               <Link
-                href='/co-creations'
+                href='/portfolio'
                 className='inline-flex items-center justify-center px-6 py-3 bg-black text-white font-medium hover:bg-gray-800 transition-colors rounded-sm'
               >
-                See What We&apos;re Building
+                See Our Portfolio
               </Link>
-              <Link
-                href='/clients'
+              <a
+                href='mailto:hey@notacompany.com'
                 className='inline-flex items-center justify-center px-6 py-3 border border-black text-black font-medium hover:bg-gray-50 transition-colors rounded-sm'
               >
                 Work With Us
-              </Link>
+              </a>
             </div>
           </div>
         </section>
 
-        {/* Quick Links */}
+        {/* Explore */}
         <section className='mb-8 md:mb-12'>
           <h3 className='text-lg sm:text-xl font-bold mb-4 border-b border-black pb-2'>
             Explore:
           </h3>
-          <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 text-base sm:text-lg'>
-            <div>
-              <h4 className='font-bold mb-3'>Our Work:</h4>
-              <ul className='space-y-2'>
-                <li>
-                  <Link href='/co-creations' className='hover:underline'>
-                    → What We&apos;re Building
-                  </Link>
-                </li>
-                <li>
-                  <Link href='/clients' className='hover:underline'>
-                    → Work With Us
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
+          <ExploreSection />
         </section>
 
         {/* Contact */}

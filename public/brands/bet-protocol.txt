@@ -1,0 +1,64 @@
+# Bet Protocol
+
+**Brand:** Bet Protocol
+**Tagline:** Decentralized task marketplace and development infrastructure
+**Website:** https://bepro.network/
+**Year of Involvement:** 2019
+**Our Role:** Strategic advisory role
+**Portfolio:** https://notacompany.com/portfolio/bet-protocol
+
+## About Bet Protocol
+
+
+# Bet Protocol
+
+Bet Protocol (BEPRO Network) is a decentralized infrastructure platform that enables the creation of task marketplaces and bounty systems for software development and other digital services. The protocol provides the underlying infrastructure for organizations to create, manage, and reward task completion in a decentralized manner.
+
+## Protocol Infrastructure
+
+Bet Protocol provides comprehensive task marketplace infrastructure including:
+
+- **Bounty System**: Decentralized framework for creating and managing development bounties and tasks
+- **Marketplace Creation**: Tools enabling organizations to build custom task marketplaces using the protocol
+- **Reputation System**: Blockchain-based reputation tracking for task creators and completers
+- **Payment Infrastructure**: Automated payment systems that release rewards upon task completion verification
+- **Development Tools**: SDKs and APIs that allow integration of bounty functionality into existing platforms
+
+## Decentralized Work Innovation
+
+The platform addresses key challenges in digital task management:
+
+- **Trust Mechanisms**: Creating trustless systems where task completion and payment can be verified automatically
+- **Global Access**: Enabling worldwide participation in task marketplaces without geographical restrictions
+- **Skill-Based Matching**: Connecting task creators with appropriate skilled contributors
+- **Transparent Processes**: Providing clear, auditable processes for task creation, completion, and payment
+- **Network Effects**: Building ecosystems where successful completion of tasks builds reputation and access to higher-value opportunities
+
+Bet Protocol represents the evolution of freelance and task-based work toward decentralized, transparent, and globally accessible systems that reduce friction and increase trust between task creators and completers.
+
+
+## Our Involvement
+
+notacompany.com's involvement with Bet Protocol includes: Strategic advisory role.
+
+This partnership represents our commitment to building consumer infrastructure that makes better living effortless across strategic advisory and partnership development.
+
+## Brand Details
+
+**Category:** Consumer Infrastructure
+**Focus Area:** Professional Infrastructure
+**Year:** 2019
+**Status:** Active
+
+## Related Portfolio
+
+Explore our complete portfolio of consumer infrastructure brands at https://notacompany.com/portfolio
+
+## Contact
+
+For questions about Bet Protocol or our consumer infrastructure work:
+**Email:** hey@notacompany.com
+**Website:** https://notacompany.com
+**Portfolio:** https://notacompany.com/portfolio
+
+Building consumer infrastructure that makes better living effortless.
