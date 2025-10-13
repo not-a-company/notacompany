@@ -10,30 +10,7 @@
 ## About Acreditar
 
 
-# Acreditar
-
-Acreditar is Portugal's leading non-profit organization dedicated to supporting children and adolescents with cancer and their families. The foundation operates as a comprehensive support infrastructure, providing both immediate assistance and long-term care solutions for families facing pediatric cancer diagnoses.
-
-## Mission and Services
-
-Acreditar provides multi-dimensional support through:
-
-- **Medical Support**: Complementary healthcare services and medical assistance coordination
-- **Psychosocial Care**: Professional psychological and social support for patients and families
-- **Accommodation Solutions**: Housing facilities near treatment centers to keep families together during treatment
-- **Educational Continuity**: Programs ensuring children can continue their education during treatment
-- **Family Support**: Financial assistance and practical support for families during treatment periods
-
-## Infrastructure Impact
-
-The organization operates as critical healthcare infrastructure in Portugal's pediatric oncology ecosystem:
-
-- **National Network**: Comprehensive coverage across Portugal's major medical centers
-- **Partnership Ecosystem**: Deep integration with hospitals, medical professionals, and other healthcare organizations
-- **Resource Optimization**: Efficient allocation of resources to maximize impact for families in need
-- **Community Integration**: Building support networks that extend beyond immediate medical needs
-
-Acreditar represents the evolution of non-profit healthcare support from basic assistance to comprehensive infrastructure that addresses the full spectrum of challenges faced by families dealing with pediatric cancer.
+Acreditar is Portugal's largest non-profit organization dedicated to supporting children and adolescents with cancer and their families, operating as comprehensive support infrastructure that provides medical assistance coordination, psychosocial care, accommodation solutions near treatment centers, educational continuity programs, and financial support, with nationwide coverage across Portugal's major medical centers and deep integration with hospitals and healthcare organizations to address the full spectrum of challenges faced by families dealing with pediatric cancer.
 
 
 ## Our Involvement

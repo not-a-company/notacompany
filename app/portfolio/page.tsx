@@ -48,18 +48,19 @@ export default function PortfolioPage() {
   const allTags = getAllTags()
 
   return (
-    <div className='min-h-screen bg-white text-black'>
+    <div className='min-h-screen bg-white text-black flex flex-col'>
       <SiteHeader currentPage='portfolio' />
 
       {/* Main Content */}
-      <main className='max-w-4xl mx-auto px-4 md:px-6 py-8 md:py-12'>
+      <main className='max-w-4xl mx-auto px-4 md:px-6 py-8 md:py-12 flex-1'>
         {/* Page Title */}
         <section className='mb-12'>
           <h2 className='text-3xl font-bold mb-4'>Our Portfolio</h2>
           <p className='text-lg leading-relaxed'>
             Explore our portfolio of consumer infrastructure brands. From health
-            and financial infrastructure to mobility and lifestyle platforms — 
-            see how we build and support brands that make better living effortless.
+            and financial infrastructure to mobility and lifestyle platforms —
+            see how we build and support brands that make better living
+            effortless.
           </p>
         </section>
 

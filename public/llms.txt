@@ -6,9 +6,9 @@
 
 ## About
 
-We build consumer infrastructure that makes better living effortless. From health and payments to investing, work, and play — we design and launch the rails that power daily life.
+We build consumer infrastructure that makes better living effortless. The rails that power your daily life—from health and finance to mobility and work—are built by a team of 100% engineers who understand what it takes to create foundational infrastructure that millions rely on.
 
-Our team consists of 100% engineers who understand the complexities of building consumer-facing products that millions of people rely on every day. We focus on creating the foundational infrastructure that enables seamless, effortless experiences across all aspects of modern life.
+We focus on creating the foundational systems that enable seamless, effortless experiences across all aspects of modern life, combining infrastructure-level thinking with deep consumer empathy.
 
 ## Our Portfolio
 

@@ -10,12 +10,12 @@ interface PortfolioClientProps {
   tags: Array<{ tag: BrandTag; count: number }>
 }
 
-const tagColors: Record<BrandTag, string> = {
-  creation: 'bg-blue-100 text-blue-800',
-  investment: 'bg-green-100 text-green-800',
-  advisory: 'bg-purple-100 text-purple-800',
-  exited: 'bg-gray-100 text-gray-800',
-  deceased: 'bg-red-100 text-red-800',
+const tagStyles: Record<BrandTag, string> = {
+  creation: 'bg-black text-white font-bold',
+  investment: 'bg-white text-black border-2 border-black font-semibold',
+  advisory: 'bg-gray-200 text-black font-medium',
+  exited: 'bg-gray-400 text-white font-medium',
+  deceased: 'bg-gray-600 text-white line-through',
 }
 
 const tagLabels: Record<BrandTag, string> = {
@@ -26,21 +26,29 @@ const tagLabels: Record<BrandTag, string> = {
   deceased: 'Deceased',
 }
 
-export default function PortfolioClient({ brands, tags }: PortfolioClientProps) {
+export default function PortfolioClient({
+  brands,
+  tags,
+}: PortfolioClientProps) {
   const searchParams = useSearchParams()
   const [selectedTag, setSelectedTag] = useState<BrandTag | 'all'>('all')
-  
+
   // Set initial tag from URL params
   useEffect(() => {
     const tagParam = searchParams.get('tag') as BrandTag
-    if (tagParam && ['creation', 'investment', 'advisory', 'exited', 'deceased'].includes(tagParam)) {
+    if (
+      tagParam &&
+      ['creation', 'investment', 'advisory', 'exited', 'deceased'].includes(
+        tagParam
+      )
+    ) {
       setSelectedTag(tagParam)
     }
   }, [searchParams])
-  
+
   const filteredBrands = useMemo(() => {
     if (selectedTag === 'all') return brands
-    return brands.filter((brand) => brand.tags.includes(selectedTag))
+    return brands.filter(brand => brand.tags.includes(selectedTag))
   }, [brands, selectedTag])
 
   return (
@@ -77,7 +85,7 @@ export default function PortfolioClient({ brands, tags }: PortfolioClientProps) 
       {/* Brand List */}
       <section className='mb-12'>
         <div className='space-y-6'>
-          {filteredBrands.map((brand) => (
+          {filteredBrands.map(brand => (
             <div
               key={brand.slug}
               className='border border-black p-6 hover:bg-gray-50 transition-colors'
@@ -86,14 +94,16 @@ export default function PortfolioClient({ brands, tags }: PortfolioClientProps) 
                 <div className='flex-1'>
                   <div className='flex items-start justify-between mb-2'>
                     <h3 className='font-bold text-xl'>{brand.name}</h3>
-                    <span className='font-medium text-gray-600'>{brand.year}</span>
+                    <span className='font-medium text-gray-600'>
+                      {brand.year}
+                    </span>
                   </div>
                   <p className='text-gray-600 mb-4 text-lg'>{brand.tagline}</p>
                   <div className='flex flex-wrap gap-2'>
-                    {brand.tags.map((tag) => (
+                    {brand.tags.map(tag => (
                       <span
                         key={tag}
-                        className={`px-3 py-1 text-sm rounded ${tagColors[tag]}`}
+                        className={`px-3 py-1 text-sm ${tagStyles[tag]}`}
                       >
                         {tagLabels[tag]}
                       </span>

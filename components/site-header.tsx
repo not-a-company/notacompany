@@ -30,18 +30,18 @@ export default function SiteHeader({ currentPage = 'home' }: SiteHeaderProps) {
           {/* Logo */}
           <Link
             href='/'
-            className='text-lg sm:text-xl font-bold hover:underline'
+            className='text-lg sm:text-xl font-bold hover:underline flex items-center leading-none'
           >
             notacompany.com
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className='hidden md:flex gap-6 text-sm sm:text-base'>
+          <nav className='hidden md:flex gap-6 text-sm sm:text-base items-center h-full'>
             {navigationLinks.map(({ href, label, page }) => (
               <Link
                 key={href}
                 href={href}
-                className={`hover:underline transition-all ${
+                className={`hover:underline transition-all flex items-center leading-none ${
                   isActive(page) ? 'font-bold' : ''
                 }`}
               >
@@ -53,7 +53,7 @@ export default function SiteHeader({ currentPage = 'home' }: SiteHeaderProps) {
           {/* Mobile Menu Button */}
           <button
             onClick={toggleMenu}
-            className='md:hidden flex flex-col gap-1 p-2'
+            className='md:hidden flex flex-col justify-center items-center gap-1 p-2'
             aria-label='Toggle navigation menu'
             aria-expanded={isMenuOpen}
           >

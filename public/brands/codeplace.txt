@@ -10,33 +10,7 @@
 ## About Codeplace
 
 
-# Codeplace
-
-Codeplace was one of the early pioneers in project-based programming education, serving over 100,000 students before its successful exit. The platform evolved into what is now Code for All_, a comprehensive technology education company based in Portugal.
-
-## Educational Innovation
-
-Codeplace revolutionized programming education by focusing on practical, project-based learning rather than traditional theoretical approaches. The platform specialized in:
-
-- **Software Engineering & AI** - 560-hour comprehensive programs
-- **Cybersecurity** - 420-hour specialized courses  
-- **Artificial Intelligence** - Tailored programs for different sectors and professionals
-- **Technology Fundamentals** - JavaScript, SQL, cybersecurity, game development
-
-## Teaching Philosophy
-
-The platform operated on the principle that "everything we teach is thinking about IT" - ensuring that technology education was adapted to each individual learner. This personalized approach helped thousands of students transition into technology careers.
-
-## Legacy Impact
-
-After its successful exit, Codeplace's methodology and approach continued through Code for All_, which maintains the same commitment to:
-
-- **Career Transition Support** - Helping professionals move into technology roles
-- **Practical Learning** - Project-based education with real-world applications  
-- **Flexible Payment Options** - Making technology education accessible
-- **Industry Partnerships** - Connecting students with employment opportunities
-
-The platform's success demonstrated the viability of alternative education models in technology, paving the way for modern coding bootcamps and online technical education programs.
+Codeplace was one of the early pioneers in project-based programming education focused on the Rails ecosystem, serving over 100,000 students before its successful exit by specializing in practical, hands-on learning with comprehensive programs in software engineering, AI, cybersecurity, and Ruby on Rails development that helped thousands of students transition into technology careers, demonstrating the viability of alternative education models and paving the way for modern coding bootcamps.
 
 
 ## Our Involvement

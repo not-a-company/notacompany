@@ -3,20 +3,29 @@ import { join } from 'path'
 import { getAllBrands } from '../lib/brands'
 
 function generateBrandLLMSContent(brand: any) {
-  const websiteSection = brand.website && !brand.tags.includes('deceased') 
-    ? `**Website:** ${brand.website}`
-    : '**Status:** No longer active'
-  
-  const tagsDescription = brand.tags.map((tag: string) => {
-    switch(tag) {
-      case 'creation': return 'Built from the ground up'
-      case 'investment': return 'Investment partner'
-      case 'advisory': return 'Strategic advisory role'
-      case 'exited': return 'Successfully exited'
-      case 'deceased': return 'No longer operating'
-      default: return tag
-    }
-  }).join(', ')
+  const websiteSection =
+    brand.website && !brand.tags.includes('deceased')
+      ? `**Website:** ${brand.website}`
+      : '**Status:** No longer active'
+
+  const tagsDescription = brand.tags
+    .map((tag: string) => {
+      switch (tag) {
+        case 'creation':
+          return 'Built from the ground up'
+        case 'investment':
+          return 'Investment partner'
+        case 'advisory':
+          return 'Strategic advisory role'
+        case 'exited':
+          return 'Successfully exited'
+        case 'deceased':
+          return 'No longer operating'
+        default:
+          return tag
+      }
+    })
+    .join(', ')
 
   return `# ${brand.name}
 
@@ -40,13 +49,28 @@ This partnership represents our commitment to building consumer infrastructure t
 ## Brand Details
 
 **Category:** Consumer Infrastructure
-**Focus Area:** ${brand.name.includes('Steps') ? 'Health Infrastructure' : 
-             brand.name.includes('Superstables') || brand.name.includes('xMoney') || brand.name.includes('Coinvision') ? 'Financial Infrastructure' :
-             brand.name.includes('Talent') || brand.name.includes('Codeplace') || brand.name.includes('Bet') ? 'Professional Infrastructure' :
-             brand.name.includes('Lime') || brand.name.includes('CoFlyt') || brand.name.includes('Fisacar') ? 'Mobility Infrastructure' :
-             brand.name.includes('SoSquared') ? 'Marketing Infrastructure' :
-             brand.name.includes('Acreditar') || brand.name.includes('Mahalo') ? 'Social Infrastructure' :
-             'Consumer Infrastructure'}
+**Focus Area:** ${
+    brand.name.includes('Steps')
+      ? 'Health Infrastructure'
+      : brand.name.includes('Superstables') ||
+          brand.name.includes('xMoney') ||
+          brand.name.includes('Coinvision')
+        ? 'Financial Infrastructure'
+        : brand.name.includes('Talent') ||
+            brand.name.includes('Codeplace') ||
+            brand.name.includes('Bet')
+          ? 'Professional Infrastructure'
+          : brand.name.includes('Lime') ||
+              brand.name.includes('CoFlyt') ||
+              brand.name.includes('Fisacar')
+            ? 'Mobility Infrastructure'
+            : brand.name.includes('SoSquared')
+              ? 'Marketing Infrastructure'
+              : brand.name.includes('Acreditar') ||
+                  brand.name.includes('Mahalo')
+                ? 'Social Infrastructure'
+                : 'Consumer Infrastructure'
+  }
 **Year:** ${brand.year}
 **Status:** ${brand.tags.includes('deceased') ? 'Deceased' : brand.tags.includes('exited') ? 'Successfully Exited' : 'Active'}
 
@@ -66,22 +90,22 @@ Building consumer infrastructure that makes better living effortless.`
 
 function generateAllBrandLLMS() {
   const brands = getAllBrands()
-  
+
   // Create public/brands directory if it doesn't exist
   const brandsDir = join(process.cwd(), 'public', 'brands')
   try {
     mkdirSync(brandsDir, { recursive: true })
-  } catch (error) {
+  } catch {
     // Directory might already exist
   }
-  
+
   brands.forEach(brand => {
     const content = generateBrandLLMSContent(brand)
     const filename = join(brandsDir, `${brand.slug}.txt`)
     writeFileSync(filename, content, 'utf8')
     console.log(`Generated: ${filename}`)
   })
-  
+
   console.log(`Generated LLMS.txt files for ${brands.length} brands`)
 }
 

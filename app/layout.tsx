@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     template: '%s | notacompany.com',
   },
   description:
-    'Building consumer infrastructure that makes better living effortless. From health and payments to investing, work, and play — we design and launch the rails that power daily life.',
+    'Built by 100% engineers, we create the foundational infrastructure that powers your daily life—from health and finance to mobility and work.',
   keywords: [
     'consumer infrastructure',
     'health infrastructure',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     siteName: 'notacompany.com',
     title: 'Consumer Infrastructure Development - notacompany.com',
     description:
-      'Building consumer infrastructure that makes better living effortless. From health and payments to investing, work, and play — we design and launch the rails that power daily life.',
+      'Built by 100% engineers, we create the foundational infrastructure that powers your daily life—from health and finance to mobility and work.',
     images: [
       {
         url: '/og-image.png',
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Consumer Infrastructure Development',
     description:
-      'Building consumer infrastructure that makes better living effortless. From health and payments to investing, work, and play.',
+      'Built by 100% engineers, we create the foundational infrastructure that powers your daily life—from health and finance to mobility and work.',
     images: ['/og-image.png'],
     creator: '@notacompany',
   },
@@ -102,12 +102,26 @@ export default function RootLayout({
       <head>
         {/* Favicon and Icons */}
         <link rel='icon' type='image/x-icon' href='/favicon.ico' />
-        <link rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png' />
-        <link rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png' />
-        <link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png' />
+        <link
+          rel='icon'
+          type='image/png'
+          sizes='16x16'
+          href='/favicon-16x16.png'
+        />
+        <link
+          rel='icon'
+          type='image/png'
+          sizes='32x32'
+          href='/favicon-32x32.png'
+        />
+        <link
+          rel='apple-touch-icon'
+          sizes='180x180'
+          href='/apple-touch-icon.png'
+        />
         <link rel='manifest' href='/site.webmanifest' />
         <meta name='theme-color' content='#000000' />
-        
+
         <link rel='preconnect' href='https://vercel.live' />
         <link rel='dns-prefetch' href='https://vercel.live' />
         <link rel='prefetch' href='/clients' />
@@ -124,10 +138,11 @@ export default function RootLayout({
               url: 'https://notacompany.com',
               logo: 'https://notacompany.com/android-chrome-512x512.png',
               description:
-                'Building consumer infrastructure that makes better living effortless. From health and payments to investing, work, and play — we design and launch the rails that power daily life.',
+                'Built by 100% engineers, we create the foundational infrastructure that powers your daily life—from health and finance to mobility and work.',
               foundingDate: '2020',
               industry: 'Consumer Infrastructure',
-              keywords: 'consumer infrastructure, health infrastructure, payment infrastructure, financial infrastructure, work infrastructure, lifestyle infrastructure',
+              keywords:
+                'consumer infrastructure, health infrastructure, payment infrastructure, financial infrastructure, work infrastructure, lifestyle infrastructure',
               areaServed: 'Worldwide',
               contactPoint: {
                 '@type': 'ContactPoint',

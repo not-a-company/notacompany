@@ -3,7 +3,12 @@ import matter from 'gray-matter'
 import { join } from 'path'
 
 // Brand tag types
-export type BrandTag = 'creation' | 'investment' | 'advisory' | 'exited' | 'deceased'
+export type BrandTag =
+  | 'creation'
+  | 'investment'
+  | 'advisory'
+  | 'exited'
+  | 'deceased'
 
 // Brand metadata interface
 export interface BrandMeta {
@@ -38,7 +43,7 @@ export function getContentDir(): string {
 export function getBrandFiles(): string[] {
   try {
     const contentDir = getContentDir()
-    return readdirSync(contentDir).filter((file) => file.endsWith('.mdx'))
+    return readdirSync(contentDir).filter(file => file.endsWith('.mdx'))
   } catch {
     return []
   }
@@ -50,9 +55,9 @@ export function parseBrandFile(filename: string): Brand {
   const fullPath = join(contentDir, filename)
   const fileContents = readFileSync(fullPath, 'utf8')
   const { data, content } = matter(fileContents)
-  
+
   const meta = data as BrandMeta
-  
+
   return {
     ...meta,
     content,
@@ -63,9 +68,9 @@ export function parseBrandFile(filename: string): Brand {
 export function getAllBrands(): Brand[] {
   const files = getBrandFiles()
   const brands = files
-    .map((filename) => parseBrandFile(filename))
+    .map(filename => parseBrandFile(filename))
     .sort((a, b) => b.year - a.year) // Sort by year descending (newest first)
-  
+
   return brands
 }
 
@@ -82,7 +87,7 @@ export function getBrandBySlug(slug: string): Brand | null {
 // Get brands by tag
 export function getBrandsByTag(tag: BrandTag): Brand[] {
   const allBrands = getAllBrands()
-  return allBrands.filter((brand) => brand.tags.includes(tag))
+  return allBrands.filter(brand => brand.tags.includes(tag))
 }
 
 // Get tag counts for explore section
@@ -95,13 +100,13 @@ export function getTagCounts(): Record<BrandTag, number> {
     exited: 0,
     deceased: 0,
   }
-  
-  allBrands.forEach((brand) => {
-    brand.tags.forEach((tag) => {
+
+  allBrands.forEach(brand => {
+    brand.tags.forEach(tag => {
       counts[tag]++
     })
   })
-  
+
   return counts
 }
 

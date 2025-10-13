@@ -10,31 +10,7 @@
 ## About Fisacar
 
 
-# Fisacar
-
-Fisacar is an automotive services platform that provides comprehensive vehicle management solutions for both individual consumers and fleet operators. The company has built infrastructure that modernizes automotive service delivery through technology integration and service standardization.
-
-## Automotive Services Infrastructure
-
-Fisacar provides comprehensive automotive infrastructure including:
-
-- **Service Coordination**: Platform connecting vehicle owners with certified automotive service providers
-- **Fleet Management**: Tools for managing multiple vehicles, maintenance schedules, and service history
-- **Digital Documentation**: Comprehensive record-keeping for vehicle maintenance, inspections, and service history
-- **Service Network**: Curated network of automotive professionals and service providers
-- **Scheduling Platform**: Efficient booking and scheduling system for automotive services
-
-## Industry Modernization
-
-The platform addresses key challenges in automotive services:
-
-- **Service Transparency**: Providing clear information about service requirements, costs, and provider qualifications
-- **Quality Assurance**: Vetting and monitoring service providers to ensure consistent quality standards
-- **Operational Efficiency**: Streamlining the process of finding, booking, and managing automotive services
-- **Digital Integration**: Bringing modern technology to traditionally analog automotive service operations
-- **Cost Management**: Helping vehicle owners and fleet operators optimize maintenance costs and scheduling
-
-Fisacar represents the digitization of automotive service infrastructure, transforming how vehicle maintenance and services are discovered, booked, and managed in the modern automotive ecosystem.
+Fisacar is a Portuguese automotive company with over 30 years of experience operating a full-stack car solutions ecosystem including new and used vehicle sales, financing, insurance, trade-in and buyback services, vehicle evaluation, consulting, and in-house maintenance through Fisacar Red Service workshops, maintaining a 4,000 m² showroom with ~300 vehicles, serving over 10,000 clients across Portuguese cities like Barcelos and Braga with a one-stop shop that owns the complete customer lifecycle from purchase through ongoing service.
 
 
 ## Our Involvement

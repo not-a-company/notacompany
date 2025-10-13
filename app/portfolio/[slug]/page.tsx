@@ -1,8 +1,8 @@
+import BackButton from '@/components/back-button'
 import SiteFooter from '@/components/site-footer'
 import SiteHeader from '@/components/site-header'
 import { getAllBrands, getBrandBySlug, type BrandTag } from '@/lib/brands'
 import type { Metadata } from 'next'
-import Link from 'next/link'
 import { notFound } from 'next/navigation'
 
 interface BrandPageProps {
@@ -11,12 +11,12 @@ interface BrandPageProps {
   }>
 }
 
-const tagColors: Record<BrandTag, string> = {
-  creation: 'bg-blue-100 text-blue-800',
-  investment: 'bg-green-100 text-green-800',
-  advisory: 'bg-purple-100 text-purple-800',
-  exited: 'bg-gray-100 text-gray-800',
-  deceased: 'bg-red-100 text-red-800',
+const tagStyles: Record<BrandTag, string> = {
+  creation: 'bg-black text-white font-bold',
+  investment: 'bg-white text-black border-2 border-black font-semibold',
+  advisory: 'bg-gray-200 text-black font-medium',
+  exited: 'bg-gray-400 text-white font-medium',
+  deceased: 'bg-gray-600 text-white line-through',
 }
 
 const tagLabels: Record<BrandTag, string> = {
@@ -29,15 +29,17 @@ const tagLabels: Record<BrandTag, string> = {
 
 export async function generateStaticParams() {
   const brands = getAllBrands()
-  return brands.map((brand) => ({
+  return brands.map(brand => ({
     slug: brand.slug,
   }))
 }
 
-export async function generateMetadata({ params }: BrandPageProps): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: BrandPageProps): Promise<Metadata> {
   const { slug } = await params
   const brand = getBrandBySlug(slug)
-  
+
   if (!brand) {
     return {
       title: 'Brand Not Found',
@@ -84,17 +86,13 @@ export default async function BrandPage({ params }: BrandPageProps) {
   const isDeceased = brand.tags.includes('deceased')
 
   return (
-    <div className='min-h-screen bg-white text-black'>
+    <div className='min-h-screen bg-white text-black flex flex-col'>
       <SiteHeader currentPage='portfolio' />
 
       {/* Main Content */}
-      <main className='max-w-4xl mx-auto px-4 md:px-6 py-8 md:py-12'>
-        {/* Back Link */}
-        <section className='mb-6'>
-          <Link href='/portfolio' className='text-blue-600 hover:text-blue-800'>
-            ← Back to Portfolio
-          </Link>
-        </section>
+      <main className='max-w-4xl mx-auto px-4 md:px-6 py-8 md:py-12 flex-1'>
+        {/* Back Button */}
+        <BackButton />
 
         {/* Brand Header */}
         <section className='mb-12'>
@@ -103,20 +101,22 @@ export default async function BrandPage({ params }: BrandPageProps) {
               <h1 className='text-4xl font-bold mb-4'>{brand.name}</h1>
               <p className='text-xl text-gray-600 mb-4'>{brand.tagline}</p>
               <div className='flex flex-wrap gap-2 mb-4'>
-                {brand.tags.map((tag) => (
+                {brand.tags.map(tag => (
                   <span
                     key={tag}
-                    className={`px-3 py-1 text-sm rounded ${tagColors[tag]}`}
+                    className={`px-3 py-1 text-sm ${tagStyles[tag]}`}
                   >
                     {tagLabels[tag]}
                   </span>
                 ))}
               </div>
             </div>
-            
+
             <div className='text-right'>
               <div className='mb-4'>
-                <span className='text-sm text-gray-500'>Year of Involvement</span>
+                <span className='text-sm text-gray-500'>
+                  Year of Involvement
+                </span>
                 <p className='text-2xl font-bold'>{brand.year}</p>
               </div>
               {brand.website && !isDeceased && (
@@ -124,9 +124,9 @@ export default async function BrandPage({ params }: BrandPageProps) {
                   href={brand.website}
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='inline-flex items-center px-6 py-3 bg-black text-white font-medium hover:bg-gray-800 transition-colors rounded-sm'
+                  className='inline-flex items-center justify-center px-6 py-3 bg-black text-white font-medium hover:bg-gray-800 transition-colors'
                 >
-                  Visit Website →
+                  Visit Website
                 </a>
               )}
               {isDeceased && (
@@ -155,10 +155,10 @@ export default async function BrandPage({ params }: BrandPageProps) {
               <div>
                 <h4 className='font-semibold mb-2'>Our Involvement</h4>
                 <div className='flex flex-wrap gap-2'>
-                  {brand.tags.map((tag) => (
+                  {brand.tags.map(tag => (
                     <span
                       key={tag}
-                      className={`px-2 py-1 text-sm rounded ${tagColors[tag]}`}
+                      className={`px-2 py-1 text-sm ${tagStyles[tag]}`}
                     >
                       {tagLabels[tag]}
                     </span>
@@ -176,7 +176,7 @@ export default async function BrandPage({ params }: BrandPageProps) {
                     href={brand.website}
                     target='_blank'
                     rel='noopener noreferrer'
-                    className='text-blue-600 hover:text-blue-800'
+                    className='underline hover:no-underline'
                   >
                     {brand.website}
                   </a>

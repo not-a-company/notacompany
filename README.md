@@ -8,7 +8,7 @@
 
 ## About
 
-**notacompany.com** builds consumer infrastructure that makes better living effortless. From health and payments to investing, work, and play — we design and launch the rails that power daily life.
+**notacompany.com** builds consumer infrastructure that makes better living effortless. The rails that power your daily life—from health and finance to mobility and work—are built by a team of 100% engineers who understand what it takes to create foundational infrastructure that millions rely on.
 
 ### 🏗️ **Our Infrastructure Focus**
 

@@ -1,13 +1,12 @@
 import SiteFooter from '@/components/site-footer'
 import SiteHeader from '@/components/site-header'
-import { getAllTags, type BrandTag } from '@/lib/brands'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Consumer Infrastructure That Makes Better Living Effortless',
   description:
-    'We build consumer infrastructure that makes better living effortless. From health and payments to investing, work, and play — we design and launch the rails that power daily life.',
+    'Built by 100% engineers, we create the foundational infrastructure that powers your daily life—from health and finance to mobility and work.',
   keywords: [
     'consumer infrastructure',
     'better living',
@@ -26,7 +25,7 @@ export const metadata: Metadata = {
     title:
       'Consumer Infrastructure That Makes Better Living Effortless - notacompany.com',
     description:
-      'We build consumer infrastructure that makes better living effortless. From health and payments to investing, work, and play — we design and launch the rails that power daily life.',
+      'Built by 100% engineers, we create the foundational infrastructure that powers your daily life—from health and finance to mobility and work.',
     url: 'https://notacompany.com',
     images: [
       {
@@ -42,42 +41,13 @@ export const metadata: Metadata = {
   },
 }
 
-const tagLabels: Record<BrandTag, string> = {
-  creation: 'Creation',
-  investment: 'Investment',
-  advisory: 'Advisory',
-  exited: 'Exited',
-  deceased: 'Deceased',
-}
-
-function ExploreSection() {
-  const allTags = getAllTags()
-  // Filter out exited and deceased tags for homepage display
-  const activeTags = allTags.filter(({ tag }) => tag !== 'exited' && tag !== 'deceased')
-  
-  return (
-    <div className='grid grid-cols-2 sm:grid-cols-3 gap-4 text-base sm:text-lg'>
-      {activeTags.map(({ tag, count }) => (
-        <Link
-          key={tag}
-          href={`/portfolio?tag=${tag}`}
-          className='flex flex-col items-center p-4 border border-black hover:bg-gray-50 transition-colors'
-        >
-          <span className='font-bold text-lg'>{count}</span>
-          <span className='text-sm text-gray-600'>{tagLabels[tag]}</span>
-        </Link>
-      ))}
-    </div>
-  )
-}
-
 export default function HomePage() {
   return (
-    <div className='min-h-screen bg-white text-black'>
+    <div className='min-h-screen bg-white text-black flex flex-col'>
       <SiteHeader currentPage='home' />
 
       {/* Main Content */}
-      <main className='max-w-4xl mx-auto px-4 md:px-6 py-8 md:py-12'>
+      <main className='max-w-4xl mx-auto px-4 md:px-6 py-8 md:py-12 flex-1'>
         {/* Hero Section */}
         <section className='mb-8 md:mb-12'>
           <h2 className='text-xl sm:text-2xl md:text-3xl font-bold mb-6 leading-tight text-balance'>
@@ -86,8 +56,10 @@ export default function HomePage() {
           </h2>
           <div className='space-y-6'>
             <p className='text-base sm:text-lg text-gray-700 leading-relaxed'>
-              From health and payments to investing, work, and play — we design
-              and launch the rails that power daily life.
+              The rails that power your daily life—from health and finance to
+              mobility and work—are built by a team of 100% engineers who
+              understand what it takes to create foundational infrastructure
+              that millions rely on.
             </p>
             <div className='flex flex-col sm:flex-row gap-4 pt-4'>
               <Link
@@ -104,14 +76,6 @@ export default function HomePage() {
               </a>
             </div>
           </div>
-        </section>
-
-        {/* Explore */}
-        <section className='mb-8 md:mb-12'>
-          <h3 className='text-lg sm:text-xl font-bold mb-4 border-b border-black pb-2'>
-            Explore:
-          </h3>
-          <ExploreSection />
         </section>
 
         {/* Contact */}

@@ -10,30 +10,7 @@
 ## About Talent Protocol
 
 
-# Talent Protocol
-
-Talent Protocol is a decentralized infrastructure platform that revolutionizes how professional reputation and career development are managed and monetized. The platform enables individuals to build verifiable professional profiles while providing investors and organizations with data-driven insights into human capital.
-
-## Platform Infrastructure
-
-Talent Protocol provides comprehensive career and reputation infrastructure:
-
-- **Reputation Scoring**: Blockchain-based system for tracking and verifying professional achievements and contributions
-- **Talent Tokens**: Tokenization of individual careers, allowing supporters to invest in promising professionals
-- **Credential Verification**: Decentralized system for validating skills, achievements, and professional milestones
-- **Career Analytics**: Data-driven insights that help both individuals and organizations make informed career decisions
-- **Network Effects**: Platform that connects talented individuals with mentors, investors, and opportunities
-
-## Innovation in Human Capital
-
-The platform addresses fundamental challenges in professional development:
-
-- **Reputation Portability**: Creating professional reputations that aren't tied to specific platforms or employers
-- **Merit-Based Discovery**: Enabling talent discovery based on actual contributions rather than traditional credentials
-- **Financial Alignment**: Allowing investors and communities to directly support promising individuals
-- **Global Accessibility**: Breaking down geographical barriers in talent recognition and opportunity access
-
-Talent Protocol represents the evolution of professional networking from static profiles to dynamic, verifiable, and investable career infrastructure that better aligns incentives between talent, supporters, and organizations.
+Talent Protocol is a decentralized infrastructure platform that revolutionizes how professional reputation and career development are managed and monetized, providing blockchain-based reputation scoring, talent tokenization that allows investment in individual careers, credential verification systems, and career analytics that create portable professional reputations, enable merit-based talent discovery, and connect talented individuals with mentors, investors, and opportunities globally.
 
 
 ## Our Involvement

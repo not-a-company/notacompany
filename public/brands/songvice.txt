@@ -10,31 +10,7 @@
 ## About Songvice
 
 
-# Songvice
-
-Songvice was an early music industry platform that connected aspiring musicians and producers with experienced industry professionals for advisory and educational services. The platform operated during the early stages of the music industry's digital transformation, focusing on democratizing access to professional music production knowledge.
-
-## Platform Concept
-
-Songvice provided music industry infrastructure including:
-
-- **Producer Marketplace**: Platform connecting musicians with professional music producers and industry advisors
-- **Educational Content**: Structured learning resources for music production, industry navigation, and career development
-- **Project Collaboration**: Tools enabling remote collaboration between musicians and producers
-- **Industry Networking**: Community features that helped music professionals build industry connections
-- **Advisory Services**: One-on-one consultation services with established music industry professionals
-
-## Early Music Industry Innovation
-
-The platform addressed emerging needs in the digital music era:
-
-- **Access Democratization**: Breaking down geographical barriers to accessing high-quality music production advice
-- **Industry Education**: Providing structured education about the music business and production techniques
-- **Professional Networks**: Creating connections between emerging and established music professionals
-- **Remote Collaboration**: Early adoption of digital tools for music project collaboration
-- **Industry Transparency**: Providing clearer information about music industry processes and opportunities
-
-Songvice operated during a pivotal time in the music industry's evolution toward digital-first production and distribution. While the platform ultimately ceased operations, it explored important concepts about how technology could democratize access to music industry expertise and professional networks that have since become standard in the modern music technology ecosystem.
+Songvice was an early music industry platform that connected aspiring musicians and producers with experienced industry professionals for advisory and educational services, operating during the music industry's digital transformation and providing a producer marketplace, structured learning resources, remote collaboration tools, and networking features that democratized access to professional music production knowledge and explored concepts about technology-enabled music industry expertise that have since become standard in the modern music technology ecosystem.
 
 
 ## Our Involvement
