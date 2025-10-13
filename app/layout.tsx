@@ -1,4 +1,3 @@
-import { Analytics } from '@vercel/analytics/next'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import type { Metadata } from 'next'
 import type React from 'react'
@@ -122,10 +121,13 @@ export default function RootLayout({
         <link rel='manifest' href='/site.webmanifest' />
         <meta name='theme-color' content='#000000' />
 
-        <link rel='preconnect' href='https://vercel.live' />
-        <link rel='dns-prefetch' href='https://vercel.live' />
-        <link rel='prefetch' href='/clients' />
-        <link rel='prefetch' href='/co-creations' />
+        <script
+          async
+          src='https://cdn.seline.com/seline.js'
+          data-token='f55cf5ff03d843f'
+        />
+
+        <link rel='prefetch' href='/portfolio' />
 
         {/* Structured Data for Technology Organization */}
         <script
@@ -165,7 +167,6 @@ export default function RootLayout({
       </head>
       <body className='font-mono antialiased'>
         {children}
-        <Analytics />
         <SpeedInsights />
       </body>
     </html>
