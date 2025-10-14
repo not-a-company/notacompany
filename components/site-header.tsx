@@ -36,7 +36,7 @@ export default function SiteHeader({ currentPage = 'home' }: SiteHeaderProps) {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className='hidden md:flex gap-6 text-sm sm:text-base items-center h-full'>
+          <nav className='hidden md:flex gap-6 text-base items-center h-full'>
             {navigationLinks.map(({ href, label, page }) => (
               <Link
                 key={href}
@@ -53,7 +53,7 @@ export default function SiteHeader({ currentPage = 'home' }: SiteHeaderProps) {
           {/* Mobile Menu Button */}
           <button
             onClick={toggleMenu}
-            className='md:hidden flex flex-col justify-center items-center gap-1 p-2'
+            className='md:hidden flex flex-col justify-center items-center gap-1.5 p-3 -mr-3'
             aria-label='Toggle navigation menu'
             aria-expanded={isMenuOpen}
           >
@@ -69,7 +69,7 @@ export default function SiteHeader({ currentPage = 'home' }: SiteHeaderProps) {
             />
             <span
               className={`w-6 h-0.5 bg-black transition-all duration-300 ${
-                isMenuOpen ? '-rotate-45 -translate-y-1' : ''
+                isMenuOpen ? '-rotate-45 -translate-y-2' : ''
               }`}
             />
           </button>

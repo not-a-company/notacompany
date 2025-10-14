@@ -95,16 +95,21 @@ export default async function BrandPage({ params }: BrandPageProps) {
         <BackButton />
 
         {/* Brand Header */}
-        <section className='mb-12'>
-          <div className='flex flex-col md:flex-row md:items-start md:justify-between gap-6 mb-6'>
+        <section className='mb-8 sm:mb-12'>
+          <div className='flex flex-col gap-6 mb-6'>
+            {/* Title and Tagline */}
             <div>
-              <h1 className='text-4xl font-bold mb-4'>{brand.name}</h1>
-              <p className='text-xl text-gray-600 mb-4'>{brand.tagline}</p>
-              <div className='flex flex-wrap gap-2 mb-4'>
+              <h1 className='text-3xl sm:text-4xl font-bold mb-3 sm:mb-4'>
+                {brand.name}
+              </h1>
+              <p className='text-lg sm:text-xl text-gray-700 mb-4 leading-relaxed'>
+                {brand.tagline}
+              </p>
+              <div className='flex flex-wrap gap-2'>
                 {brand.tags.map(tag => (
                   <span
                     key={tag}
-                    className={`px-3 py-1 text-sm ${tagStyles[tag]}`}
+                    className={`px-3 py-1.5 text-sm font-medium ${tagStyles[tag]}`}
                   >
                     {tagLabels[tag]}
                   </span>
@@ -112,9 +117,10 @@ export default async function BrandPage({ params }: BrandPageProps) {
               </div>
             </div>
 
-            <div className='text-right'>
-              <div className='mb-4'>
-                <span className='text-sm text-gray-500'>
+            {/* Year and CTA - Stack on mobile, side-by-side on larger screens */}
+            <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 pt-2'>
+              <div>
+                <span className='text-sm text-gray-600 font-medium'>
                   Year of Involvement
                 </span>
                 <p className='text-2xl font-bold'>{brand.year}</p>
@@ -124,13 +130,13 @@ export default async function BrandPage({ params }: BrandPageProps) {
                   href={brand.website}
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='inline-flex items-center justify-center px-6 py-3 bg-black text-white font-medium hover:bg-gray-800 transition-colors'
+                  className='inline-flex items-center justify-center px-6 py-3.5 bg-black text-white font-semibold hover:bg-gray-800 active:bg-gray-900 transition-colors rounded-sm touch-manipulation w-full sm:w-auto'
                 >
                   Visit Website
                 </a>
               )}
               {isDeceased && (
-                <div className='px-6 py-3 bg-gray-100 text-gray-600 font-medium rounded-sm'>
+                <div className='px-6 py-3 bg-gray-100 text-gray-600 font-medium rounded-sm text-center'>
                   No Longer Active
                 </div>
               )}
@@ -139,26 +145,30 @@ export default async function BrandPage({ params }: BrandPageProps) {
         </section>
 
         {/* Brand Content */}
-        <section className='mb-12'>
+        <section className='mb-8 sm:mb-12'>
           <div className='prose prose-lg max-w-none'>
-            <div className='whitespace-pre-line text-lg leading-relaxed'>
+            <div className='whitespace-pre-line text-base sm:text-lg leading-relaxed text-gray-800'>
               {brand.content}
             </div>
           </div>
         </section>
 
         {/* Additional Brand Info */}
-        <section className='mb-12'>
-          <div className='border-t border-gray-200 pt-8'>
-            <h3 className='text-xl font-bold mb-4'>Brand Details</h3>
+        <section className='mb-8 sm:mb-12'>
+          <div className='border-t-2 border-gray-200 pt-6 sm:pt-8'>
+            <h3 className='text-lg sm:text-xl font-bold mb-4 sm:mb-6'>
+              Brand Details
+            </h3>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
               <div>
-                <h4 className='font-semibold mb-2'>Our Involvement</h4>
+                <h4 className='font-semibold mb-2 text-base'>
+                  Our Involvement
+                </h4>
                 <div className='flex flex-wrap gap-2'>
                   {brand.tags.map(tag => (
                     <span
                       key={tag}
-                      className={`px-2 py-1 text-sm ${tagStyles[tag]}`}
+                      className={`px-3 py-1.5 text-sm font-medium ${tagStyles[tag]}`}
                     >
                       {tagLabels[tag]}
                     </span>
@@ -166,17 +176,19 @@ export default async function BrandPage({ params }: BrandPageProps) {
                 </div>
               </div>
               <div>
-                <h4 className='font-semibold mb-2'>Year of Involvement</h4>
-                <p className='text-gray-700'>{brand.year}</p>
+                <h4 className='font-semibold mb-2 text-base'>
+                  Year of Involvement
+                </h4>
+                <p className='text-gray-700 text-lg'>{brand.year}</p>
               </div>
               {brand.website && !isDeceased && (
                 <div>
-                  <h4 className='font-semibold mb-2'>Website</h4>
+                  <h4 className='font-semibold mb-2 text-base'>Website</h4>
                   <a
                     href={brand.website}
                     target='_blank'
                     rel='noopener noreferrer'
-                    className='underline hover:no-underline'
+                    className='underline hover:no-underline break-all text-base'
                   >
                     {brand.website}
                   </a>
@@ -188,12 +200,15 @@ export default async function BrandPage({ params }: BrandPageProps) {
 
         {/* Contact */}
         <section>
-          <h3 className='text-2xl font-bold mb-4 border-b border-black pb-2'>
+          <h3 className='text-xl sm:text-2xl font-bold mb-3 sm:mb-4 border-b-2 border-black pb-2'>
             Questions About This Brand?
           </h3>
-          <p className='text-lg leading-relaxed'>
+          <p className='text-base sm:text-lg leading-relaxed'>
             Want to learn more about our work with {brand.name}?{' '}
-            <a href='mailto:hey@notacompany.com' className='underline'>
+            <a
+              href='mailto:hey@notacompany.com'
+              className='underline hover:no-underline break-all'
+            >
               hey@notacompany.com
             </a>
           </p>

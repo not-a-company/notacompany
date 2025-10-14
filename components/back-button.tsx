@@ -8,7 +8,7 @@ export default function BackButton() {
   return (
     <button
       onClick={() => router.back()}
-      className='underline hover:no-underline mb-6 font-medium'
+      className='underline hover:no-underline mb-6 font-medium text-base py-2 -ml-1 touch-manipulation inline-block'
     >
       ← Back to Portfolio
     </button>
