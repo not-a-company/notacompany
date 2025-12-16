@@ -22,16 +22,16 @@ This isn't a venture studio or an agency. It's just me, building and supporting 
 ### Advisory & Investment
 - **Acreditar** (2024) - Portugal's largest children's cancer support foundation
 - **SoSquared** (2023) - Influencer marketing infrastructure
-- **xMoney** (2022) - Stablecoin payments infrastructure
 - **Talent Protocol** (2021) - Decentralized professional reputation infrastructure
 - **CoFlyt** (2019) - Private aviation charter platform
-- **Bet Protocol** (2019) - Decentralized task marketplace
-- **Coinvision** (2018) - Cryptocurrency investment analysis
 - **Fisacar** (2017) - Automotive services infrastructure
 
 ### Successful Exits
+- **xMoney** (2022) - Stablecoin payments infrastructure
 - **Polkastarter** (2020) - Decentralized fundraising platform
+- **Bet Protocol** (2019) - Decentralized task marketplace
 - **Nexo** (2018) - Cryptocurrency wealth management ($11B+ AUM)
+- **Coinvision** (2018) - Cryptocurrency investment analysis
 - **Codeplace** (2013) - Programming education (100k+ students)
 
 ### No Longer Active
