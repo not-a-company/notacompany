@@ -1,6 +1,7 @@
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import type { Metadata } from 'next'
 import type React from 'react'
+import { Analytics } from '@/components/analytics'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -41,14 +42,10 @@ export default function RootLayout({
     <html lang='en'>
       <head>
         <link rel='icon' href='/favicons/favicon.ico' />
-        <script
-          async
-          src='https://cdn.seline.com/seline.js'
-          data-token='f55cf5ff03d843f'
-        />
       </head>
       <body>
         {children}
+        <Analytics />
         <SpeedInsights />
       </body>
     </html>
