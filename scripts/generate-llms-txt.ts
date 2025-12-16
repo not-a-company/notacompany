@@ -60,8 +60,7 @@ This partnership represents our commitment to building consumer infrastructure t
             brand.name.includes('Codeplace') ||
             brand.name.includes('Bet')
           ? 'Professional Infrastructure'
-          : brand.name.includes('Lime') ||
-              brand.name.includes('CoFlyt') ||
+          : brand.name.includes('CoFlyt') ||
               brand.name.includes('Fisacar')
             ? 'Mobility Infrastructure'
             : brand.name.includes('SoSquared')

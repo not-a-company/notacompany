@@ -2,88 +2,72 @@
 
 ## Project Overview
 
-**notacompany.com** is a **high-performance**, **SEO-optimized** consumer infrastructure company website.
+Personal portfolio website for **Tiago Martins**, founder and solo employee of *not a company*.
+
+### Design Philosophy
+- Inspired by the [world's first website](https://info.cern.ch/)
+- Times New Roman font, blue underlined links, horizontal rules
+- No fancy styling—just content that serves humans
+- Minimal meta tags, no OG previews
 
 ### Business Context
-- **Focus**: Building consumer infrastructure that makes better living effortless
-- **Approach**: Real-world validation through active consumer product development  
-- **Team**: 100% engineers building infrastructure
-- **Target Audience**: Infrastructure partners and potential collaborators
+- **Founder**: Tiago Martins (solo employee)
+- **Focus**: Consumer infrastructure that makes better living effortless
+- **Portfolio**: 16 brands across creation, investment, and advisory
 - **Contact**: hey@notacompany.com
 
-### Website Purpose
-- Showcase consumer infrastructure development expertise
-- Present projects as infrastructure validation
-- Drive infrastructure partnership inquiries
-- Establish credibility in consumer infrastructure development
+## Tech Stack
 
-## Tech Stack - **Ultra-Optimized**
+- **Framework**: Next.js 15 (App Router, Static Generation)
+- **Language**: TypeScript
+- **Styling**: Minimal CSS (classic HTML aesthetic)
+- **Fonts**: Times New Roman (serif)
+- **Analytics**: Seline + Vercel Speed Insights
+- **Deployment**: Vercel
 
-- **Framework**: Next.js 15.5.3 (App Router, Static Generation)
-- **Runtime**: React 19.1.1  
-- **Language**: TypeScript 5.0.2
-- **Styling**: Tailwind CSS 4.1.9 (minimal, optimized)
-- **Fonts**: System font stack (zero external requests)
-- **Analytics**: Vercel Analytics + Speed Insights
-- **Deployment**: Vercel (globally cached)
+## Pages
 
-### Pages (3 total)
-- `app/page.tsx`: Homepage - consumer infrastructure overview
-- `app/clients/page.tsx`: Infrastructure partnership showcase  
-- `app/co-creations/page.tsx`: Infrastructure projects & exits
-
-### Performance Targets
-- **Bundle Size**: < 110kB shared JavaScript
-- **LCP**: < 1.2s | **FID**: < 100ms | **CLS**: 0
-- **Dependencies**: < 10 production packages
-- **Build Time**: < 2 seconds
+- `app/page.tsx`: Homepage with about section
+- `app/portfolio/page.tsx`: Portfolio listing with filters
+- `app/portfolio/[slug]/page.tsx`: Individual brand pages (16 total)
 
 ## Development Guidelines
 
-### Code Quality Standards (MANDATORY)
+### Code Quality
 ```bash
-# ALWAYS run before committing
 pnpm run fix-all       # Auto-fix everything  
 pnpm run check-all     # Verify all passes
 ```
 
 ### Code Style
-- **TypeScript**: Strict settings, explicit types, avoid `any`
-- **React/Next.js**: App Router patterns, Server Components preferred
-- **Performance**: System fonts only, minimal dependencies
-- **Styling**: Tailwind utility classes, mobile-first responsive
+- TypeScript with strict settings
+- Server Components preferred
+- Minimal dependencies
+- Simple, readable code
 
 ### Content Guidelines
-- **Professional yet approachable** tone
-- **Emphasize infrastructure expertise** and consumer empathy
-- **Position projects** as infrastructure validation, not just products
-- **Focus on partnerships** and infrastructure applications
+- First person ("I" not "we")
+- Human, approachable tone
+- No corporate speak or buzzwords
+- Keep it simple and honest
 
-## Performance Requirements (CRITICAL)
-- **System fonts only** - never add Google Fonts
-- **Minimal JavaScript** - maintain ~102kB shared bundle
-- **Static generation** for all pages  
-- **Mobile-first responsive** design
-- **Zero external font requests**
+## Key Files
 
-## AI Assistant Guidelines
+- `app/globals.css`: Classic HTML styling (Times, blue links, hr)
+- `lib/brands.ts`: Brand data utilities
+- `content/brands/`: 16 MDX files with brand info
+- `public/llms.txt`: LLM context file
+- `public/favicons/`: Favicon assets
 
-### When Making Changes
-1. **Always prioritize performance** - maintain ultra-fast loading
-2. **Follow existing patterns** - consistency with current codebase  
-3. **Consider mobile-first** - hamburger menu, touch-optimized
-4. **Maintain SEO** - preserve comprehensive meta tags
-5. **Infrastructure focus** - position as consumer infrastructure experts
+## Important Notes
 
-### When Updating Content
-- **Infrastructure-first positioning** - emphasize consumer infrastructure development
-- **Projects as validation** - infrastructure experiments, not just products
-- **Professional credibility** - highlight engineering expertise in infrastructure
-- **Partnership focus** - invite infrastructure partnerships
+- **No OG meta tags** - keeping it minimal
+- **No fancy UI components** - pure HTML aesthetic
+- **Static generation** for all pages
+- Footer credits: world's first website + GitHub links
 
-### File Naming & Structure
-- Use kebab-case: `site-header.tsx`
-- PascalCase components: `SiteHeader` 
-- Keep architecture simple and performant
+## Links
 
-Remember: This is a **high-performance consumer infrastructure website**. All changes must enhance infrastructure credibility, drive partnership inquiries, and maintain **unbelievably fast** loading times.
+- Website: https://notacompany.com
+- Source: https://github.com/not-a-company/notacompany
+- Author: https://github.com/tiagom87

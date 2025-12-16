@@ -2,113 +2,43 @@
 
 **Website:** https://notacompany.com  
 **Portfolio:** https://notacompany.com/portfolio  
-**Contact:** hey@notacompany.com
+**Contact:** hey@notacompany.com  
+**Source:** https://github.com/not-a-company/notacompany
 
 ## About
 
-We build consumer infrastructure that makes better living effortless. The rails that power your daily life—from health and finance to mobility and work—are built by a team of 100% engineers who understand what it takes to create foundational infrastructure that millions rely on.
+Still building stuff for Humans.
 
-We focus on creating the foundational systems that enable seamless, effortless experiences across all aspects of modern life, combining infrastructure-level thinking with deep consumer empathy.
+I'm **Tiago Martins**, founder and solo employee of *not a company*. I'm an engineer who believes technology should amplify human potential, not replace human judgment. Over the years, I've been involved with 16 consumer infrastructure brands—building some from scratch, investing in others, and advising many more.
 
-## Our Portfolio
+This isn't a venture studio or an agency. It's just me, building and supporting things that help people live better (hopefully).
 
-We have been involved with 17 consumer infrastructure brands across creation, investment, advisory, and successful exits:
+## Portfolio (16 brands)
 
-### Active Creations (2025)
-- **Steps.org** - Exercise accountability infrastructure for depression and anxiety management through dual accountability protocol combining financial consequences and human support. Health infrastructure that makes daily exercise non-negotiable for mental health improvement.
-- **Superstables** - Institutional-scale stablecoin to fiat conversion infrastructure enabling reliable, compliant pathways for large-volume financial transactions.
+### Active Creations
+- **Steps.org** (2025) - Safe AI Behavioural Addiction Recovery Tutorials
+- **Superstables** (2025) - Institutional-scale stablecoin to fiat conversion
 
-### Advisory & Investment Portfolio
-- **Acreditar** (2024) - Portugal's largest children's cancer support foundation providing multi-dimensional healthcare infrastructure
-- **xMoney** (2022) - Stablecoin payments infrastructure specializing in on-ramp and off-ramp services between digital assets and traditional banking
-- **Talent Protocol** (2021) - Decentralized professional reputation infrastructure enabling career tokenization and merit-based talent discovery
-- **Lime** (2019) - Shared electric mobility infrastructure transforming urban transportation through micro-mobility solutions
-- **CoFlyt** (2019) - Private aviation charter and management platform streamlining aircraft operations through technology integration
-- **Bet Protocol** (2019) - Decentralized task marketplace infrastructure enabling trustless bounty systems and global work coordination
-- **Fisacar** (2017) - Automotive services infrastructure modernizing vehicle maintenance through digital platform integration
-- **Coinvision** (2018) - Cryptocurrency investment analysis infrastructure providing institutional-grade due diligence and market intelligence
-- **SoSquared** (2023) - All-in-one influencer marketing infrastructure bridging brands with content creators through data-driven solutions
+### Advisory & Investment
+- **Acreditar** (2024) - Portugal's largest children's cancer support foundation
+- **SoSquared** (2023) - Influencer marketing infrastructure
+- **xMoney** (2022) - Stablecoin payments infrastructure
+- **Talent Protocol** (2021) - Decentralized professional reputation infrastructure
+- **CoFlyt** (2019) - Private aviation charter platform
+- **Bet Protocol** (2019) - Decentralized task marketplace
+- **Coinvision** (2018) - Cryptocurrency investment analysis
+- **Fisacar** (2017) - Automotive services infrastructure
 
 ### Successful Exits
-- **Nexo** (2018) - Comprehensive cryptocurrency wealth management platform with $11+ billion in assets under management, providing savings, lending, and trading infrastructure (investment, exited)
-- **Polkastarter** (2020) - Decentralized fundraising and token launch infrastructure enabling blockchain projects to raise capital through IDOs (advisory, investment, exited)
-- **Codeplace** (2013) - Project-based programming education infrastructure serving 100k+ students, successfully exited and evolved into Code for All_
+- **Polkastarter** (2020) - Decentralized fundraising platform
+- **Nexo** (2018) - Cryptocurrency wealth management ($11B+ AUM)
+- **Codeplace** (2013) - Programming education (100k+ students)
 
-### Learning Experiences
-- **impactMarket** (2020) - Universal Basic Income infrastructure platform using blockchain technology for global poverty alleviation and social impact (investment, deceased)
-- **Mahalo** (2023) - Non-profit fundraising infrastructure platform focused on P2P charitable giving and transparency systems (creation, deceased)
-- **Songvice** (2011) - Music producer advisory infrastructure connecting musicians with industry professionals for education and collaboration (creation, deceased)
+### No Longer Active
+- **Mahalo** (2023) - Non-profit fundraising platform
+- **impactMarket** (2020) - Universal Basic Income platform
+- **Songvice** (2011) - Music producer advisory
 
-## Infrastructure Focus Areas
+## Contact
 
-**Health Infrastructure:**
-- Mental health and wellness accountability systems (Steps.org)
-- Healthcare support and family assistance networks (Acreditar)
-
-**Financial Infrastructure:**
-- Stablecoin and digital asset payment processing (xMoney, Superstables)
-- Investment analysis and due diligence platforms (Coinvision)
-- Decentralized fundraising and token launch platforms (Polkastarter)
-- Comprehensive cryptocurrency wealth management platforms (Nexo)
-
-**Professional Infrastructure:**
-- Career development and reputation systems (Talent Protocol)
-- Task marketplace and remote work coordination (Bet Protocol)
-- Education and skill development platforms (Codeplace)
-
-**Mobility Infrastructure:**
-- Urban transportation and micro-mobility solutions (Lime)
-- Private aviation and charter services (CoFlyt)
-- Automotive services and vehicle management (Fisacar)
-
-**Marketing Infrastructure:**
-- Influencer marketing and content creator networks (SoSquared)
-
-**Social Impact Infrastructure:**
-- Universal Basic Income and poverty alleviation systems (impactMarket)
-
-## Our Approach
-
-**Engineering-First Mindset:** 100% engineering team with hands-on consumer infrastructure experience
-**Real-World Validation:** Active infrastructure builders who validate approaches through consumer products
-**Infrastructure Thinking:** Focus on foundational systems rather than surface-level features
-**Consumer Empathy:** Deep understanding of user behavior and infrastructure needs
-**Scalable Solutions:** Building for millions of users with lasting impact
-**Effortless Experiences:** Prioritizing simplicity over feature complexity
-
-## Key Differentiators
-
-- Active portfolio of 14 consumer infrastructure brands
-- Successful exits validating our infrastructure approach
-- 100% engineering team with consumer product experience
-- Focus on effortless user experiences over feature complexity
-- Infrastructure-level thinking for maximum scalability
-- Real-world validation through active consumer product development
-- Diverse portfolio across health, financial, professional, and mobility infrastructure
-
-## Partnership Philosophy
-
-We work with brands to build consumer infrastructure that makes better living effortless. Our involvement spans:
-
-- **Creation:** Building new consumer infrastructure from the ground up
-- **Investment:** Supporting promising infrastructure platforms with capital and expertise
-- **Advisory:** Providing strategic guidance on consumer infrastructure development
-- **Long-term Partnerships:** Sustained involvement in infrastructure evolution
-
-## Portfolio Outcomes
-
-- **17 Total Brands** across multiple infrastructure verticals
-- **Multiple Successful Exits** validating our infrastructure approach
-- **Global Reach** across Portugal, Europe, and international markets
-- **Millions of Users** served through our infrastructure platforms
-- **Diverse Impact** from health and finance to mobility and education
-
-## Contact Information
-
-**Email:** hey@notacompany.com  
-**Website:** https://notacompany.com  
-**Portfolio:** https://notacompany.com/portfolio
-
-For partnerships in consumer infrastructure development, investment opportunities, or advisory services, contact hey@notacompany.com.
-
-Ready to build infrastructure that makes better living effortless? Get in touch.
+hey@notacompany.com
