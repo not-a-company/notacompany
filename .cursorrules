@@ -81,6 +81,25 @@ pnpm run build         # Generates llms.txt + builds production
 - `public/llms.txt`: LLM context file (auto-generated)
 - `public/brands/`: LLM-readable brand files (auto-generated)
 
+## SEO Configuration
+
+Each page sets its own canonical URL via `alternates.canonical`:
+
+```typescript
+// In each page's metadata export
+export const metadata: Metadata = {
+  alternates: {
+    canonical: '/portfolio',  // Relative path, resolved against metadataBase
+  },
+}
+```
+
+**Important SEO rules:**
+- Do NOT set canonical in root `layout.tsx` (it overrides all pages)
+- Each page must set its own canonical URL
+- Use `siteConfig.url` as `metadataBase` in root layout
+- Brand links must be server-rendered for crawlers (not client-only)
+
 ## Important Notes
 
 - **No OG meta tags** - keeping it minimal
@@ -88,6 +107,7 @@ pnpm run build         # Generates llms.txt + builds production
 - **Static generation** for all pages
 - **LLMs.txt auto-generated** - runs on `pnpm run build`
 - **Dynamic brand count** - no hardcoded "16 brands"
+- **Per-page canonicals** - each page sets its own canonical URL
 - Footer credits: world's first website + GitHub links
 
 ## Links

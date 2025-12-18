@@ -62,10 +62,13 @@ All site information is centralized in `lib/site-config.ts`:
 
 - **URL**: `https://www.notacompany.com`
 - **Meta descriptions**: SEO-optimized (120-160 chars)
+- **Per-page canonicals**: Each page sets its own canonical URL
 - **i18n-ready**: English only for now, structured for future localization
 - **Dynamic brand count**: Computed from content files
 
 The config is consumed by meta tags, sitemap, robots.txt, and LLMs.txt generation.
+
+**SEO Score**: 100/100 (Ahrefs)
 
 ## Links
 
