@@ -6,7 +6,7 @@ export default function SiteFooter() {
         © 2025 notacompany.com
       </p>
       <p>
-        Inspired by the{' '}
+        Design inspired by the{' '}
         <a href='https://info.cern.ch/' target='_blank' rel='noopener noreferrer'>
           world&apos;s first website
         </a>

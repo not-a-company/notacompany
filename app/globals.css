@@ -44,10 +44,6 @@
     text-decoration: underline;
   }
 
-  a:visited {
-    color: #551A8B;
-  }
-
   a:hover {
     color: #0000EE;
   }
