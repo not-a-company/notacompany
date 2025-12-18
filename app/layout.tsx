@@ -18,9 +18,6 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-  alternates: {
-    canonical: siteConfig.url,
-  },
   icons: {
     icon: [
       { url: '/favicons/favicon.ico' },

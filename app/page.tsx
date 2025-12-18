@@ -7,6 +7,9 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: siteConfig.strings.tagline,
   description: siteConfig.strings.descriptions.home,
+  alternates: {
+    canonical: '/',
+  },
 }
 
 export default function HomePage() {

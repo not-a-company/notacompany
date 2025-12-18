@@ -45,6 +45,9 @@ export async function generateMetadata({
       brand.name,
       brand.tagline
     ),
+    alternates: {
+      canonical: `/portfolio/${slug}`,
+    },
   }
 }
 
