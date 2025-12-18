@@ -1,11 +1,12 @@
 import SiteFooter from '@/components/site-footer'
 import SiteHeader from '@/components/site-header'
+import { siteConfig } from '@/lib/site-config'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Still Building Stuff for Humans',
-  description: 'Founded by Tiago Martins. Still building stuff for Humans.',
+  title: siteConfig.strings.tagline,
+  description: siteConfig.strings.descriptions.home,
 }
 
 export default function HomePage() {
@@ -20,15 +21,18 @@ export default function HomePage() {
 
         <h3>About</h3>
         <p>
-          I&apos;m <strong>Tiago Martins</strong>, founder and solo employee of <em>not a company</em>. 
-          I&apos;m an engineer who believes technology should amplify human potential, not replace human 
-          judgment. Over the years, I&apos;ve been involved with 16 consumer infrastructure brands—building 
-          some from scratch, investing in others, and advising many more.
+          I&apos;m <strong>Tiago Martins</strong>, founder and solo employee of{' '}
+          <em>not a company</em>. I&apos;m an engineer who believes technology
+          should amplify human potential, not replace human judgment. Over the
+          years, I&apos;ve been involved with 16 consumer infrastructure
+          brands—building some from scratch, investing in others, and advising
+          many more.
         </p>
 
         <p>
-          This isn&apos;t a venture studio or an agency. It&apos;s just me, building and supporting things 
-          that help people live better (hopefully).
+          This isn&apos;t a venture studio or an agency. It&apos;s just me,
+          building and supporting things that help people live better
+          (hopefully).
         </p>
 
         <hr />

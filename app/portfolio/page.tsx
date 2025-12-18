@@ -4,12 +4,13 @@ import { Suspense } from 'react'
 import SiteFooter from '@/components/site-footer'
 import SiteHeader from '@/components/site-header'
 import { getAllBrands, getAllTags } from '@/lib/brands'
+import { siteConfig } from '@/lib/site-config'
 
 import PortfolioClient from './portfolio-client'
 
 export const metadata: Metadata = {
   title: 'Portfolio',
-  description: 'Portfolio of consumer infrastructure brands.',
+  description: siteConfig.strings.descriptions.portfolio,
 }
 
 export default function PortfolioPage() {
@@ -23,7 +24,8 @@ export default function PortfolioPage() {
       <main>
         <h2>Portfolio</h2>
         <p>
-          Consumer infrastructure brands across creation, investment, and advisory.
+          Consumer infrastructure brands across creation, investment, and
+          advisory.
         </p>
 
         <hr />

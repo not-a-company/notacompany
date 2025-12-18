@@ -1,8 +1,9 @@
 import { getAllBrands } from '@/lib/brands'
+import { siteConfig } from '@/lib/site-config'
 import type { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://notacompany.com'
+  const baseUrl = siteConfig.url
   const currentDate = new Date()
 
   const brands = getAllBrands()

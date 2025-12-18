@@ -1,7 +1,7 @@
 # notacompany.com
 
-**Website:** https://notacompany.com  
-**Portfolio:** https://notacompany.com/portfolio  
+**Website:** https://www.notacompany.com  
+**Portfolio:** https://www.notacompany.com/portfolio  
 **Contact:** hey@notacompany.com  
 **Source:** https://github.com/not-a-company/notacompany
 
@@ -9,7 +9,7 @@
 
 Still building stuff for Humans.
 
-I'm **Tiago Martins**, founder and solo employee of *not a company*. I'm an engineer who believes technology should amplify human potential, not replace human judgment. Over the years, I've been involved with 16 consumer infrastructure brands—building some from scratch, investing in others, and advising many more.
+I'm Tiago Martins, founder and solo employee of not a company. I'm an engineer who believes technology should amplify human potential, not replace human judgment. Over the years, I've been involved with consumer infrastructure brands—building some from scratch, investing in others, and advising many more.
 
 This isn't a venture studio or an agency. It's just me, building and supporting things that help people live better (hopefully).
 
@@ -17,27 +17,27 @@ This isn't a venture studio or an agency. It's just me, building and supporting 
 
 ### Active Creations
 - **Steps.org** (2025) - Safe AI Behavioural Addiction Recovery Tutorials
-- **Superstables** (2025) - Institutional-scale stablecoin to fiat conversion
 
 ### Advisory & Investment
+- **Superstables** (2025) - Swap stablecoins for fiat at institutional scale
 - **Acreditar** (2024) - Portugal's largest children's cancer support foundation
-- **SoSquared** (2023) - Influencer marketing infrastructure
-- **Talent Protocol** (2021) - Decentralized professional reputation infrastructure
-- **CoFlyt** (2019) - Private aviation charter platform
-- **Fisacar** (2017) - Automotive services infrastructure
+- **SoSquared** (2023) - All-in-one influencer marketing platform
+- **Talent Protocol** (2021) - Decentralized professional reputation and career infrastructure
+- **CoFlyt** (2019) - Private aviation charter and management platform
+- **Fisacar** (2017) - Automotive services and vehicle management platform
 
 ### Successful Exits
-- **xMoney** (2022) - Stablecoin payments infrastructure
-- **Polkastarter** (2020) - Decentralized fundraising platform
-- **Bet Protocol** (2019) - Decentralized task marketplace
-- **Nexo** (2018) - Cryptocurrency wealth management ($11B+ AUM)
-- **Coinvision** (2018) - Cryptocurrency investment analysis
-- **Codeplace** (2013) - Programming education (100k+ students)
+- **xMoney** (2022) - Stablecoin payments on & off ramp infrastructure
+- **Polkastarter** (2020) - Decentralized fundraising and token launch infrastructure
+- **Bet Protocol** (2019) - Decentralized task marketplace and development infrastructure
+- **Coinvision** (2018) - Crypto VC and blockchain due diligence advisory
+- **Nexo** (2018) - Comprehensive cryptocurrency wealth management platform
+- **Codeplace** (2013) - Project-based programming education ecosystem
 
 ### No Longer Active
-- **Mahalo** (2023) - Non-profit fundraising platform
-- **impactMarket** (2020) - Universal Basic Income platform
-- **Songvice** (2011) - Music producer advisory
+- **Mahalo** (2023) - Non-profit fundraising infrastructure platform
+- **impactMarket** (2020) - Universal Basic Income infrastructure for social impact
+- **Songvice** (2011) - Music producer advisory and education platform
 
 ## Contact
 

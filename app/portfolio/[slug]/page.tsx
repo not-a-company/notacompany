@@ -2,6 +2,7 @@ import BackButton from '@/components/back-button'
 import SiteFooter from '@/components/site-footer'
 import SiteHeader from '@/components/site-header'
 import { getAllBrands, getBrandBySlug, type BrandTag } from '@/lib/brands'
+import { siteConfig } from '@/lib/site-config'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 
@@ -40,7 +41,10 @@ export async function generateMetadata({
 
   return {
     title: brand.name,
-    description: brand.tagline,
+    description: siteConfig.strings.descriptions.brand(
+      brand.name,
+      brand.tagline
+    ),
   }
 }
 
@@ -62,7 +66,9 @@ export default async function BrandPage({ params }: BrandPageProps) {
         <BackButton />
 
         <h2>{brand.name}</h2>
-        <p><em>{brand.tagline}</em></p>
+        <p>
+          <em>{brand.tagline}</em>
+        </p>
 
         <hr />
 
@@ -72,8 +78,13 @@ export default async function BrandPage({ params }: BrandPageProps) {
 
         <h3>Details</h3>
         <ul>
-          <li><strong>Year:</strong> {brand.year}</li>
-          <li><strong>Involvement:</strong> {brand.tags.map(tag => tagLabels[tag]).join(', ')}</li>
+          <li>
+            <strong>Year:</strong> {brand.year}
+          </li>
+          <li>
+            <strong>Involvement:</strong>{' '}
+            {brand.tags.map(tag => tagLabels[tag]).join(', ')}
+          </li>
           {brand.website && !isDeceased && (
             <li>
               <strong>Website:</strong>{' '}
@@ -83,7 +94,9 @@ export default async function BrandPage({ params }: BrandPageProps) {
             </li>
           )}
           {isDeceased && (
-            <li><strong>Status:</strong> No Longer Active</li>
+            <li>
+              <strong>Status:</strong> No Longer Active
+            </li>
           )}
         </ul>
 

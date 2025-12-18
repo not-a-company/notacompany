@@ -2,23 +2,24 @@ import { SpeedInsights } from '@vercel/speed-insights/next'
 import type { Metadata } from 'next'
 import type React from 'react'
 import { Analytics } from '@/components/analytics'
+import { siteConfig } from '@/lib/site-config'
 import './globals.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://notacompany.com'),
+  metadataBase: new URL(siteConfig.url),
   title: {
-    default: 'notacompany.com',
-    template: '%s | notacompany.com',
+    default: siteConfig.domain,
+    template: `%s | ${siteConfig.domain}`,
   },
-  description: 'Founded by Tiago Martins. Still building stuff for Humans.',
-  authors: [{ name: 'Tiago Martins' }],
-  creator: 'Tiago Martins',
+  description: siteConfig.strings.descriptions.home,
+  authors: [{ name: siteConfig.founder }],
+  creator: siteConfig.founder,
   robots: {
     index: true,
     follow: true,
   },
   alternates: {
-    canonical: 'https://notacompany.com',
+    canonical: siteConfig.url,
   },
   icons: {
     icon: [
@@ -27,7 +28,11 @@ export const metadata: Metadata = {
       { url: '/favicons/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
     ],
     apple: [
-      { url: '/favicons/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+      {
+        url: '/favicons/apple-touch-icon.png',
+        sizes: '180x180',
+        type: 'image/png',
+      },
     ],
   },
   manifest: '/favicons/site.webmanifest',

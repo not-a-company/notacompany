@@ -7,9 +7,7 @@ export default function BackButton() {
 
   return (
     <p>
-      <button onClick={() => router.back()}>
-        ← Back to Portfolio
-      </button>
+      <button onClick={() => router.back()}>← Back to Portfolio</button>
     </p>
   )
 }

@@ -17,7 +17,12 @@
     padding: 8px;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: Times, 'Times New Roman', serif;
     font-weight: bold;
     margin: 0.5em 0;
@@ -40,19 +45,20 @@
   }
 
   a {
-    color: #0000EE;
+    color: #0000ee;
     text-decoration: underline;
   }
 
   a:hover {
-    color: #0000EE;
+    color: #0000ee;
   }
 
   a:active {
-    color: #FF0000;
+    color: #ff0000;
   }
 
-  ul, ol {
+  ul,
+  ol {
     margin: 0.5em 0;
     padding-left: 2em;
   }
@@ -74,12 +80,12 @@
     border: none;
     cursor: pointer;
     font-size: inherit;
-    color: #0000EE;
+    color: #0000ee;
     text-decoration: underline;
     padding: 0;
   }
 
   button:hover {
-    color: #0000EE;
+    color: #0000ee;
   }
 }

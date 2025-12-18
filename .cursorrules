@@ -13,7 +13,7 @@ Personal portfolio website for **Tiago Martins**, founder and solo employee of *
 ### Business Context
 - **Founder**: Tiago Martins (solo employee)
 - **Focus**: Consumer infrastructure that makes better living effortless
-- **Portfolio**: 16 brands across creation, investment, and advisory
+- **Portfolio**: Dynamic count from `content/brands/` MDX files
 - **Contact**: hey@notacompany.com
 
 ## Tech Stack
@@ -25,18 +25,38 @@ Personal portfolio website for **Tiago Martins**, founder and solo employee of *
 - **Analytics**: Seline + Vercel Speed Insights
 - **Deployment**: Vercel
 
+## Site Configuration
+
+All site info is centralized in `lib/site-config.ts`:
+
+```typescript
+import { siteConfig } from '@/lib/site-config'
+
+siteConfig.url           // https://www.notacompany.com
+siteConfig.email         // hey@notacompany.com
+siteConfig.brandCount    // Dynamic count from MDX files
+siteConfig.strings.*     // i18n-ready content strings
+```
+
+**Always use `siteConfig`** for:
+- URLs (meta, sitemap, robots, llms.txt)
+- Meta descriptions
+- Site identity (name, email, founder)
+- Any text that might need i18n in the future
+
 ## Pages
 
 - `app/page.tsx`: Homepage with about section
 - `app/portfolio/page.tsx`: Portfolio listing with filters
-- `app/portfolio/[slug]/page.tsx`: Individual brand pages (16 total)
+- `app/portfolio/[slug]/page.tsx`: Individual brand pages
 
 ## Development Guidelines
 
 ### Code Quality
 ```bash
-pnpm run fix-all       # Auto-fix everything  
+pnpm run fix-all       # Auto-fix formatting + linting
 pnpm run check-all     # Verify all passes
+pnpm run build         # Generates llms.txt + builds production
 ```
 
 ### Code Style
@@ -53,21 +73,25 @@ pnpm run check-all     # Verify all passes
 
 ## Key Files
 
-- `app/globals.css`: Classic HTML styling (Times, blue links, hr)
+- `lib/site-config.ts`: **Centralized site config** (URL, strings, i18n)
 - `lib/brands.ts`: Brand data utilities
-- `content/brands/`: 16 MDX files with brand info
-- `public/llms.txt`: LLM context file
-- `public/favicons/`: Favicon assets
+- `app/globals.css`: Classic HTML styling (Times, blue links, hr)
+- `content/brands/`: MDX files with brand info
+- `scripts/generate-llms-txt.ts`: Generates LLMs.txt files on build
+- `public/llms.txt`: LLM context file (auto-generated)
+- `public/brands/`: LLM-readable brand files (auto-generated)
 
 ## Important Notes
 
 - **No OG meta tags** - keeping it minimal
 - **No fancy UI components** - pure HTML aesthetic
 - **Static generation** for all pages
+- **LLMs.txt auto-generated** - runs on `pnpm run build`
+- **Dynamic brand count** - no hardcoded "16 brands"
 - Footer credits: world's first website + GitHub links
 
 ## Links
 
-- Website: https://notacompany.com
+- Website: https://www.notacompany.com
 - Source: https://github.com/not-a-company/notacompany
 - Author: https://github.com/tiagom87

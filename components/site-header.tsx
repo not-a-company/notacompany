@@ -12,11 +12,19 @@ export default function SiteHeader({ currentPage = 'home' }: SiteHeaderProps) {
       </h1>
       <hr />
       <nav>
-        <Link href='/' style={{ fontWeight: currentPage === 'home' ? 'bold' : 'normal' }}>
+        <Link
+          href='/'
+          style={{ fontWeight: currentPage === 'home' ? 'bold' : 'normal' }}
+        >
           Home
         </Link>
         {' | '}
-        <Link href='/portfolio' style={{ fontWeight: currentPage === 'portfolio' ? 'bold' : 'normal' }}>
+        <Link
+          href='/portfolio'
+          style={{
+            fontWeight: currentPage === 'portfolio' ? 'bold' : 'normal',
+          }}
+        >
           Portfolio
         </Link>
       </nav>
