@@ -1,7 +1,7 @@
 # Steps.org
 
 **Brand:** Steps.org
-**Tagline:** Safe AI Behavioural Addiction Recovery Tutorials
+**Tagline:** Humanely Curated AI Prompts for Career Transitions
 **Website:** https://www.steps.org/
 **Year of Involvement:** 2025
 **Our Role:** Built from the ground up
@@ -10,7 +10,7 @@
 ## About Steps.org
 
 
-Steps.org is a free platform that helps people recover from porn addiction using AI-powered conversations. Users copy carefully curated prompts into ChatGPT or any AI chatbot to get personalized, private support for their recovery journey. The platform offers 47+ prompts across categories including urge management, self-assessment, relationships, relapse support, and professional help guidance—serving 207K monthly searches from people seeking to quit porn. Created by someone who's been through recovery, it provides safe, anonymous support that works with any AI tool.
+Hand-crafted prompts to navigate layoffs, job searches, and career changes. Not AI slop — real prompts, tested by humans, for humans. Free forever.
 
 
 ## Our Involvement

@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import { mkdirSync, writeFileSync } from 'fs'
 import { join } from 'path'
 import { getAllBrands, type Brand, type BrandTag } from '../lib/brands'
