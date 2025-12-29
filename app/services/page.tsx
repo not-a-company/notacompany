@@ -149,7 +149,7 @@ export default function ServicesPage() {
 
         <p>
           I&apos;ve spent 10+ years creating, growing, and advising consumer
-          infrastructure companies. Not as an agency. As a founder and operator
+          companies. Not as an agency. As a founder and operator
           who understands that digital presence is just one piece of building
           something that lasts.
         </p>
