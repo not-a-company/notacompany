@@ -26,14 +26,11 @@ const tagLabels: Record<BrandTag, string> = {
   deceased: 'Deceased',
 }
 
-export default function PortfolioPage() {
-  const allBrands = getAllBrands()
-  const allTags = getAllTags()
-
-  // Server-rendered brand list for SEO (crawlers can see these links)
-  const BrandList = () => (
+// Server-rendered brand list component for SEO (crawlers can see these links)
+function BrandList({ brands }: { brands: ReturnType<typeof getAllBrands> }) {
+  return (
     <ul>
-      {allBrands.map(brand => (
+      {brands.map(brand => (
         <li key={brand.slug}>
           <strong>
             <Link href={`/portfolio/${brand.slug}`}>{brand.name}</Link>
@@ -45,6 +42,11 @@ export default function PortfolioPage() {
       ))}
     </ul>
   )
+}
+
+export default function PortfolioPage() {
+  const allBrands = getAllBrands()
+  const allTags = getAllTags()
 
   return (
     <>
@@ -58,7 +60,7 @@ export default function PortfolioPage() {
 
         <hr />
 
-        <Suspense fallback={<BrandList />}>
+        <Suspense fallback={<BrandList brands={allBrands} />}>
           <PortfolioClient brands={allBrands} tags={allTags} />
         </Suspense>
 

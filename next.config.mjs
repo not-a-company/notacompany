@@ -5,9 +5,6 @@ const nextConfig = {
   // MDX configuration
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
   // Vercel optimizations
-  eslint: {
-    ignoreDuringBuilds: false, // Enable linting on Vercel
-  },
   typescript: {
     ignoreBuildErrors: false, // Enable TypeScript checking on Vercel
   },

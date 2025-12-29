@@ -12,7 +12,7 @@ Inspired by the [world's first website](https://info.cern.ch/). Times New Roman,
 
 ## Tech Stack
 
-- **Framework**: Next.js 15 (App Router, Static Generation)
+- **Framework**: Next.js 16 (App Router, Static Generation, Turbopack)
 - **Language**: TypeScript
 - **Styling**: Minimal CSS (Times New Roman, classic HTML aesthetic)
 - **Analytics**: Seline + Vercel Speed Insights

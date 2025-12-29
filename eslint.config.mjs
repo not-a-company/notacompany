@@ -1,13 +1,4 @@
-import { FlatCompat } from '@eslint/eslintrc'
-import { dirname } from 'path'
-import { fileURLToPath } from 'url'
-
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = dirname(__filename)
-
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-})
+import nextConfig from 'eslint-config-next'
 
 const eslintConfig = [
   // Global ignores (applies to all subsequent configs)
@@ -30,7 +21,7 @@ const eslintConfig = [
       'yarn.lock',
     ],
   },
-  ...compat.extends('next/core-web-vitals', 'next/typescript'),
+  ...(Array.isArray(nextConfig) ? nextConfig : [nextConfig]),
   {
     rules: {
       // Next.js and React best practices

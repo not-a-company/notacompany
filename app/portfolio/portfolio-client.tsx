@@ -3,7 +3,7 @@
 import type { Brand, BrandTag } from '@/lib/brands'
 import Link from 'next/link'
 import { useSearchParams } from 'next/navigation'
-import { useEffect, useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
 
 interface PortfolioClientProps {
   brands: Brand[]
@@ -24,25 +24,15 @@ export default function PortfolioClient({
   tags,
 }: PortfolioClientProps) {
   const searchParams = useSearchParams()
-  const [selectedTag, setSelectedTag] = useState<BrandTag | 'all'>('all')
-
-  // Set initial tag from URL params
-  useEffect(() => {
+  
+  // Initialize tag from URL params
+  const initialTag = (() => {
     const tagParam = searchParams.get('tag') as BrandTag
-    if (
-      tagParam &&
-      [
-        'creation',
-        'investment',
-        'advisory',
-        'services',
-        'exited',
-        'deceased',
-      ].includes(tagParam)
-    ) {
-      setSelectedTag(tagParam)
-    }
-  }, [searchParams])
+    const validTags = ['creation', 'investment', 'advisory', 'services', 'exited', 'deceased']
+    return tagParam && validTags.includes(tagParam) ? tagParam : 'all'
+  })()
+  
+  const [selectedTag, setSelectedTag] = useState<BrandTag | 'all'>(initialTag)
 
   const filteredBrands = useMemo(() => {
     if (selectedTag === 'all') return brands
