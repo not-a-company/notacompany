@@ -1,5 +1,6 @@
 import SiteFooter from '@/components/site-footer'
 import SiteHeader from '@/components/site-header'
+import { getAllBrands } from '@/lib/brands'
 import { siteConfig } from '@/lib/site-config'
 import type { Metadata } from 'next'
 import Link from 'next/link'
@@ -13,6 +14,8 @@ export const metadata: Metadata = {
 }
 
 export default function HomePage() {
+  const brandCount = getAllBrands().length
+
   return (
     <>
       <SiteHeader currentPage='home' />
@@ -27,15 +30,9 @@ export default function HomePage() {
           I&apos;m <strong>Tiago Martins</strong>, founder and solo employee of{' '}
           <em>not a company</em>. I&apos;m an engineer who believes technology
           should amplify human potential, not replace human judgment. Over the
-          years, I&apos;ve been involved with 16 consumer infrastructure
+          years, I&apos;ve been involved with {brandCount} consumer
           brands—building some from scratch, investing in others, and advising
           many more.
-        </p>
-
-        <p>
-          This isn&apos;t a venture studio or an agency. It&apos;s just me,
-          building and supporting things that help people live better
-          (hopefully).
         </p>
 
         <hr />
@@ -44,6 +41,9 @@ export default function HomePage() {
         <ul>
           <li>
             <Link href='/portfolio'>Browse the portfolio</Link>
+          </li>
+          <li>
+            <Link href='/services'>Learn about services</Link>
           </li>
           <li>
             <a href='mailto:hey@notacompany.com'>Get in touch</a>

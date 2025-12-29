@@ -14,6 +14,7 @@ const tagLabels: Record<BrandTag, string> = {
   creation: 'Creation',
   investment: 'Investment',
   advisory: 'Advisory',
+  services: 'Services',
   exited: 'Exited',
   deceased: 'Deceased',
 }
@@ -30,9 +31,14 @@ export default function PortfolioClient({
     const tagParam = searchParams.get('tag') as BrandTag
     if (
       tagParam &&
-      ['creation', 'investment', 'advisory', 'exited', 'deceased'].includes(
-        tagParam
-      )
+      [
+        'creation',
+        'investment',
+        'advisory',
+        'services',
+        'exited',
+        'deceased',
+      ].includes(tagParam)
     ) {
       setSelectedTag(tagParam)
     }

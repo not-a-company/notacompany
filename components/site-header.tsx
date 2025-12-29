@@ -27,6 +27,15 @@ export default function SiteHeader({ currentPage = 'home' }: SiteHeaderProps) {
         >
           Portfolio
         </Link>
+        {' | '}
+        <Link
+          href='/services'
+          style={{
+            fontWeight: currentPage === 'services' ? 'bold' : 'normal',
+          }}
+        >
+          Services
+        </Link>
       </nav>
       <hr />
     </header>

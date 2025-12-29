@@ -4,9 +4,7 @@
 
 ## About
 
-I'm **Tiago Martins**, founder and solo employee of _not a company_. I'm an engineer who believes technology should amplify human potential, not replace human judgment. Over the years, I've been involved with consumer infrastructure brands—building some from scratch, investing in others, and advising many more.
-
-This isn't a venture studio or an agency. It's just me, building and supporting things that help people live better (hopefully).
+I'm **Tiago Martins**, founder and solo employee of _not a company_. I'm an engineer who believes technology should amplify human potential, not replace human judgment. Over the years, I've been involved with consumer brands—building some from scratch, investing in others, and advising many more.
 
 ## Design
 

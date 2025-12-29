@@ -2,6 +2,7 @@
 
 **Website:** https://www.notacompany.com  
 **Portfolio:** https://www.notacompany.com/portfolio  
+**Services:** https://www.notacompany.com/services  
 **Contact:** hey@notacompany.com  
 **Source:** https://github.com/not-a-company/notacompany
 
@@ -9,11 +10,30 @@
 
 Still building stuff for Humans.
 
-I'm Tiago Martins, founder and solo employee of not a company. I'm an engineer who believes technology should amplify human potential, not replace human judgment. Over the years, I've been involved with consumer infrastructure brands—building some from scratch, investing in others, and advising many more.
+I'm Tiago Martins, founder and solo employee of not a company. I'm an engineer who believes technology should amplify human potential, not replace human judgment. Over the years, I've been involved with consumer brands—building some from scratch, investing in others, and advising many more.
 
-This isn't a venture studio or an agency. It's just me, building and supporting things that help people live better (hopefully).
+## Services
 
-## Portfolio (16 brands)
+**Generative Engine Optimization for consumer brands.**
+
+I help multi-location retail businesses become the answer when customers ask AI for recommendations. This means building the complete infrastructure that makes your brand citable: reputation systems that generate reviews at scale, local search presence across Google Business, Apple Maps, and the directories that feed AI knowledge graphs, and structured data that machines can parse and trust.
+
+Traditional SEO got you ranked. GEO gets you recommended.
+
+### Who this is for
+
+Retail businesses with more than one physical location. Franchises. Multi-shop family businesses. Regional chains. Companies where foot traffic matters and local reputation compounds.
+
+### Track record
+
+- **Parfois** — Fashion accessories. 1,100+ stores across 70 countries. 1.4M monthly organic visitors. 2M Instagram followers.
+- **Feira dos Tecidos** — Textile retail. 18 stores. 4.4/5 Trustpilot. 40-year legacy brand.
+- **Fisacar** — Automotive dealer. 4 locations. 4.6/5 review rating. 10,000+ customers served.
+- **epic.travel** — Boutique luxury travel. 4.8/5 Trustpilot. BBC documentary partner. 20 years in operation.
+
+Learn more: https://www.notacompany.com/services
+
+## Portfolio (19 brands)
 
 ### Active Creations
 - **Steps.org** (2025) - Humanely Curated AI Prompts for Career Transitions
@@ -24,6 +44,11 @@ This isn't a venture studio or an agency. It's just me, building and supporting 
 - **SoSquared** (2023) - All-in-one influencer marketing platform
 - **Talent Protocol** (2021) - Decentralized professional reputation and career infrastructure
 - **CoFlyt** (2019) - Private aviation charter and management platform
+
+### GEO Services Clients
+- **epic.travel** (2022) - Boutique luxury travel with BBC documentary partnership
+- **Parfois** (2019) - Fashion accessories with global retail presence
+- **Feira dos Tecidos** (2018) - Portugal's leading textile retail chain with four decades of heritage
 - **Fisacar** (2017) - Automotive services and vehicle management platform
 
 ### Successful Exits

@@ -16,6 +16,7 @@ const tagLabels: Record<BrandTag, string> = {
   creation: 'Creation',
   investment: 'Investment',
   advisory: 'Advisory',
+  services: 'Services',
   exited: 'Exited',
   deceased: 'Deceased',
 }
