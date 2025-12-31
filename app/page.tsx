@@ -43,9 +43,6 @@ export default function HomePage() {
             <Link href='/portfolio'>Browse the portfolio</Link>
           </li>
           <li>
-            <Link href='/services'>Learn about services</Link>
-          </li>
-          <li>
             <a href='mailto:hey@notacompany.com'>Get in touch</a>
           </li>
         </ul>

@@ -14,7 +14,6 @@ const tagLabels: Record<BrandTag, string> = {
   creation: 'Creation',
   investment: 'Investment',
   advisory: 'Advisory',
-  services: 'Services',
   exited: 'Exited',
   deceased: 'Deceased',
 }
@@ -24,14 +23,20 @@ export default function PortfolioClient({
   tags,
 }: PortfolioClientProps) {
   const searchParams = useSearchParams()
-  
+
   // Initialize tag from URL params
   const initialTag = (() => {
     const tagParam = searchParams.get('tag') as BrandTag
-    const validTags = ['creation', 'investment', 'advisory', 'services', 'exited', 'deceased']
+    const validTags = [
+      'creation',
+      'investment',
+      'advisory',
+      'exited',
+      'deceased',
+    ]
     return tagParam && validTags.includes(tagParam) ? tagParam : 'all'
   })()
-  
+
   const [selectedTag, setSelectedTag] = useState<BrandTag | 'all'>(initialTag)
 
   const filteredBrands = useMemo(() => {

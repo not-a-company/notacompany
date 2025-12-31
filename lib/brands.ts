@@ -7,7 +7,6 @@ export type BrandTag =
   | 'creation'
   | 'investment'
   | 'advisory'
-  | 'services'
   | 'exited'
   | 'deceased'
 
@@ -98,7 +97,6 @@ export function getTagCounts(): Record<BrandTag, number> {
     creation: 0,
     investment: 0,
     advisory: 0,
-    services: 0,
     exited: 0,
     deceased: 0,
   }

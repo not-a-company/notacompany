@@ -8,7 +8,6 @@ const tagDescriptions: Record<BrandTag, string> = {
   creation: 'Built from the ground up',
   investment: 'Investment partner',
   advisory: 'Strategic advisory role',
-  services: 'GEO services client',
   exited: 'Successfully exited',
   deceased: 'No longer operating',
 }
@@ -96,29 +95,6 @@ For questions about ${brand.name} or our consumer work:
 ${siteConfig.strings.mission}`
 }
 
-function generateServicesContent(): string {
-  return `## Services
-
-**Generative Engine Optimization for consumer brands.**
-
-I help multi-location retail businesses become the answer when customers ask AI for recommendations. This means building the complete infrastructure that makes your brand citable: reputation systems that generate reviews at scale, local search presence across Google Business, Apple Maps, and the directories that feed AI knowledge graphs, and structured data that machines can parse and trust.
-
-Traditional SEO got you ranked. GEO gets you recommended.
-
-### Who this is for
-
-Retail businesses with more than one physical location. Franchises. Multi-shop family businesses. Regional chains. Companies where foot traffic matters and local reputation compounds.
-
-### Track record
-
-- **Parfois** — Fashion accessories. 1,100+ stores across 70 countries. 1.4M monthly organic visitors. 2M Instagram followers.
-- **Feira dos Tecidos** — Textile retail. 18 stores. 4.4/5 Trustpilot. 40-year legacy brand.
-- **Fisacar** — Automotive dealer. 4 locations. 4.6/5 review rating. 10,000+ customers served.
-- **epic.travel** — Boutique luxury travel. 4.8/5 Trustpilot. BBC documentary partner. 20 years in operation.
-
-Learn more: ${siteConfig.url}/services`
-}
-
 function generateMainLLMSContent(brands: Brand[]): string {
   const activeCreations = brands.filter(
     b =>
@@ -129,13 +105,6 @@ function generateMainLLMSContent(brands: Brand[]): string {
   const advisoryInvestment = brands.filter(
     b =>
       (b.tags.includes('advisory') || b.tags.includes('investment')) &&
-      !b.tags.includes('exited') &&
-      !b.tags.includes('deceased') &&
-      !b.tags.includes('services')
-  )
-  const servicesClients = brands.filter(
-    b =>
-      b.tags.includes('services') &&
       !b.tags.includes('exited') &&
       !b.tags.includes('deceased')
   )
@@ -150,7 +119,6 @@ function generateMainLLMSContent(brands: Brand[]): string {
 
 **Website:** ${siteConfig.url}  
 **Portfolio:** ${siteConfig.url}/portfolio  
-**Services:** ${siteConfig.url}/services  
 **Contact:** ${siteConfig.email}  
 **Source:** ${siteConfig.github}
 
@@ -160,8 +128,6 @@ ${siteConfig.strings.tagline}
 
 ${siteConfig.strings.about}
 
-${generateServicesContent()}
-
 ## Portfolio (${brands.length} brands)
 
 ### Active Creations
@@ -169,9 +135,6 @@ ${activeCreations.map(formatBrand).join('\n')}
 
 ### Advisory & Investment
 ${advisoryInvestment.map(formatBrand).join('\n')}
-
-### GEO Services Clients
-${servicesClients.map(formatBrand).join('\n')}
 
 ### Successful Exits
 ${exited.map(formatBrand).join('\n')}

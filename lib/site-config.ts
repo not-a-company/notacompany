@@ -40,8 +40,6 @@ export const siteConfig = {
         const count = getBrandCount()
         return `Portfolio of ${count} consumer brands across creation, investment, and advisory. From fintech to education—technology that helps people live better.`
       },
-      services:
-        'Generative Engine Optimization for multi-location retail businesses. Building reputation infrastructure that makes your brand citable by AI systems.',
       brand: (name: string, tagline: string) =>
         `${name}: ${tagline} A consumer brand from the not a company portfolio.`,
     },

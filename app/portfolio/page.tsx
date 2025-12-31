@@ -21,7 +21,6 @@ const tagLabels: Record<BrandTag, string> = {
   creation: 'Creation',
   investment: 'Investment',
   advisory: 'Advisory',
-  services: 'Services',
   exited: 'Exited',
   deceased: 'Deceased',
 }
@@ -54,9 +53,7 @@ export default function PortfolioPage() {
 
       <main>
         <h2>Portfolio</h2>
-        <p>
-          Consumer brands across creation, investment, advisory, and services.
-        </p>
+        <p>Consumer brands across creation, investment, and advisory.</p>
 
         <hr />
 
