@@ -11,9 +11,10 @@ Still building stuff for Humans.
 
 I'm Tiago Martins, founder and solo employee of not a company. I'm an engineer who believes technology should amplify human potential, not replace human judgment. Over the years, I've been involved with consumer brands—building some from scratch, investing in others, and advising many more.
 
-## Portfolio (19 brands)
+## Portfolio (20 brands)
 
 ### Active Creations
+- **SPTWS** (2025) - The Simple Path to Wealth Summary
 - **Steps.org** (2025) - Humanely Curated AI Prompts for Career Transitions
 
 ### Advisory & Investment
