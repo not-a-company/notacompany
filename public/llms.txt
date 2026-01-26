@@ -11,11 +11,10 @@ Financial products for humans.
 
 I'm Tiago Martins, founder of not a company. I build financial products that put humans first—tools that simplify money decisions rather than obscure them. Over the years, I've created fintech products from scratch, invested in others, and advised many more.
 
-## Portfolio (15 brands)
+## Portfolio (14 brands)
 
 ### Active Creations
 - **Sptws.com** (2025) - The Simple Path to Wealth Summary
-- **Steps.org** (2025) - Simple Steps to Wealth
 
 ### Advisory & Investment
 - **Superstables** (2025) - Swap stablecoins for fiat at institutional scale
