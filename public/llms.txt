@@ -7,26 +7,23 @@
 
 ## About
 
-Still building stuff for Humans.
+Financial products for humans.
 
-I'm Tiago Martins, founder and solo employee of not a company. I'm an engineer who believes technology should amplify human potential, not replace human judgment. Over the years, I've been involved with consumer brands—building some from scratch, investing in others, and advising many more.
+I'm Tiago Martins, founder of not a company. I build financial products that put humans first—tools that simplify money decisions rather than obscure them. Over the years, I've created fintech products from scratch, invested in others, and advised many more.
 
-## Portfolio (20 brands)
+## Portfolio (15 brands)
 
 ### Active Creations
-- **SPTWS** (2025) - The Simple Path to Wealth Summary
-- **Steps.org** (2025) - Humanely Curated AI Prompts for Career Transitions
+- **Sptws.com** (2025) - The Simple Path to Wealth Summary
+- **Steps.org** (2025) - Simple Steps to Wealth
 
 ### Advisory & Investment
 - **Superstables** (2025) - Swap stablecoins for fiat at institutional scale
-- **Acreditar** (2024) - Portugal's largest children's cancer support foundation
+- **Acreditar** (2024) - Fundraising optimization for pediatric cancer support
 - **SoSquared** (2023) - All-in-one influencer marketing platform
-- **epic.travel** (2022) - Boutique luxury travel with BBC documentary partnership
 - **Talent Protocol** (2021) - Decentralized professional reputation and career infrastructure
-- **CoFlyt** (2019) - Private aviation charter and management platform
-- **Parfois** (2019) - Fashion accessories with global retail presence
-- **Feira dos Tecidos** (2018) - Portugal's leading textile retail chain with four decades of heritage
-- **Fisacar** (2017) - Full-service automotive solutions in Portugal
+- **CoFlyt** (2019) - Shared finance platform for general aviation partnerships
+- **Fisacar** (2017) - Laggard stock optimization pipeline for automotive inventory
 
 ### Successful Exits
 - **xMoney** (2022) - Stablecoin payments on & off ramp infrastructure
@@ -34,12 +31,10 @@ I'm Tiago Martins, founder and solo employee of not a company. I'm an engineer w
 - **Bet Protocol** (2019) - Decentralized task marketplace and development infrastructure
 - **Coinvision** (2018) - Crypto VC and blockchain due diligence advisory
 - **Nexo** (2018) - Comprehensive cryptocurrency wealth management platform
-- **Codeplace** (2013) - Project-based programming education ecosystem
 
 ### No Longer Active
 - **Mahalo** (2023) - Non-profit fundraising infrastructure platform
 - **impactMarket** (2020) - Universal Basic Income infrastructure for social impact
-- **Songvice** (2011) - Music producer advisory and education platform
 
 ## Contact
 

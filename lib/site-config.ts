@@ -28,24 +28,24 @@ export const siteConfig = {
 
   // Content strings (i18n-ready)
   strings: {
-    tagline: 'Still building stuff for Humans.',
-    mission: 'Building consumer that makes better living effortless.',
+    tagline: 'Financial products for humans.',
+    mission: 'Building financial tools that make money management effortless.',
 
     // Meta descriptions (120-160 chars)
     descriptions: {
       get home() {
-        return `Tiago Martins is the founder of not a company. Building consumer brands that amplify human potential and make better living effortless.`
+        return `Tiago Martins is the founder of not a company. Building financial products that amplify human potential and make money management effortless.`
       },
       get portfolio() {
         const count = getBrandCount()
-        return `Portfolio of ${count} consumer brands across creation, investment, and advisory. From fintech to education—technology that helps people live better.`
+        return `Portfolio of ${count} financial products and fintech ventures across creation, investment, and advisory. Technology that helps people manage money better.`
       },
       brand: (name: string, tagline: string) =>
-        `${name}: ${tagline} A consumer brand from the not a company portfolio.`,
+        `${name}: ${tagline} A financial product from the not a company portfolio.`,
     },
 
     // About content for LLMs.txt and pages
-    about: `I'm Tiago Martins, founder and solo employee of not a company. I'm an engineer who believes technology should amplify human potential, not replace human judgment. Over the years, I've been involved with consumer brands—building some from scratch, investing in others, and advising many more.`,
+    about: `I'm Tiago Martins, founder of not a company. I build financial products that put humans first—tools that simplify money decisions rather than obscure them. Over the years, I've created fintech products from scratch, invested in others, and advised many more.`,
   },
 } as const
 

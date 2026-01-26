@@ -21,18 +21,17 @@ export default function HomePage() {
       <SiteHeader currentPage='home' />
 
       <main>
-        <h2>Still building stuff for Humans.</h2>
+        <h2>Financial products for humans.</h2>
 
         <hr />
 
         <h3>About</h3>
         <p>
-          I&apos;m <strong>Tiago Martins</strong>, founder and solo employee of{' '}
-          <em>not a company</em>. I&apos;m an engineer who believes technology
-          should amplify human potential, not replace human judgment. Over the
-          years, I&apos;ve been involved with {brandCount} consumer
-          brands—building some from scratch, investing in others, and advising
-          many more.
+          I&apos;m <strong>Tiago Martins</strong>, founder of{' '}
+          <em>not a company</em>. I build financial products that put humans
+          first—tools that simplify money decisions rather than obscure them.
+          Over the years, I&apos;ve created {brandCount} fintech products from
+          scratch, invested in others, and advised many more.
         </p>
 
         <hr />

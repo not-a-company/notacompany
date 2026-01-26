@@ -53,7 +53,7 @@ export default function PortfolioPage() {
 
       <main>
         <h2>Portfolio</h2>
-        <p>Consumer brands across creation, investment, and advisory.</p>
+        <p>Financial products across creation, investment, and advisory.</p>
 
         <hr />
 
